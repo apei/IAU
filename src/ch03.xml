@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch03"
+	lang="es" version="5.0" 
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>El factor humano</title>
+  <section xml:id="ch03a">
+  	<title>Percepción visual</title>
+  	<para>
+  		El canal visual es el sentido más intensamente utilizado en nuestra vida cotidiana y, como no podía ser de otra forma, en el uso de aplicaciones 
+  		interactivas. Si definimos la interfaz como la superficie de encuentro entre usuarios y aplicación, debemos entender que su diseño gráfico será 
+  		el que condicione, desde el primer contacto, la fluidez interactiva entre ambos, la usabilidad de la aplicación y la consecuente experiencia 
+  		del usuario.
+  	</para>
+  	<para>
+  		Dado que el diseño centrado en el usuario requiere conocer al usuario –sus necesidades, habilidades, contexto, entorno, objetivos y motivaciones–, 
+  		el diseño de interfaces gráficas exige conocer “los ojos del usuario”, o más correctamente, cómo las personas percibimos visualmente 
+  		(Hassan-Montero; 2007b).
+  	</para>
+  	<para>
+  		Muchas de las cuestiones que plantearemos pueden resultar obvias para el lector, desde el mismo momento en que si analizamos subjetivamente 
+  		la apariencia de una interfaz, podemos intuir su eficacia visual. Sin embargo, con este método sólo “vemos” el resultado de nuestra percepción, 
+  		pero no entendemos su proceso, el porqué. ¿Qué sucede desde el impacto de la luz en la retina del ojo hasta que asignamos significado e interiorizamos 
+  		aquello que estamos viendo?
+  	</para>
+  	<section xml:id="ch03a1">
+  		<title>Vemos menos de lo que creemos ver, pero más de lo que somos conscientes de estar viendo</title>
+  		<para>
+  			Las personas estamos condenadas a realizar diariamente miles de búsquedas visuales. Por supuesto podremos cerrar los ojos cuando nos plazca, o 
+  			“paralizar” la vista en un punto “perdido”, aunque mantener esta supresión visual requerirá un esfuerzo, ya que estamos programados biológicamente 
+  			para no cesar en nuestra búsqueda visual.
+  		</para>
+  		<para>
+  			Es el movimiento o rotación ocular el mecanismo que sustenta estas búsquedas visuales. Este movimiento ocular se produce mediante saltos rápidos 
+  			–llamados “sacadas”– que se intercalan con fijaciones, o momentos de relativa quietud del ojo que nos permiten enfocar y ver nítidamente una zona 
+  			determinada (Jacob; 1995).
+  		</para>
+  		<para>
+  			Como metáfora podemos decir que lo que estamos haciendo es tomar instantáneas continuamente, como si de una cámara fotográfica se tratase, cuya 
+  			resolución estará determinada por el punto en que realicemos la fijación. Mientras que esa zona focal será capturada con una gran resolución o 
+  			nitidez, aquellas zonas no enfocadas pero dentro de nuestro campo de visión se capturarán con una resolución inversamente proporcional a su 
+  			distancia con la zona central (Ware; 2008). Las zonas más alejadas del punto focal conformarían lo que llamamos visión periférica.
+  		</para>
+  		<para>
+  			Como primera curiosidad sobre nuestra forma de ver, resulta que si bien durante las fijaciones capturamos incesantemente instantáneas de la 
+  			escena visual, durante los movimientos “sacádicos” –30 a 120 ms–, la visión queda prácticamente suprimida (para una explicación más detallada 
+  			véase Hassan-Montero y Herrero-Solana, 2007). Sin embargo, estas interrupciones no son percibidas, lo que indica que lo que vemos es una 
+  			construcción mental a partir de las instantáneas percibidas. Es decir, vemos menos de lo que creemos ver.
+  		</para>
+  		<para>
+  			Al mismo tiempo, la información visual que adquirimos con las fijaciones es procesada masiva y paralelamente (Wolfe; 2006) (Ware; 2008). Si 
+  			toda esta información llegara a nuestra consciencia seguramente sufriríamos un colapso cognitivo, ya que como veremos en el siguiente capítulo 
+  			estamos biológicamente limitados en cuanto al volumen de información que podemos procesar conscientemente.
+  		</para>
+  		<para>
+  			Para evitar este colapso las personas estamos dotadas de mecanismos perceptuales automáticos, en forma de filtros, que sólo permiten llegar una 
+  			parte de la información percibida a nuestra consciencia. En otras palabras, vemos más de lo que somos conscientes de estar viendo. El primero 
+  			de esos filtros es el de nuestra atención visual.
+  		</para>
+  	</section>
+  	<section xml:id="ch03a2">
+  		<title>Atención visual: un mecanismo doblemente guiado</title>
+  		<para>
+  			¿Qué determina que atendamos visualmente una zona y no otra de una interfaz? Para responder a esta cuestión primero debemos entender que, 
+  			en los primeros instantes de la percepción visual, la información fluye masivamente en forma de características básicas: color, movimiento, 
+  			orientación, tamaño, etc. (Wolfe; 2006).
+  		</para>
+  		<para>
+  			La percepción no es un proceso pasivo, pues las personas guiamos voluntaria y activamente nuestra atención, decidiendo qué queremos que supere 
+  			el filtro de nuestra atención visual, y qué no. Este guiado se produce sobre características gráficas deseadas, es decir, sobre las propiedades 
+  			básicas que resultan de nuestro interés (Wolfe; 2006). Por ejemplo, cuando leemos un texto en una web, son aquellas cualidades gráficas propias 
+  			del alfabeto las que buscamos visualmente y a las que atendemos, y no otras.
+  		</para>
+  		<para>
+  			Ahora bien, que nos encontremos en el desierto buscando una cantimplora, no significa que nuestra atención no se vaya a ver atraída 
+  			involuntariamente hacia un escorpión en movimiento. Es decir, decidimos qué queremos atender visualmente, pero al mismo tiempo nuestra atención 
+  			se ve interferida involuntariamente y de forma automática por determinadas características visuales, aún cuando hagan presencia en zonas de 
+  			visión periférica.
+  		</para>
+  		<para>
+  			En las interfaces web sucede exactamente igual. Los usuarios explorarán o escanearán visualmente la interfaz en busca de propiedades gráficas 
+  			propias de los objetos deseados en cada momento –enlaces, texto, imágenes, controles…–. Esta exploración puede verse facilitada si el diseñador 
+  			enfatiza aquellos elementos potencialmente más relevantes para los usuarios, guiando su atención y estableciendo “puntos de entrada” 
+  			(Fidalgo; 2006); o por el contrario entorpecida si la interfaz no presenta una jerarquía visual lógica, es decir, cuando nada parece visualmente 
+  			más relevante que el resto.
+  		</para>
+  		<para>
+  			Los mecanismos de los que, como diseñadores, disponemos para atraer la atención del usuario, se encuentran en el uso que hagamos de las diferentes 
+  			características gráficas básicas en la interfaz. Lo que nos dice la teoría psicológica sobre la percepción, es que la capacidad que tiene un 
+  			elemento visual de atraer la atención del usuario se encuentra en directa relación con sus diferencias gráficas respecto a los elementos colindantes 
+  			(Wolfe; 2006). Es decir, visualmente nos vemos involuntariamente atraídos por lo inusual.
+  		</para>
+  		<informalfigure xreflabel="Fig 9" xml:id="fig9">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-011.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Inevitable nuestra atención se ve guiada hacia el círculo rojo, el único inusual. Fuente: <link xl:href="http://www.humancomputer.net/blog"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Un elemento con mayor tamaño que el resto, con un color distinto a los demás (<xref linkend="fig9" xreflabel="figura 9"/>), con una orientación 
+	  		diferente, o en movimiento (mientras el resto de la página permanece estática), tendrá más probabilidad de atraer nuestra atención 
+	  		(Wolfe, Horowitz; 2004). Esto es algo que comprendieron a la perfección los diseñadores de banners (movimiento+animación=atención visual), pero 
+	  		dado que la mayor parte de las veces no visitamos una web buscando contenidos de ese tipo, los usuarios aprendieron a ignorar automáticamente 
+	  		todo aquello que, por sus propiedades gráficas (y ubicación), pareciera información publicitaria (lo fuera o no). Esta “ceguera selectiva” no 
+	  		significa que los usuarios no vean los banners animados, sino que esa información visual en la mayoría de casos no llega a superar el filtro de 
+	  		su atención, y por tanto esas zonas de la interfaz no recibirán fijaciones.
+	  	</para>
+	  	<para>
+	  		La publicidad contextual, popularizada por Google, intenta atraer nuestra atención por el camino contrario. En vez de por medio de su diferenciación 
+	  		gráfica respecto al resto de elementos de la página, mediante su similitud, de tal forma que el usuario no aparte su atención, ya que tendrá la 
+	  		impresión de que por su aspecto pueda tratarse también de contenido de interés. Por supuesto, conforme mayor sea la experiencia de navegación del 
+	  		usuario, más mecanismos automáticos habrá interiorizado para administrar su atención visual, lo que le permitirá guiarla más eficazmente hacia 
+	  		lo que considere relevante.
+	  	</para>
+  	</section>
+  	<section xml:id="ch03a3">
+  		<title>Organización perceptual</title>
+  		<para>
+  			Una vez que focalizamos nuestra atención sobre una zona de la interfaz, y antes de darle un sentido a lo que estamos viendo, tiene lugar una 
+  			etapa de organización perceptual. Las características gráficas básicas que superan el filtro de nuestra atención se reconfiguran perceptualmente, 
+  			formando patrones, estructuras, formas, contornos y regiones. Es decir, antes de interpretar la semántica o significado de lo que vemos, se 
+  			produce un análisis automático de su sintaxis gráfica: cómo se coordinan, ordenan y vinculan entre sí los elementos foco de nuestra atención visual.
+  		</para>
+  		<para>
+  			Dicho de otro modo, lo que tiene lugar es un proceso automático de resolución de interrogantes visuales: ¿Qué forma parte de qué? ¿Qué está 
+  			relacionado con qué? ¿Qué sigue un orden lógico de qué?.
+  		</para>
+  		<para>
+  			En esta etapa es donde entran en juego las –tan populares en el campo del diseño gráfico– leyes de la Gestalt (véase wikipedia: Gestalt Psychology). 
+  			Entre estas leyes, algunas de las que mayor aplicación tienen en el diseño de interfaces son la ley de proximidad, de similitud y de región común 
+  			(Ware; 2003); todas ellas referidas a cómo un conjunto de elementos son percibidos automáticamente como un mismo grupo.
+  		</para>
+  		<para>
+  			Sobre estas leyes se sustentan numerosas recomendaciones o directrices de usabilidad. Por ejemplo, cuando se recomienda que los enlaces tengan 
+  			todos una misma caracterización gráfica (color, tipografía, efectos), se hace con el fin de que el usuario, una vez detectado un enlace, pueda 
+  			diferenciar automáticamente y sin esfuerzo qué es un enlace y qué no dentro de un mismo sitio web, sobre la base de la ley de similitud.
+  		</para>
+  		<para>
+  			Por su parte, la ley de proximidad o la de región común es ampliamente utilizada para, por ejemplo, codificar visualmente menús de navegación, 
+  			agrupándolos como una misma cosa, y diferenciándolos del resto de elementos de la interfaz.
+  		</para>
+  		<para>
+  			La verdadera utilidad de las leyes de la Gestalt es que, si son correctamente aplicadas, permiten al usuario realizar un gran número de 
+  			operaciones visuales de forma exclusivamente automática, permitiéndole asignar sin esfuerzo funciones y significados similares a los elementos 
+  			relacionados o agrupados. Lo que se encuentre próximo, dentro de un mismo marco, o sea gráficamente similar, tendrá un sentido similar.
+  		</para>
+  		<para>
+  			Como se puede deducir, el mayor error que podemos cometer en relación con estas leyes es aplicarlas de forma que se opongan entre sí: 
+  			que sobre la lógica de una ley dos elementos se encuentren relacionados, pero sobre la lógica de otra, pertenezcan a grupos diferentes.
+  		</para>
+  	</section>
+  	<section xml:id="ch03a4">
+  		<title>Ver no es lo mismo que reconocer</title>
+  		<para>
+  			La última de las etapas de la percepción visual es aquella en la que se vincula lo que se está viendo con lo conocido. En otras palabras, 
+  			una vez que focalizamos nuestra atención visual, y organizamos perceptualmente la zona enfocada, intentamos interpretar, asignar significado 
+  			o comprender aquello que estamos viendo. Aquí nos adentramos en el complejo dominio de la cognición humana: el lenguaje, la memoria, el razonamiento…
+  		</para>
+  		<para>
+  			Aunque posteriormente trataremos el tema de la cognición y los modelos mentales, desde el punto de vista del diseño visual lo que debemos 
+  			asegurar es que el tamaño y forma del objeto gráfico lo haga reconocible, que permita una fácil equiparación con aquello que el usuario 
+  			conoce, puede comprender o interpretar (Hassan-Montero; 2007b). En el uso de texto, influirá el contraste y tamaño de la fuente, la tipografía 
+  			y efectos empleados, pero por encima de todo, el uso del lenguaje, su claridad y precisión. En el caso de iconos o elementos de control el 
+  			problema a resolver es similar, pues se debe prestar especial atención al uso de metáforas –y cómo son de familiares para el público objetivo–, 
+  			la resolución gráfica de estos objetos, o su grado de estandarización.
+  		</para>
+  	</section>
+  	<section xml:id="ch03a5">
+  		<title>No miramos del mismo modo una interfaz web que un atardecer</title>
+  		<para>
+  			Hasta el momento hemos descrito el proceso de percepción visual desde una perspectiva casi exclusivamente universal. Sin embargo nuestra 
+  			actitud y comportamiento visuales no son los mismos independientemente de la escena visual que tengamos delante de nuestros ojos. Nuestra 
+  			experiencia adquirida navegando por Internet nos impregna de mecanismos y herramientas que nos permiten un comportamiento específico y 
+  			optimizado para la exploración visual de interfaces web.
+  		</para>
+  		<para>
+  			Sabemos que los diseñadores web atienden en mayor o menor medida a convenciones implícitas (Hassan-Montero; 2007b). Cuando un diseñador 
+  			afronta la elaboración de una interfaz, antes habrá visitado miles de sitios web, y será consciente de que sus potenciales usuarios 
+  			también tendrán una larga experiencia navegando por otros sitios web. Estas convenciones, desde el punto de vista exclusivamente gráfico, 
+  			se refieren a propiedades gráficas comunes para representar elementos de control y navegación (enlaces, botones, scroll, menús...), pero 
+  			también a la ubicación y distribución de los diferentes elementos de una página en función de su naturaleza. Como comentábamos previamente, 
+  			los contenidos publicitarios suelen ocupar determinadas zonas de la página, pero lo mismo ocurre con los sistemas de navegación, el buscador, 
+  			las secciones de contacto, el logo, y por supuesto, el contenido principal.
+  		</para>
+  		<para>
+  			Esto provoca que los usuarios, en función de qué tipo de elemento persigan con cada búsqueda visual, atenderán con mayor probabilidad a 
+  			aquellas áreas de la interfaz donde habitualmente se encuentran ubicados en la mayoría de sitios web. Por tanto, como diseñadores, debemos 
+  			atenernos a estas convenciones de diseño web, con el objetivo de facilitar la eficiencia de cada una de las búsquedas visuales que realicen 
+  			los usuarios.
+  		</para>
+  	</section>
+  	<section xml:id="ch03a6">
+  		<title>Principios fundamentales de diseño visual</title>
+  		<para>
+  			Como conclusión podemos afirmar que, si bien en el diseño de interfaces intervienen muchos más factores, la recomendación principal a la 
+  			hora de afrontar el diseño de una interfaz visualmente usable es el cumplimiento sistemático de los siguientes principios: Enfatizar, 
+  			Organizar y Hacer reconocible.
+  		</para>
+  		<informalfigure xreflabel="Fig 10">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-012.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Principios del diseño visual
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<itemizedlist>
+	  		<listitem>
+	  			<para>
+	  				<emphasis role="strong">Enfatizar</emphasis> implica hacer visible lo relevante, establecer una clara jerarquía visual entre elementos 
+	  				y zonas de la interfaz, de modo que la atención del usuario se vea guiada de forma lógica y secuencial de lo más relevante hacia lo 
+	  				secundario. La relevancia, claro está, es un concepto subjetivo, y no todos los usuarios considerarán relevante lo mismo. Además, como 
+	  				diseñadores debemos atender a los objetivos del propio sitio web (cliente), que no siempre coincidirán con los de sus usuarios. Nuestra 
+	  				misión es enfatizar aquellos elementos de la interfaz que para el cliente y la mayoría de usuarios pueden tener más importancia, y mantener 
+	  				un equilibrio entre los intereses del usuario y del cliente cuando no sean compatibles (por ejemplo, el necesario equilibrio entre 
+	  				contenido y publicidad).
+	  			</para>
+	  		</listitem>
+	  		<listitem>
+	  			<para>
+	  				<emphasis role="strong">Organizar</emphasis> significa establecer relaciones visuales lógicas, que faciliten de este modo al usuario 
+	  				relacionar o diferenciar elementos automáticamente. La correcta aplicación de las leyes de la Gestalt impregnará al diseño de un aspecto 
+	  				visual organizado, claro e intuitivo, lo que repercutirá positivamente tanto en su usabilidad objetiva como subjetiva.
+	  			</para>
+	  		</listitem>
+	  		<listitem>
+	  			<para>
+	  				<emphasis role="strong">Hacer reconocible</emphasis> nos obliga a considerar con especial cuidado el uso de iconos, etiquetas, encabezados, 
+	  				enlaces… de tal forma que se requiera del usuario el menor de los esfuerzos para comprender y predecir el funcionamiento interactivo de la 
+	  				interfaz, permitiéndole dedicar toda su capacidad de atención y concentración a lo que realmente le interesa, el contenido.
+	  			</para>
+	  		</listitem>
+	  	</itemizedlist>
+  	</section>
+  </section>
+  <section xml:id="ch03b">
+  	<title>Cognición</title>
+	<para>
+		Diseñar productos interactivos no es una tarea fácil. No al menos cuando pretendemos que satisfagan las necesidades, expectativas y deseos de sus 
+		destinatarios, y se adapten a su contexto y naturaleza. En el “diálogo” interactivo –o “intercambio de monólogos” (Norman; 2007)– que se produce 
+		entre usuarios y aplicaciones software, la complejidad de los primeros añade inevitablemente un alto grado de incertidumbre al proceso de diseño 
+		de los segundos.
+	</para>
+	<para>
+		Entre los medios de que dispone un diseñador para reducir dicha incertidumbre, uno de los principales es el conocimiento empírico que la psicología 
+		nos ofrece sobre la cognición.
+	</para>
+	<para>
+		Adentrarnos en el estudio de la psicología no es un camino sin obstáculos, debido a que existen multitud de teorías que ofrecen diferentes visiones 
+		y modelos sobre la mente, y que no siempre son compatibles. No obstante es innegable que cuanto más conozcamos –por poco que sea– acerca de cómo 
+		las personas adquieren, interiorizan, procesan o exteriorizan información, más acertadas resultarán las decisiones que tomemos sobre el diseño, 
+		disminuyendo el esfuerzo requerido para su uso.
+	</para>
+  	<section xml:id="ch03b1">
+  		<title>El almacén de nuestra mente</title>
+  		<para>
+  			Las personas estamos constantemente percibiendo información, algo que no tendría demasiada utilidad si no fuéramos capaces de registrarla y 
+  			almacenarla para su posterior uso. Cuando vimos el tema de la percepción visual ya adelantábamos que no todo lo que vemos supera el filtro 
+  			de nuestra atención visual. Del mismo modo, no todo lo que supera ese primer filtro termina siendo almacenado.
+  		</para>
+  		<para>
+  			La memoria humana se compone de dos sistemas o almacenes funcionalmente diferentes, llamados memoria operativa (a corto plazo) y memoria a largo 
+  			plazo (Sperling; 1960) (Cowan; 1988, 1999) (Baddeley; 2001). La memoria operativa –estrechamente relacionada con nuestra consciencia– es la que 
+  			utilizamos en tareas como el razonamiento o la comprensión, y se caracteriza por su capacidad limitada y su temporalidad. La memoria a largo 
+  			plazo, como su nombre indica, es un almacén más estable y duradero en el tiempo, además de tener una capacidad ilimitada –o al menos con unos 
+  			límites desconocidos–.
+  		</para>
+  		<para>
+  			Podríamos decir que la memoria a largo plazo sería como una gran biblioteca, la memoria operativa una mesa de trabajo en la que sólo cabrían al 
+  			mismo tiempo un número limitado de libros, y la consciencia el bibliotecario que trabaja en la mesa. Los libros que ocupan la mesa de trabajo 
+  			(memoria operativa) podrían ser potenciales nuevas adquisiciones (percepción) o haber sido recuperados del fondo documental de la biblioteca 
+  			(memoria a largo plazo).
+  		</para>
+  		<para>
+  			Lo primero que debemos aceptar como diseñadores es que las personas, y por tanto los potenciales usuarios de nuestros diseños, no pueden procesar 
+  			conscientemente y al mismo tiempo un número ilimitado de ítems. Miller (1956) estimó que el límite de la memoria operativa era de unos 7±2 ítems, 
+  			aunque estudios posteriores parecen reducir este número a entre 3 y 5 (Cowan; 2001).
+  		</para>
+  		<para>
+  			A la capacidad limitada de la memoria operativa debemos añadir el hecho de que registrar información en la memoria a largo plazo no es un proceso 
+  			libre de esfuerzo, ni tampoco lo es su posterior recuperación consciente. Para facilitar el almacenamiento de información las personas tendemos 
+  			a buscar patrones o reglas que resuman la información percibida, síntesis que será más sencilla de almacenar que un conjunto de hechos o datos 
+  			inconexos. Del mismo modo, para recuperar información de nuestra memoria a largo plazo, usamos frecuentemente estrategias nemotécnicas, como la 
+  			re-codificación de la información almacenada, facilitando asociaciones entre información de los diferentes almacenes (Cowan; 2001).
+  		</para>
+  		<para>
+  			El proceso de adquisición y recuperación cognitiva de información descrito –aunque de forma muy resumida–, debería hacernos reflexionar sobre el 
+  			coste que determinadas decisiones de diseño tendrán para el usuario en función de la tarea que se encuentre realizando.
+  		</para>
+  		<para>
+  			Una tarea típica es la localización de un ítem de entre un conjunto, como por ejemplo cuando el usuario está explorando las diferentes opciones 
+  			de un menú de navegación. Almacenar todas las opciones mentalmente y realizar comparaciones razonadas entre cada par de ítems con el objetivo 
+  			de determinar cuál de ellos es el buscado, no sólo le resultará imposible en términos de “espacio” operativo, sino además muy poco eficiente. 
+  			Por tanto, la estrategia usada por el usuario será explorar los ítems y elegir el primero de ellos que crea se corresponde con la función o 
+  			contenido deseado, aún cuando no todos hayan sido valorados. Es decir, en su navegación el usuario utiliza una estrategia de ensayo y error.
+  		</para>
+  		<para>
+  			El coste de la exploración de diferentes ítems es proporcional a su número, un tiempo y esfuerzo que como diseñadores podemos reducir de 
+  			diferentes formas. Como vimos al tratar el tema de la percepción visual, enfatizando gráficamente aquellos ítems más relevantes guiaremos la 
+  			atención del usuario, haciendo que su exploración sea menos aleatoria, y por tanto más eficiente conforme los ítems más enfatizados coincidan 
+  			con los deseados o buscados.
+  		</para>
+  		<para>
+  			Otro método es ordenar los ítems de tal forma que el usuario pueda reconocer en esta ordenación un patrón conocido, y aprovecharlo para ordenar 
+  			de este modo su propia exploración. Tal sería el caso de la ordenación alfabética en conjuntos de ítems textuales, donde el usuario puede 
+  			subdividir progresivamente la lista de ítems, reduciendo el tiempo necesario para completar la tarea. Por ejemplo, si busco un ítem que 
+  			empieza por “g”, cuando analice uno que empiece por “n” me indicará que no deberé seguir explorando los siguientes, sino sólo los anteriores. 
+  			El tiempo de reacción del usuario en estos casos, como demuestra la ley de Hick-Hyman (Hick; 1952) (Hyman; 1953), seguiría una distribución 
+  			logarítmica, en vez de lineal.
+  		</para>
+  		<para>
+  			La ordenación alfabética sería una solución universal a la ordenación de ítems textuales, si no fuera por dos pequeños problemas: no siempre 
+  			somos capaces de verbalizar nuestra necesidad informativa y, aún cuando lo somos, dicha representación sintáctica no tiene por qué coincidir 
+  			con el término o términos utilizados en la interfaz. Este último fenómeno es lo que Furnas et al. (1989) denominaban el problema del 
+  			vocabulario del usuario, basado en la observación de cómo las personas usan una gran variedad de términos diferentes para referirse a una misma cosa.
+  		</para>
+  		<para>
+  			En la búsqueda de la mejor forma de ordenar conjuntos de ítems, resulta especialmente útil la categorización de esquemas de ordenación 
+  			propuesta por Rosenfeld y Morville (2002), compuesta por esquemas de ordenación exactos y ambiguos. La primera categoría engloba aquellas 
+  			formas de ordenación eficaces cuando el usuario se encuentra realizando una búsqueda por ítems conocidos, cuando el vínculo entre ítem y 
+  			representación mental es consistente. En otras palabras, si el usuario busca el nombre de una persona conocida, el de un país, el de un 
+  			idioma, o el de cualquier término donde no quepa ambigüedad, la mejor solución de diseño es ordenar alfabética, cronológica, geográfica 
+  			o numéricamente, en función de la naturaleza de los ítems.
+  		</para>
+  		<para>
+  			Los esquemas de ordenación ambiguos se deben usar cuando la representación mental de la necesidad informativa y su representación en la 
+  			interfaz no tienen un vínculo libre de subjetividad. Por ejemplo, cuando los ítems representan categorías temáticas no tiene sentido 
+  			ordenar alfabéticamente, ya que en la mayoría de casos el usuario se vería buscando un término diferente al utilizado en la interfaz 
+  			para describir el mismo concepto.
+  		</para>
+  		<para>
+  			En estos casos la mejor solución es reducir el número de ítems, agrupando aquellos semánticamente similares bajo rótulos descriptivos 
+  			(Mehlenbacher, Duffy, Palmer; 1989). De esta forma el usuario primero exploraría los rótulos de cada grupo, y sólo cuando estime que 
+  			se encuentran relacionados con su necesidad, exploraría los ítems contenidos en el grupo.
+  		</para>
+  		<para>
+  			Como vimos en el apartado sobre la Simplicidad, ordenar, clasificar y agrupar, son formas de simplificar.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b2">
+  		<title>Tomando decisiones</title>
+  		<para>
+  			Tanto la tarea descrita –búsqueda y localización de ítems– como otras posibles en la interacción del usuario, comparten un mismo 
+  			tipo de acción cognitiva: la toma de decisiones. Por ejemplo, cuando exploramos una serie de ítems, por cada uno debemos tomar una 
+  			decisión en base a la similitud percibida entre el ítem y nuestra representación mental: ¿hacemos clic o seguimos buscando?
+  		</para>
+  		<para>
+  			La toma de decisiones es un proceso complejo, influido por multitud de factores, y por tanto complicado de resumir en pocas palabras. 
+  			De todos modos debemos al menos entender que las personas usamos dos sistemas diferentes en estas decisiones, que denominaremos –con 
+  			fines didácticos– sistema intuitivo y sistema racional.
+  		</para>
+  		<para>
+  			El primer mecanismo se caracteriza por ser muy rápido, “sucio”, susceptible a errores y fundamentalmente emocional. Podemos decir que 
+  			ante la toma de una decisión, se disparan reglas automáticas o heurísticas –adquiridas en base a nuestra experiencia– que nos ofrecen 
+  			una solución rápida, y nos posibilitan un comportamiento eficiente. No se trata de un sistema dirigido conscientemente, dado que aunque 
+  			a posteriori podamos intentar razonar nuestra decisión, difícilmente esta reconstrucción se aproxime al proceso realmente acontecido.
+  		</para>
+  		<para>
+  			El segundo mecanismo, que llamamos racional, es un proceso lineal, lógico, consciente y que requiere esfuerzo y tiempo. Este mecanismo 
+  			es menos propenso a errores, además de que podemos –frente a un error– modificar el proceso, corrigiendo el resultado. 
+  		</para>
+  		<para>
+  			La función y utilidad que tiene el primer sistema es la de permitirnos economizar nuestro esfuerzo cognitivo, de tal modo que sólo 
+  			tengamos que emplear el segundo sistema para las decisiones realmente importantes.
+  		</para>
+  		<para>
+  			El motivo de explicar la diferencia entre ambos sistemas se encuentra en entender que una gran parte de las acciones que llevamos a 
+  			cabo sobre una interfaz están dirigidas por decisiones tomadas intuitivamente. Esto explica por qué, por ejemplo, ante una ventana 
+  			de alerta en la que se nos pregunta algo y se nos ofrecen dos posibles respuestas (sí y no), es frecuente que automáticamente hagamos 
+  			clic en una de ellas sin ni tan siquiera leer o procesar el contenido de la pregunta. O por qué al visitar por primera vez un sitio web, 
+  			tras un primer “parpadeo” somos capaces de tomar decisiones como cerrar directamente la ventana o, por el contrario, comenzar a explorar 
+  			el sitio web. El porcentaje de acierto de estas decisiones rápidas estará determinado por nuestra experiencia como usuarios, ya que 
+  			recordemos que la intuición es un mecanismo que se alimenta de las experiencias previas.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b3">
+  		<title>Errar es humano</title>
+  		<blockquote>
+  			<para>
+  				Errar es humano… pero echarle la culpa a otro es más humano todavía
+  			</para>
+  			<attribution>Les Luthiers</attribution>
+  		</blockquote>
+  		<para>
+  			Suele ser común en conversaciones sobre usabilidad, escuchar que alguien argumente aquello de “en usabilidad presuponéis que todos 
+  			los usuarios son idiotas”, frase que no esconde otra cosa que la delegación de la responsabilidad del diseño en los hombros del usuario 
+  			final. Realmente la premisa de la que se debe partir cuando tratamos de crear productos usables no es que los usuarios sean idiotas, sino 
+  			que tienen mejores asuntos en los que emplear su esfuerzo cognitivo que en comprender nuestro diseño. Es decir, ante un sitio web lo que 
+  			el usuario persigue es satisfacer sus objetivos, que siempre están relacionados con el contenido, no con el envoltorio gráfico o interactivo 
+  			de dicho contenido.
+  		</para>
+  		<para>
+  			Si la conclusión principal del capítulo sobre percepción visual era que los usuarios no exploran exhaustivamente todos los elementos y 
+  			contenidos de una interfaz, la conclusión principal de este capítulo es que no todo a lo que atendemos es procesado racional y detenidamente 
+  			antes de realizar una acción, lo que nos lleva a cometer errores frecuentemente. Como diseñadores no podemos impedir que los usuarios cometan 
+  			errores, pero sí intentar prevenir que se produzcan, así como ofrecer vías de solución cuando ocurran. A continuación se exponen diferentes 
+  			vías para disminuir la probabilidad de error del usuario.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b4">
+  		<title>Limitar posibilidades</title>
+  		<para>
+  			La primera medida para evitar que el usuario cometa errores es limitar sus posibilidades de acción. Por ejemplo, en la figura 11 vemos dos 
+  			posibles formas de solicitar al usuario que introduzca la fecha de caducidad de su tarjeta de crédito. En el primer caso el usuario podría 
+  			introducir dicha fecha de muy diversas formas (algunas correctas, otras no), mientras que en el segundo la separación de campos limita las 
+  			posibilidades y por tanto reduce la probabilidad de error.
+  		</para>
+  		<informalfigure xreflabel="Fig 11">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-013.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Diferentes formas de solicitar una fecha de caducidad.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<informalfigure xreflabel="Fig 12" xml:id="fig12">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-014.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Mensaje de error. Fuente: <link xl:href="http://www.usabilityinstitute.com/morsels/morsels.htm"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		En la <xref linkend="fig12" xreflabel="figura 12"/> podemos observar las consecuencias de no limitar (a tiempo) las posibilidades de acción.
+	  	</para>
+  	</section>
+  	<section xml:id="ch03b5">
+  		<title>Orientar al usuario</title>
+  		<para>
+  			Orientar al usuario, ofreciendo ayuda contextual tal y como podemos ver en la <xref linkend="fig13" xreflabel="figura 13"/>, es una medida 
+  			recomendable para reducir posibles errores. Cuando el exceso de ayuda contextual sobrecargue la interfaz, pueden emplearse 
+  			<foreignphrase xml:lang="en">tooltips</foreignphrase>.
+  		</para>
+  		<para>
+  			Otra forma efectiva de orientar al usuario es mediante sugerencias interactivas, que respondan a la acción del usuario y guíen su recorrido, 
+  			tal y como se puede observar en la <xref linkend="fig14" xreflabel="figura 14"/>.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b6">
+  		<title>Solicitar confirmación</title>
+  		<para>
+  			En ocasiones el usuario lleva a cabo una acción que puede tener consecuencias irreversibles y potencialmente perjudiciales, casos en los que 
+  			resulta de gran importancia solicitar confirmación (<xref linkend="fig15" xreflabel="figura 15"/>). De todos modos no debemos olvidar que 
+  			cuanto más abusemos de este tipo de mensajes en nuestras aplicaciones, menor será su efectividad, pues la atención del usuario se insensibiliza 
+  			por repetición.
+  		</para>
+  		<informalfigure xreflabel="Fig 13" xml:id="fig13">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-016.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Sugerencias en la caja de búsqueda. Fuente: <link xl:href="http://11870.com"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<informalfigure xreflabel="Fig 14" xml:id="fig14">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-017.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Sugerencias interactivas. Fuente: <link xl:href="http://trabber.com"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<informalfigure xreflabel="Fig 15" xml:id="fig15">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-018.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Mensaje de confirmación de Gmail
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch03b7">
+  		<title>Advertir al usuario</title>
+  		<para>
+  			Este principio está muy relacionado con el anterior. La diferencia estriba en que, aunque su objetivo es igualmente advertir al usuario de 
+  			posibles consecuencias indeseadas, en este caso no se le solicita confirmación alguna, ya que estos mensajes tienen lugar antes de que el 
+  			usuario lleve a cabo la acción (advertencia), no como respuesta a su acción (solicitud de confirmación).
+  		</para>
+  		<para>
+  			Ya que estos mensajes no requieren del usuario la toma de ninguna decisión, su contenido puede pasar desapercibido con mucha más probabilidad, 
+  			por lo que se recomienda no sólo no abusar de ellos en la aplicación, sino también redactarlos y presentarlos visualmente de forma “inusual”, 
+  			con el fin de forzar la atención del usuario. Como ejemplo podemos observar la captura de la <xref linkend="fig16" xreflabel="figura 16"/>.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b8">
+  		<title>Evitar la pérdida de información</title>
+  		<para>
+  			Otro principio en la prevención de errores es evitar la pérdida de información introducida por el usuario. El ejemplo más típico es el de 
+  			almacenamiento de correos electrónicos (borradores) mediante técnicas como AJAX, pero existen muchos más contextos posibles, como cuando 
+  			el usuario está completando un formulario de compra en una web, o dejando un comentario en un blog. Ya que los usuarios se guían por la 
+  			“ley del mínimo esfuerzo”, es precisamente la pérdida del trabajo realizado la mayor causa de frustración.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b9">
+  		<title>Permitir deshacer</title>
+  		<para>
+  			Permitir deshacer, una opción tan común en aplicaciones software de escritorio, resulta igualmente necesaria en multitud de contextos web. 
+  			Un ejemplo clásico es el de la “Papelera” en servicios web de correo electrónico, lo que permite al usuario deshacer su decisión de eliminar 
+  			un mensaje, pero una vez más podemos encontrar ejemplos en otros tipos de aplicaciones online. Por ejemplo, cuando el usuario se halla 
+  			completando un proceso de compra divido en diferentes pasos, se le debe permitir volver y rehacer pasos previos. O cuando el usuario 
+  			introduce una consulta en un buscador, la caja de búsqueda de la página de resultados debe incluir la consulta introducida por el usuario, 
+  			a fin de permitirle rehacerla o modificarla.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b10">
+  		<title>Ofrecer solución automática a los errores</title>
+  		<para>
+  			Idealmente las aplicaciones software, incluidos los sitios web, deberían demostrar un comportamiento “inteligente”, solucionando automáticamente 
+  			errores cometidos por los usuarios. Un ejemplo por todos conocidos es el algoritmo que Google emplea para detectar errores en las consultas del 
+  			usuario (el famoso “quizás quiso decir:”).
+  		</para>
+  		<para>
+  			Por supuesto, no se encuentra al alcance de cualquier proyecto ofrecer soluciones algorítmicas como la citada, aunque sí emplear otras de más 
+  			sencilla implementación, basadas en simples condicionales. Por ejemplo, detectando cuándo el usuario introduce una URL sin “http://” en un 
+  			campo de texto para tal fin, y solucionando el problema automáticamente en vez de obligarle a solucionar el error manualmente.
+  		</para>
+  	</section>
+  	<section xml:id="ch03b11">
+  		<title>Mensajes de error para humanos</title>
+  		<para>
+  			Seguro que el lector se habrá encontrado a lo largo de su vida digital con verdaderas obras de arte en forma de mensajes de error, desde 
+  			luego no pensados para su consumo por simples humanos.
+  		</para>
+  		<informalfigure xreflabel="Fig 16" xml:id="fig16">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-019.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Mensaje de advertencia en Firefox
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Redactar mensajes para humanos implica exponer breve y claramente el problema, motivos y posibles soluciones, con un vocabulario entendible y 
+	  		sencillo. Es decir, justo lo contrario que el mensaje de la <xref linkend="fig17" xreflabel="figura 17"/>.
+	  	</para>
+	  	<informalfigure xreflabel="Fig 17" xml:id="fig17">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-020.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Mensaje de error. Fuente: <link xl:href="http://www.exceptontuesdays.com/?p=16"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch03b12">
+  		<title>A modo de conclusión</title>
+  		<para>
+  			En este apartado hemos introducido algunos de los factores psicológicos que motivan o explican determinados comportamientos de los usuarios, 
+  			así como algunas pistas sobre cómo facilitar determinadas tareas, o impedir y minimizar el efecto del error humano.
+  		</para>
+  		<para>
+  			Como conclusión debemos recordar que si bien el canal perceptual tiene un gran “ancho de banda”, y la memoria a largo plazo una gran capacidad, 
+  			la memoria operativa y el esfuerzo cognitivo requerido para la toma de decisiones suponen un embudo en el procesamiento de información del 
+  			usuario, que como diseñadores debemos evitar que se colapse.
+  		</para>
+  		<para>
+  			En el próximo apartado veremos con más detalle otro de los conceptos cognitivos que explican la interacción del usuario, los modelos mentales: 
+  			representaciones internas de la realidad externa.
+  		</para>
+  	</section>
+  </section>
+  <section xml:id="ch03c">
+  	<title>Modelos mentales</title>
+  	<para>
+  		En el párrafo anterior se decía que los modelos mentales son representaciones internas de una realidad externa. Son concepciones generales, 
+  		que dirigen nuestros actos y que somos capaces de construir a partir de la experiencia. Gracias a nuestra capacidad para adaptar nuestra 
+  		conducta a partir de la experiencia, las personas podemos lograr una mayor eficacia para hacer frente a todo aquello que nos rodea.
+  	</para>
+  	<para>
+  		Es importante señalar que estos modelos mentales no son estáticos. Somos capaces de cambiar y alterar nuestras creencias sobre la realidad externa, 
+  		por lo que, consecuentemente, nuestros patrones de conducta tampoco se resisten al cambio.
+  	</para>
+  	<para>
+  		Durante mucho tiempo, gracias a un aprendizaje continuado y a nuestra capacidad para llegar a razonamientos deductivos o inductivos, hemos ido 
+  		asimilando buena parte de las prácticas que se han generalizado en el desarrollo y diseño de interfaces. Mediante esta generalización hemos ido 
+  		creando nuestros modelos mentales, tomando cada experiencia como representativa de un conjunto de experiencias similares.
+  	</para>
+  	<para>
+  		Así es como reconocemos aquello que ya conocemos y sabemos hacer uso de ello para navegar, localizar e identificar información de interés que 
+  		responda a los objetivos que nos marcamos en cada momento.
+  	</para>
+  	<para>
+  		A medida que observamos cierto grado de homogeneidad en la visualización de elementos y las acciones que posibilitan, se produce una realimentación 
+  		de refuerzo que nos permite, no solo confirmar nuestras creencias, sino llegar a esa generalización que anticipa nuestro pensamiento.
+  	</para>
+  	<para>
+  		En ciertos momentos es posible que podamos resolver más eficazmente una situación dada porque ya hemos interiorizado muchas de las acciones y 
+  		resultados posibles. Incluso, podríamos decir que conseguimos modificar nuestros esquemas de conocimiento con mayor celeridad porque nos abstraemos 
+  		de los principios y reglas que establecemos por generalización.
+  	</para>
+  	<section xml:id="ch03c1">
+  		<title>¿Cómo piensan nuestros usuarios?</title>
+  		<para>
+  			La capacidad que tienen nuestros usuarios para interpretar y mantener cierto orden en su experiencia perceptiva y cognitiva, está basada en 
+  			los modelos mentales que han ido elaborando en el transcurso de los años. Cuanto más conocimiento se tenga de determinadas situaciones, 
+  			probablemente la actividad mental será más rica. Nuestro objetivo en este capítulo se centra en describir cómo los usuarios aplican lo que 
+  			saben y son capaces de solucionar eficazmente los problemas que se les presentan.
+  		</para>
+  		<para>
+  			Partimos de la idea que si no podemos entender una interfaz web, y no somos capaces de actuar adecuadamente para ir satisfaciendo necesidades 
+  			y objetivos, no solo no la podremos utilizar sino que tampoco seremos capaces de hacer un uso correcto de ella. Por tanto, el entendimiento se 
+  			convierte en una conducta hábil del usuario que estará en consonancia con el tipo y la cantidad de información que sea capaz de asimilar y 
+  			emplear, teniendo en cuenta su desempeño intelectual.
+  		</para>
+  		<para>
+  			Si les preguntáramos a los usuarios cómo saben lo que saben, seguramente no obtendríamos respuestas muy acertadas, dado que buena parte de 
+  			las cosas que sabemos las hemos aprendido de un modo implícito. Hemos llegado a ellas en muchos casos por inferencia, porque las hemos deducido 
+  			de otros hechos, en otras situaciones o contextos; y en otros casos porque hemos recibido formación o aprendizaje de un modo explícito.
+  		</para>
+  		<para>
+  			En cualquier caso, la comprensión y el entendimiento de una interfaz se basa en establecer un modelo conceptual apropiado que nos permita 
+  			reconocer aquello que ya conocemos y saber cómo utilizarlo. El usuario clasifica y organiza las percepciones, los pensamientos y la experiencia 
+  			a partir de los cambios que se van produciendo en cada actividad o contexto. Todo ello queda almacenado en la memoria en forma de esquemas, 
+  			los cuales representan el conocimiento que tiene dicho usuario del mundo exterior y lo que piensa acerca de las cosas, las personas...
+  		</para>
+  		<para>
+  			Incluso somos capaces de interpretar la ambigüedad o la subjetividad de ciertas acciones porque encontramos patrones y significados diversos 
+  			que nos permiten ofrecer solución a cualquier problema. Sería mucho más fácil reinterpretar nuestra experiencia para que sostenga determinadas 
+  			presuposiciones que mantener la ambigüedad, aunque esto signifique tomar por representativo un ejemplo equivocado. Pero aún en tales ocasiones 
+  			los usuarios incrementarán, ajustarán o reestructurarán sus esquemas de conocimiento para seguir aprendiendo y construyendo conocimiento más 
+  			eficazmente (Rumelhart, Norman; 1978) (Rumelhart; 1980).
+  		</para>
+  		<para>
+  			La realidad que vamos construyendo es abierta, incompleta y ampliable (Norman; 1983a). Nos permite conectar todos nuestros conocimientos y 
+  			está sujeta a nuestros intereses y necesidades. También está sujeta a nuevas visiones, nuevas ideas y nuevas interpretaciones que reconfiguran 
+  			esa pluralidad de conexiones. En este sentido podemos extraer que nuestro conocimiento está organizado en la memoria como redes interconectadas 
+  			de representaciones de objetos, sucesos y conceptos, formando la base estructural que otorga significado a nuestro mundo.
+  		</para>
+  		<para>
+  			Algunas teorías, como la teoría de los esquemas o la teoría de grafos, se basan en el uso de representaciones gráficas para describir la 
+  			organización del conocimiento en nuestra memoria, posibilitándonos interpretar cómo comprendemos la información.
+  		</para>
+  		<informalfigure xreflabel="Fig 18" xml:id="fig18">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-021.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Extracción de un mapa conceptual a partir de un texto.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch03c2">
+  		<title>Esquemas y la representación conceptual del conocimiento</title>
+  		<blockquote>
+  			<para>
+  				Si no consigues entender un problema, dibuja un esquema
+  			</para>
+  			<attribution>
+  				George Pólya
+  			</attribution>
+  		</blockquote>
+  		<para>
+  			Hemos visto hasta ahora que los modelos mentales nos sirven para dar sentido y comprender la realidad externa. Son representaciones episódicas 
+  			que cambian y evolucionan constantemente a partir de nuestras experiencias y, en muchas ocasiones, condicionan nuestra forma de aprehender el 
+  			mundo. En cambio los esquemas son unidades básicas de procesamiento, estructuras de datos que nos permiten representar los conocimientos 
+  			genéricos almacenados en la memoria (Rumelhart; 1980). Sirven para actuar, para comprender, para reconocer, para recordar, para resolver 
+  			problemas, en definitiva para encontrar un orden en nuestra realidad cotidiana.
+  		</para>
+  		<para>
+  			Esto significa que la memoria funciona igual para todos, que podemos marcar cierto grado de uniformidad en el cómo, pero un alto grado de 
+  			diversidad en el qué. Cada pensamiento es una vía concreta de transmisión, con un incontable número de ramificaciones asociadas.
+  		</para>
+  		<para>
+  			Cuando escribimos, nos vemos forzados a linealizar nuestros pensamientos de tal forma que una gran parte de las ideas y asociaciones que 
+  			tenemos no pueden ser exteriorizadas (Buzan, Buzan; 1996). Pero existen mecanismos, técnicas y estrategias que nos permiten alcanzar el 
+  			punto de abstracción necesario para, a partir de la linealidad, generar conexiones complejas, redes densamente interconectadas de gran 
+  			eficacia para el almacenamiento, procesamiento y recuperación de la información.
+  		</para>
+  		<para>
+  			Las redes conceptuales, los mapas mentales o los mapas conceptuales son un ejemplo de ello, ya que son técnicas que no solo nos orientan y 
+  			nos ayudan a regular nuestros procesos cognitivos, sino que además nos facilitan una estimación del conocimiento que ha adquirido el usuario 
+  			y cómo está representado en su memoria.
+  		</para>
+  		<informalfigure xreflabel="Fig 19" xml:id="fig19">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-022.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Mapa conceptual extraído de Novak y Gowin (1984).
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Un mapa conceptual puede ser definido como una representación gráfica del conocimiento personal. Una representación que incluye conceptos y 
+	  		sus enlaces, es decir, una estructura conceptual con conexiones semánticas. Pero veamos detenidamente cómo se llega a la idea de mapa conceptual.
+	  	</para>
+	  	<para>
+	  		El conocimiento puede ser entendido como el “conjunto de representaciones de la realidad almacenadas en la memoria” (Mayor, Suengas, 
+	  		González; 1995). Estas representaciones están basadas en una codificación de aquello que resulta significativo, para evitar que la mente 
+	  		procese caóticamente toda esa realidad. En un primer momento, el almacenamiento de la información está lleno de detalles, tanto visuales 
+	  		como verbales, y poco a poco, todos esos detalles van perdiéndose para mantener sólo la información que ha resultado especialmente significativa 
+	  		y representativa.
+	  	</para>
+	  	<para>
+	  		Esta información se convierte en conocimiento en la medida en que nos permite realizar inferencias lógicas. Sin embargo, para que podamos 
+	  		realizar un razonamiento adecuado, la organización de dicho conocimiento debe producirse en nuestra mente siguiendo una estructura reticular, 
+	  		con conexiones entre conceptos en forma de relaciones semánticas.
+	  	</para>
+	  	<para>
+	  		Novak y Gowin (1984) desarrollaron ampliamente la idea de mapa conceptual haciendo especial hincapié en la ayuda que suponen para manifestar 
+	  		nuestros pensamientos y mejorar el razonamiento. Es lo que Jonassen, Peck y Wilson (1999) han denominado herramientas de aprendizaje cognitivo. 
+	  		Herramientas capaces de representar y expresar aquello que estemos pensando y plasmarlo en un simple papel.
+	  	</para>
+  	</section>
+  	<section xml:id="ch03c3">
+  		<title>Aplicaciones de los mapas conceptuales</title>
+  		<para>
+  			Podríamos señalar tres formas de trabajo con los mapas conceptuales:
+  		</para>
+  		<itemizedlist>
+  			<listitem>
+  				<para>
+  					Desarrollo individual: Comprensión y organización esquemática de ideas personales utilizando los conocimientos previos sobre la tarea.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Desarrollo consensuado: Negociación de significados por parte de dos o más personas, generando nuevas formas de organización y 
+  					favoreciendo la flexibilidad mental.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Creación de nuevos significados: Trabajando con un mapa conceptual elaborado podemos hacer cambios y establecer nuevas relaciones, 
+  					que a su vez nos van a permitir construir nuevos significados.
+  				</para>
+  			</listitem>
+  		</itemizedlist>
+  		<para>
+  			El mapa conceptual también puede ser un instrumento de evaluación para determinar si la nueva información ha sido comprendida, o para conocer 
+  			la evolución del pensamiento y la capacidad de aprendizaje.
+  		</para>
+  		<para>
+  			Como hemos indicado, los mapas conceptuales son poderosas herramientas cognitivas que nos permiten trabajar de forma más elaborada, 
+  			aprovechando plenamente la capacidad humana para la representación y pensamiento visual. Por tanto, su aplicación puede abarcar desde la 
+  			planificación de una arquitectura de información hasta la preparación de una presentación para un cliente. Brevemente aquí presentamos 
+  			algunas posibles aplicaciones:
+  		</para>
+  		<itemizedlist>
+  			<listitem>
+  				<para>
+  					Evaluación de nuestro conocimiento (o autoevaluación).
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Extracción del significado, ideas clave o esquema de un texto.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Ayuda para generar o comunicar ideas complejas.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Diseño de estructuras web complejas.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Representar gráficamente lo aprendido y captar intuitivamente los contenidos.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Toma de decisiones.
+  				</para>
+  			</listitem>
+  		</itemizedlist>
+  		<para>
+  			En definitiva, diseñar implica comprender al cliente, sus objetivos y su modelo mental; así como comprender a los usuarios, sus objetivos 
+  			y modelos mentales. A partir de esta adquisición de conocimiento, como diseñadores transformamos nuestros propios modelos mentales, con 
+  			el fin de plasmar en el producto un modelo conceptual que conecte a cliente y usuarios. En este proceso, los mapas conceptuales suponen 
+  			una valiosa herramienta para explicitar, clarificar y representar todo este conocimiento.
+  		</para>
+  	</section>
+  	<section xml:id="ch03c4">
+  		<title>A modo de conclusión</title>
+  		<para>
+  			Los modelos mentales nos permiten dar explicación e interpretación a aquello que percibimos. Por tanto, construyen la base para expresar 
+  			cómo sabemos lo que sabemos, y la forma de entender e interpretar el mundo.
+  		</para>
+  		<para>
+  			Desde el diseño web nos enfrentamos a la tarea de lograr que nuestros usuarios construyan un modelo mental adecuado del sistema y sean 
+  			capaces de integrarlo en la estructura del mundo, percibida o concebida por el mismo.
+  		</para>
+  		<para>
+  			Un objetivo de este capítulo era comprender que, como diseñadores, podemos representar y explicitar nuestro modelo mental a partir de 
+  			técnicas específicas, y clarificar así una organización coherente con las estructuras mentales de nuestros usuarios.
+  		</para>
+  		<para>
+  			El esfuerzo en el desarrollo conceptual, y la utilización de metodologías y técnicas específicas, facilitará un modelo de diseño eficiente 
+  			y bien definido para el tipo de usuario al que nos dirigimos. Nos servirá también para obtener una constante realimentación y saber si la 
+  			imagen que hemos formado del sistema es adecuada.
+  		</para>
+  		<para>
+  			De la misma forma no hay duda que podemos interiorizar estrategias y convenciones compartidas y transferirlas eficazmente a cada situación 
+  			a la que nos enfrentamos. Los diseñadores pueden trabajar sobre dichas convenciones sin que por ello se prescinda de procesos creativos 
+  			específicos, que en un futuro también podrían ser compartidos.
+  		</para>
+  	</section>
+  </section>
+  <section xml:id="ch03d">
+  	<title>El sujeto como ser social</title>
+  	<para>
+  		Todas las explicaciones que hemos ofrecido hasta el momento evidencian la gran capacidad del ser humano para construir conocimiento. Nuestras 
+  		presuposiciones, juicios, estrategias, objetivos, ideas y decisiones están arraigados en nosotros y son dependientes del sistema más complejo 
+  		que conocemos, la mente humana.
+  	</para>
+  	<para>
+  		Sin embargo, si el presente trabajo se ciñera exclusivamente a las estructuras y procesos internos del usuario, estaríamos obviando la dimensión 
+  		que motiva, conduce y define nuestra actividad cognitiva: la actividad e interactividad social, y el contexto socio-cultural en el que tienen lugar.
+  	</para>
+  	<para>
+  		Esta armonización es necesaria en la medida en que las formas de comprender los contextos de desarrollo, o de comprendernos a nosotros mismos, 
+  		no dejan de ser “artefactos sociales, productos de intercambio situados histórica y culturalmente y que se dan entre personas” (Gergen, 1996).
+  	</para>
+  	<section xml:id="ch03d1">
+  		<title>Perspectiva social de la cognición</title>
+  		<para>
+  			La comprensión y transmisión de información entre individuos es un acto posible en la medida en que emisor y receptor comparten significados. 
+  			Cuando un usuario se enfrenta a una interfaz, será capaz de identificar y reconocer la función de cada elemento sólo si ha aprendido previamente 
+  			su significado, o ha adquirido las herramientas conceptuales necesarias para deducirlo. Esto quiere decir que tanto el diseño como el uso de 
+  			interfaces son actividades sociales, aún cuando se realicen de forma aislada, pues se basan en significados compartidos y construidos colectivamente.
+  			Cuando diseñamos, tácitamente acatamos y hacemos uso de convenciones de diseño, posibilitando al usuario final reconocer y comprender 
+  			instantáneamente aquello que ve, a partir del conocimiento adquirido en sus experiencias previas.
+  		</para>
+  		<para>
+  			La forma en que las personas aprendemos esquemas y usos en los sitios web se produce de diversas maneras:
+  		</para>
+  		<itemizedlist>
+  			<listitem>
+  				<para>
+  					Nueva información nos hace percatarnos de acciones y elementos que no conocíamos y nos lleva a la expansión de nuestras estructuras 
+  					cognoscitivas.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					La exposición a ideas que contradicen nuestras creencias puede causar que examinemos esas creencias y tal vez las reestructuremos.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					La necesidad de comunicar ideas a los demás nos obliga a agudizar nuestras concepciones.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					La comunicación con los demás nos ayuda a desarrollar, diferenciar y organizar mejor nuestras estructuras de conocimiento.
+  				</para>
+  			</listitem>
+  		</itemizedlist>
+  		<para>
+  			Con esto lo que pretendemos exponer es que el significado y sentido de los que dotamos a las interfaces que diseñamos, o asignamos a aquellas 
+  			que usamos, no se encuentran encerrados en la mente de cada diseñador y usuario. Un diseño será usable en la medida en que tanto diseñador 
+  			como usuario compartan esquemas y modelos conceptuales, posibilitando la interpretación del mensaje.
+  		</para>
+  		<para>
+  			Por ejemplo, la facilidad con la que reconoceremos la función de estas tres cajas de búsqueda está determinada por nuestras experiencias 
+  			previas. El tercer caso resulta el que más esfuerzo requerirá, ya que visualmente no se asemeja a las cajas de búsqueda que estamos acostumbrados 
+  			a encontrar en los diferentes sitios web, y únicamente leyendo e interpretando el texto contenido podremos deducir su función.
+  		</para>
+  		<informalfigure xreflabel="Fig 20">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-023.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Diferentes cajas de búsqueda.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Los significados compartidos e intersubjetivos, tal y como hemos expuesto, no implica que sean universales, ya que, como veremos a continuación, 
+	  		son dependientes del contexto.
+	  	</para>
+  	</section>
+  	<section xml:id="ch03d2">
+  		<title>La importancia del contexto</title>
+  		<para>
+  			Las actividades humanas implican prácticas y relaciones que adquieren significado y pueden entenderse en contextos determinados. Por contexto 
+  			nos referimos a las interacciones de las personas con el medio, con otras personas, y con los recursos <emphasis>conceptuales compartidos social 
+  			y culturalmente</emphasis>. Es evidente que aunque los procesos cognitivos puedan ser los mismos, las culturas no reflejan de la misma manera el 
+  			significado o la emotividad de ciertos elementos u acciones.
+  		</para>
+  		<para>
+  			En el diseño de interfaces se produce una negociación de significados entre diseñador y usuario, negociación que se encuentra contextualmente 
+  			determinada. Por ejemplo, un mismo usuario asociará sentidos diferentes a un enlace con el rótulo “Archivos”, en función de si se encuentra 
+  			visitando un sitio web de noticias, un repositorio de software o la página web de una asociación de Bibliotecas, Museos y Archivos. Igualmente, 
+  			la categoría “Cortafuegos” en un sitio web puede activar sentidos diferentes leída por un ingeniero informático o por un ingeniero forestal.
+  		</para>
+  		<para>
+  			La función del diseñador es especificar los objetos y acciones de la interfaz web, su organización, composición, funcionalidad y las relaciones 
+  			que van a tener unos con otros para formar un todo coherente. El color de un enlace adquiere sentido y significado no sólo cuando nos facilita 
+  			distinguirlo de otros elementos que no son enlaces, sino también cuando esta distinción se produce en un contexto hipertextual, donde la lectura 
+  			de un texto invita a navegar por otros contenidos.
+  		</para>
+  		<para>
+  			Cuando miramos la hora en un reloj no percibimos piezas aisladas, sino que identificamos y diferenciamos cada manecilla que aporta sentido y 
+  			significado al conjunto. A su vez el tamaño, la posición y la situación de la esfera en un contexto determinado están condicionando la 
+  			información que transmiten las manecillas, cuyo tamaño y posición nos ayudan a saber la hora.
+  		</para>
+  		<para>
+  			Gracias a una negociación de significados de índole social sabemos interpretar la hora en cualquier reloj que tenga ese número preciso de 
+  			elementos y de relaciones entre ellos. Sin embargo, esta negociación cambia a medida que modificamos el contexto. No siempre nos encontramos 
+  			con manecillas y esferas. Lo relojes digitales también nos ayudan a medir el tiempo pero lo hacen incorporando un elemento más: los segundos. 
+  			Incluso algunos relojes incorporan milisegundos. En el contexto de una competición deportiva se requerirán estas dos últimas funciones, mientras 
+  			que los relojes colocados en los aeropuertos buscarán la precisión con un número menor de elementos, pero suficientes para que la gente no 
+  			pierda sus vuelos.
+  		</para>
+  		<informalfigure xreflabel="Fig 21">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-024.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Relojes que influyen diferentes elementos.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch03d3">
+  		<title>Utilizando el contexto para llegar a la simplicidad</title>
+  		<para>
+  			Las formas precisas de distribuir y (re)organizar funcionalmente los diversos elementos de nuestras interfaces dependen no solo de las propias 
+  			circunstancias y objetivos del usuario, sino también de su pasado social y cultural en determinados contextos. Este ha ido evolucionando hasta 
+  			producir las formas actuales de comunicación en la red. Las claves contextuales han ido cambiando y nuestras prácticas de construcción de sitios 
+  			se han ido adaptando a medida que hemos ido negociando nuevos significados.
+  		</para>
+  		<para>
+  			Por ejemplo, si hace unos años se recomendaba usar el azul y el subrayado en los enlaces para posibilitar su reconocimiento, actualmente la 
+  			situación ha cambiado. Las convenciones de codificación de enlaces cambian no tanto por un capricho compartido entre diseñadores, sino por 
+  			la consciencia o percepción colectiva de que de esta forma se disminuye el ruido visual de las interfaces.
+  		</para>
+  		<para>
+  			Las formas de composición y los diferentes espacios que hemos creado han ido evolucionando más allá del reconocimiento (descubrir elementos 
+  			que la tarea exige que sean hallados) o el recuerdo (establecer relaciones lógicas con la experiencia pasada) por parte del usuario, buscando 
+  			la efectividad del mensaje en otras formas de expresión. Composiciones, estilos y tendencias que no han dudado en mostrar la tecnología que 
+  			utilizamos como una fuente de inspiración y foco de atracción hacia los usuarios.
+  		</para>
+  		<para>
+  			El conflicto se produce cuando los usuarios quedan expuestos a un conjunto de prácticas interpretativas que no son adecuadas al contexto y 
+  			actividad en la que se hallan inmersos. Como decíamos cuando hablábamos de simplicidad, ciertos elementos en pantalla no aumentan la 
+  			efectividad de las acciones que debe realizar el usuario. Aunque el diseñador crea que actúan como estímulos para atraer su atención, puede 
+  			que el error sea que no adquieren una función instrumental adecuada y, en su defecto, generan más problemas que soluciones al usuario. Cuando 
+  			Karvonen (2000) habla de la calidad del diseño se refiere a “diferentes cosas en diferentes mundos” y cuando Veen (2001) habla de simplicidad 
+  			opina que podemos contar con el contexto para alcanzarla. En definitiva, calidad, simplicidad y contexto forman parte de un mismo proceso de 
+  			construcción.
+  		</para>
+  		<para>
+  			Si analizamos un contexto de uso determinado, es decir, si comprendemos la representación que hacen los usuarios y su modo de actuar ante 
+  			diferentes situaciones o tareas, podemos descubrir cuál es la funcionalidad de cada elemento y su importancia en dicho contexto a partir del 
+  			significado que aporta al usuario. En este sentido la eficacia de un elemento o conjunto de elementos no debe ser entendida únicamente en 
+  			función del grado de interacción con el usuario. Puede que su aportación esté relacionada con el significado que aporta a otros elementos 
+  			que sí son cruciales en el proceso de interacción o su relación con ellos. Por ejemplo, un color de fondo en la zona de navegación puede 
+  			aportar mayor contraste además de aportar valor a la identidad general del sitio.
+  		</para>
+  		<informalfigure xreflabel="Fig 22">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-025.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Solución convergente para representar un calendario.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch03d4">
+  		<title>Desde nuestra experiencia subjetiva hacia la intersubjetiva</title>
+  		<para>
+  			Como diseñadores podríamos pensar que podemos jugar con la aleatoriedad, o con la libertad absoluta a la hora de tomar decisiones o construir 
+  			nuestro sitio web. Ciertamente no hay una visión objetiva o imparcial sobre estos asuntos. Nuestra experiencia es individual, propia de cada 
+  			uno. Experimentamos subjetivamente y las causas que motivan nuestro comportamiento son muy variadas.
+  		</para>
+  		<para>
+  			Nuestras percepciones del mundo moldean el sistema interno del cerebro y, gracias a la investigación en neurología, cada vez tenemos más 
+  			información acerca de cómo funciona nuestra mente y cuáles son los cambios bioquímicos que se producen. No obstante, no es posible entender 
+  			la experiencia del usuario atendiendo únicamente a su dimensión fisiológica, neurológica y cognitiva. El otro gran reto es entender la dimensión 
+  			social e interpsicológica del usuario.
+  		</para>
+  		<para>
+  			Cuando diseñamos nos estamos dirigiendo a nuestros usuarios, intentando ofrecerles un producto que sea comprensible y les permita satisfacer sus 
+  			necesidades. Entonces es cuando nos damos cuenta que ofrecer visiones y perspectivas personales, filtradas por nosotros mismos, por nuestros 
+  			intereses o nuestra percepción del mundo no son viables. Esto no quiere decir que no sean válidas, porque son útiles para uno mismo. Pero el 
+  			objetivo es centrarse en perspectivas consensuadas, que se enmarcan en la comprensión compartida con otros.
+  		</para>
+  		<para>
+  			Con esto queremos hacer notar que aunque nuestra experiencia sea subjetiva hemos llegado a acuerdos comunes, convenciones compartidas, que nos 
+  			han obligado a ir modificando paulatinamente nuestras estructuras internas a partir de la interacción con el contexto. Nuestros esquemas de 
+  			conocimiento  se ven sometidos a procesos de cambio que llevan, a su vez, a construir esquemas o reestructurarlos a partir de nuevas clases 
+  			de situaciones y objetos.
+  		</para>
+  		<para>
+  			Cuando construimos interfaces debemos saber aprovecharnos de esas convenciones, de soluciones convergentes que reducen el esfuerzo y tiempo 
+  			exigido al usuario.
+  		</para>
+  		<para>
+  			En contraposición a esta forma de resolver problemas de diseño, nos encontramos con soluciones divergentes, aquellas que requieren mayor 
+  			capacidad de los usuarios para llevar a cabo tareas cognitivamente más exigentes. Algunas de estas soluciones exigen capacidad de memorizar, 
+  			detectar nuevos patrones, manejar conceptos, palabras, significados específicos o visualizar nuevas relaciones espaciales y temporales.
+  		</para>
+  		<para>
+  			Esta falta o escasez de reconocimiento y definición de la presencia y función del elemento Costa (1994) lo ha denominado “exceso de originalidad”. 
+  			Nos encontramos, por tanto, con una carencia de identificaciones y referencias previas que nos impiden extraer de la memoria esquemas claros y 
+  			significados precisos.
+  		</para>
+  		<para>
+  			Las negociaciones de significado previas nos ayudan por tanto a clarificar los puntos de objetividad que aportan sentido y significado a las 
+  			acciones de nuestros usuarios. Cada contexto de uso condicionará las soluciones que propongamos en cada caso.
+  		</para>
+  		<informalfigure xreflabel="Fig 23">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-027.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Solución divergente para representar un calendario.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch03d5">
+  		<title>Consistencia y familiaridad como parte de la experiencia intersubjetiva</title>
+  		<para>
+  			Cuando hablamos de soluciones convergentes no dejamos de pensar en aquellos patrones de diseño que ayudan a nuestros usuarios a minimizar la carga 
+  			cognitiva y tomar decisiones con mayor rapidez. Son los puntos de partida sobre los cuales desarrollaremos nuestro trabajo y nos acercaremos a la 
+  			creación de una imagen del sistema acorde con el modelo mental de nuestros usuarios.
+  		</para>
+  		<para>
+  			La actuación de una imagen mental no solo es apropiada para evocar elementos y acciones del pasado, rescatando así experiencias perceptivas 
+  			anteriores, sino que también es una mirada hacia el futuro, hacia la evocación de acciones anticipatorias de aquellas acciones no realizadas.
+  		</para>
+  		<para>
+  			El desarrollo de interfaces consistentes y capaces de generar cierta familiaridad con experiencias pasadas facilitan el camino y pueden 
+  			ayudarnos a reforzar la estructura de conocimiento que pretendemos trasmitir.
+  		</para>
+  		<para>
+  			Por ejemplo, las pestañas o <foreignphrase xml:lang="en">tabs</foreignphrase> para los menús de navegación permiten un reconocimiento perceptivo 
+  			automático, ya que se plantean como una metáfora conocida con el fin  de facilitar su comprensión y su funcionamiento.
+  		</para>
+  		<informalfigure xreflabel="Fig 24">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-028.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Pestañas de navegación
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Facilitan el reconocimiento de una forma de interacción que posiblemente haya sido usada en otras situaciones o contextos. En consecuencia, 
+	  		actúan como un instrumento de conocimiento con una intencionalidad comunicativa clara, que interviene en la preparación y realización de la 
+	  		conducta del usuario.
+	  	</para>
+  	</section>
+  </section>
+</chapter>

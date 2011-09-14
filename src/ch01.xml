@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch01"
+	lang="es" version="5.0" 
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>Introducción</title>
+  <simplesect xml:id="ch01a">
+  	<para>
+  		Muchos recordaremos cómo hace años –cuando en los hogares empezaban a hacer presencia los primeros ordenadores personales y en el entorno 
+  		laboral comenzaba la automatización de procesos– se incorporó un nuevo término a nuestro vocabulario: “amigable”. Este se utilizaba para 
+  		referirse a aquellas aplicaciones software en las que su uso, al menos, no terminaba provocándonos un dolor de cabeza o un estado de 
+  		interminable frustración. 
+  	</para>
+  	<para>
+  		Este término fue progresivamente sustituido por otro, usabilidad, un anglicismo (<foreignphrase xml:lang="en">usability</foreignphrase>) que se 
+  		refiere a la facilidad de uso de las aplicaciones, herramientas o productos interactivos. Este cambio terminológico no obedecía a una moda, 
+  		sino a la intención de definir, delimitar y clarificar uno de los atributos de calidad de los productos interactivos que mayor impacto tienen 
+  		en la satisfacción del usuario y la aceptación social del producto.
+  	</para>
+  	<para>
+  		La investigación académica y la práctica profesional en el área de la usabilidad han experimentado en los últimos 20 años una evolución y 
+  		desarrollo exponenciales. Actualmente contamos con multitud de congresos, publicaciones, laboratorios y empresas especializadas en el área, 
+  		así como con numerosas asociaciones profesionales enfocadas específicamente o parcialmente al ámbito de los profesionales de la usabilidad 
+  		(como es el caso de APEI, la asociación que promueve este informe). A pesar de que aún sigue siendo común que, como usuarios, tengamos que 
+  		enfrentarnos a aplicaciones o sitios web con un diseño insufrible, basta echar la vista atrás simplemente unos años para comprobar que algo 
+  		ha cambiando. El diseño web cada vez se encuentra más profesionalizado y valorado socialmente, y las visiones multidisciplinares centradas 
+  		en el usuario poco a poco van completando a aquellas exclusivamente tecnológicas, publicitarias o de marketing.
+  	</para>
+  	<para>
+  		El presente trabajo pretende introducir al lector en el amplio tema de la usabilidad, aunque su carácter introductorio no implica que no 
+  		vayan a tratarse cuestiones de interés para quienes ya tengan experiencia y conocimientos en la materia. De modo más específico podemos 
+  		decir que este trabajo se dirige principalmente a estudiantes y profesionales de la información, documentación, diseño, periodismo, publicidad, 
+  		marketing, audiovisual, informática, y por generalización a todo aquel profesional con competencias en tecnologías de la información y la comunicación.
+  	</para>
+  	<para>
+  		Aunque este informe está enfocado principalmente al diseño de sitios web, en muchas ocasiones hablaremos genéricamente de productos 
+  		interactivos o aplicaciones, e incluso se usarán ejemplos de productos físicos, ya que el conocimiento sobre usabilidad es transversal 
+  		y aplicable a cualquier objeto o herramienta destinada a su uso humano.
+  	</para>
+  	<para>
+  		Dado que existen numerosos recursos electrónicos, artículos y libros sobre usabilidad, en el presente informe nos hemos propuesto ofrecer una 
+  		visión alternativa con el fin de profundizar en aquellos aspectos más útiles para el lector. Para ello, hemos intentado mantener cierta distancia 
+  		entre lo puramente profesional y lo académico. Esto significa que este informe no es ni un recetario de consejos sobre diseño, ni un 
+  		<foreignphrase xml:lang="en">handbook</foreignphrase> sobre modelos y teorías científicas. Creemos firmemente que, aunque los principios y 
+  		recomendaciones de diseño son útiles, entender los porqués es la mejor garantía para alcanzar diseños usables. En otras palabras, no creemos 
+  		tan relevante acatar recomendaciones generales sobre cómo organizar y representar los diferentes elementos en un diseño, como conocer cómo los 
+  		usuarios exploran e interpretan estos diseños.
+  	</para>
+  	<para>
+  		Igualmente, aunque reconocemos que la aplicación de las metodologías propias de la práctica de la usabilidad exigen conocimiento, tiempo y 
+  		experiencia, entendemos que su uso en el entorno profesional está destinado al incremento práctico de la usabilidad del producto, y por tanto no 
+  		necesitan ser abordadas con la rigurosidad propia del ámbito científico.
+  	</para>
+  	<para>
+  		El presente informe se encuentra estructurado en tres grandes capítulos. En “<xref linkend="ch02" />” se analizará y describirá en detalle 
+  		tanto el concepto de usabilidad, como todos aquellos directamente relacionados (simplicidad, arquitectura de información, experiencia de usuario, etc.). 
+  		En el segundo capítulo, “<xref linkend="ch03" />”, trataremos de entender y comprender al usuario, a través del análisis de su percepción visual, 
+  		cognición, modelos mentales, y su naturaleza social. En el último capítulo, de carácter metodológico, se introducirá la filosofía de 
+  		“<xref linkend="ch04" />”, describiendo las principales técnicas de investigación, indagación, inspección, evaluación y documentación.
+  	</para>
+  </simplesect>
+</chapter>

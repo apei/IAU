@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<book lang="es" version="5.0"
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+
+  <info>
+
+   <title>Informe APEI sobre usabilidad</title>
+   <subtitle>Informe APEI 3</subtitle>
+   <biblioid class="isbn">978-84-692-3782-3</biblioid>
+   <biblioid class="other">AS-06633-2008</biblioid>
+    <pubdate>2009</pubdate>
+    <copyright>
+      <year>2009</year>
+      <holder>APEI</holder>
+    </copyright>
+    <annotation>
+    	Edición sostenible. Los informes de APEI están editados como documentos electrónicos de lectura en pantalla. Si no es necesario, no los imprimas. Si los imprimes, hazlo a doble cara.
+    </annotation>
+    <collab>
+		<orgname>
+			Esta publicación ha contado con el patrocinio de la Dirección General del Libro, Archivos y Bibliotecas. 
+			Subdirección General de Coordinación Bibliotecaria
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata fileref="resource/INF-3-001.jpg" />
+				</imageobject>
+			</inlinemediaobject>
+		</orgname>
+	</collab>
+    <authorgroup>
+    	<author>
+    		<personname>
+    			<firstname>Yusef</firstname>
+    			<surname>Hassan Montero</surname>
+    		</personname>
+    	</author>
+    	<author>
+    		<personname>
+    			<firstname>Sergio</firstname>
+    			<surname>Ortega Santamaría</surname>
+    		</personname>
+    	</author>
+    </authorgroup>
+    <editor>
+		<orgname class="nonprofit">
+			APEI
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata fileref="resource/INF-3-000.jpg" />
+				</imageobject>
+			</inlinemediaobject>
+		</orgname>
+		<email>info@apei.es</email>
+		<uri type="homepage">
+			http://www.apei.es
+		</uri>
+		<uri type="weblog">
+			http://garabuya.blogspot.com
+		</uri>
+	</editor>
+    <editor>
+		<personname>
+			<honorific>Director editorial</honorific>
+			<firstname>Raquel</firstname>
+			<surname>Lavandera Fernández</surname>
+		</personname>
+	</editor>
+	<othercredit class="graphicdesigner">
+		<orgname>Digitales José &amp; Cícero, S.L.</orgname>
+	</othercredit>
+	<legalnotice>
+		<informalfigure>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="resource/" />
+				</imageobject>
+			</mediaobject>
+		</informalfigure>
+    	<para>
+    		Esta obra está bajo una licencia Reconocimiento-No comercial-Compartir bajo la misma licencia 2.5 España de 
+    		Creative Commons: <link xl:href="http://creativecommons.org/licenses/by-nc-sa/2.5/es"/>.
+    	</para>
+    </legalnotice>
+  </info>
+  <xi:include href="ch01.xml" />
+  <xi:include href="ch02.xml" />
+  <xi:include href="ch03.xml" />
+  <xi:include href="ch04.xml" />
+  <xi:include href="ch05.xml" />
+  <xi:include href="bib.xml" />
+  <xi:include href="autores.xml" />
+  <xi:include href="informes.xml" />
+
+</book>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch02"
+	lang="es" version="5.0" 
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>Definición y conceptos</title>
+  <section xml:id="ch02a">
+  	<title>La experiencia del usuario</title>
+  	<section xml:id="ch02a1">
+  		<title>Usabilidad</title>
+  		<para>
+  			Como hemos señalado en la introducción de este trabajo, usabilidad es un concepto que se refiere básicamente a la facilidad de uso de 
+  			una aplicación o producto interactivo. Pero esta no es más que una definición operativa, que poco nos revela acerca de la verdadera naturaleza 
+  			empírica, dependiente, relativa, e incluso ética, de este concepto. A continuación vamos a desgranar más detalladamente a qué nos referimos 
+  			cuando hablamos de usabilidad.
+  		</para>
+  		<section>
+  			<title>Dimensión empírica</title>
+  			<para>
+  				La usabilidad es un concepto empírico, lo que significa que puede ser medida y evaluada, y por tanto no debe entenderse como un concepto 
+  				abstracto, subjetivo o carente de significado. De hecho, la usabilidad es un atributo de calidad cuya definición formal es resultado de 
+  				la enumeración de los diferentes componentes o variables a través de los cuales puede ser medida. Entre estos componentes, encontramos 
+  				(Nielsen; 2003):
+  			</para>
+  			<itemizedlist>
+  				<listitem>
+  					<para>
+  						Facilidad de aprendizaje (<foreignphrase xml:lang="en">Learnability</foreignphrase>): ¿cómo de fácil resulta para los usuarios 
+  						llevar a cabo tareas básicas la primera vez que se enfrentan al diseño?
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Eficiencia: una vez que los usuarios han aprendido el funcionamiento básico del diseño, ¿cuánto tardan en la realización de tareas?
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Cualidad de ser recordado (<foreignphrase xml:lang="en">Memorability</foreignphrase>): cuando los usuarios vuelven a usar el diseño 
+  						después de un periodo sin hacerlo, ¿cuánto tardan en volver a adquirir el conocimiento necesario para usarlo eficientemente?
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Eficacia: durante la realización de una tarea, ¿cuántos errores comete el usuario?, ¿cómo de graves son las consecuencias de esos 
+  						errores?, ¿cómo de rápido puede el usuario deshacer las consecuencias de sus propios errores?
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Satisfacción: ¿cómo de agradable y sencillo le ha parecido al usuario la realización de las tareas?
+  					</para>
+  				</listitem>
+  			</itemizedlist>
+  			<para>
+  				Una de las mejores formas de evaluar la usabilidad de un producto o aplicación es poniéndola a prueba con usuarios reales, un método conocido 
+  				como “test de usuarios” (este método será descrito con más detalle en el capítulo sobre Diseño Centrado en el Usuario). Observando cómo los 
+  				usuarios se enfrentan a tareas interactivas, podemos cuantificar objetivamente la usabilidad del diseño, contabilizando el número de errores 
+  				que cometen (eficacia) o midiendo el tiempo que tardan en completarlas (eficiencia). Además, preguntando a los usuarios una vez finalizadas 
+  				sus tareas, podremos medir la usabilidad subjetiva o percibida, es decir, cómo valoran los usuarios el diseño o cuál es su grado de satisfacción.
+  			</para>
+  			<para>
+  				Esta naturaleza empírica de la usabilidad hace posible, por ejemplo, comparar la usabilidad de un diseño y la de su rediseño, y comprobar de este 
+  				modo si los cambios realizados han sido acertados o no.
+  			</para>
+  			<para>
+  				No obstante, esto no debe hacernos creer que la medición de los diferentes componentes de la usabilidad se encuentra exenta de dificultades 
+  				(Dillon; 2001). Las personas somos seres enormemente complejos, un hecho que añade inevitablemente un alto grado de 
+  				incertidumbre tanto al diseño como a la evaluación de productos interactivos.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Dimensión dependiente</title>
+  			<para>
+  				Sería un error creer que lo que motiva el uso de un producto o aplicación es su usabilidad. Los usuarios no buscan usabilidad, buscan utilidad, 
+  				entendida como el provecho, beneficio e interés que produce su uso (Hassan-Montero; 2006). En otras palabras, lo que 
+  				motiva al usuario es la capacidad que percibe del producto para resolver sus necesidades o deseos.
+  			</para>
+  			<para>
+  				Dicho esto, que utilidad y usabilidad sean conceptos diferentes no implica que podamos disociar o desmembrar un atributo del otro. La relación 
+  				entre utilidad y usabilidad es de mutua dependencia, tal y como expone la acertada definición de Dillon y Morris (1999): 
+  				<quote>la usabilidad representa el grado en el que el usuario puede explotar la utilidad</quote>. A esta definición podemos añadir que la 
+  				usabilidad también representa el grado en que esta utilidad es percibida por el usuario. No es posible, por tanto, hablar de usabilidad y 
+  				utilidad como factores desconectados o independientes.
+  			</para>
+  			<para>
+  				De hecho, no sólo la utilidad es dependiente de la usabilidad, pues esta dependencia también se produce en sentido contrario. Podemos afirmar 
+  				que un producto o aplicación será usable en la medida en que el beneficio que se obtenga de usarlo (utilidad) justifique el esfuerzo necesario 
+  				para su uso (aprendizaje, atención, tiempo…).
+  			</para>
+  			<para>
+  				Este es un hecho que queda evidenciado a la perfección en la siguiente cita:
+  			</para>
+  			<blockquote>
+  				<para>
+  					Si la facilidad de uso fuera el único criterio válido, las personas se quedarían en los triciclos y nunca probarían las bicicletas.
+  				</para>
+  				<attribution>
+  					Engelbart, cita extraída de (Fischer; 2001)
+  				</attribution>
+  			</blockquote>
+  			<para>
+  				Como diseñadores, nuestro objetivo debe ser adaptar el diseño al usuario; a sus habilidades, conocimientos y modelos mentales. Sin embargo, 
+  				como afirma Norman (2005b), en muchos casos será necesario que los usuarios también se adapten al producto o herramienta.
+  			</para>
+  			<para>
+  				Pensemos por ejemplo en los automóviles. Son herramientas que requieren de un gran esfuerzo de aprendizaje y adaptación por parte de sus usuarios, 
+  				aunque no por ello son percibidos como artefactos poco usables. La capacidad del automóvil de satisfacer las necesidades del usuario supera el 
+  				esfuerzo que éste debe hacer para aprender a manejarlo.
+  			</para>
+  			<para>
+  				Un sitio web no puede exigir ese grado de adaptación por parte del usuario, sencillamente porque el beneficio o utilidad percibida no son 
+  				comparables al caso de los automóviles. Lo que pretendemos exponer es que no podemos pensar en la usabilidad de forma aislada, sino que 
+  				siempre tendremos que analizarla en relación con la utilidad del producto, es decir, con el grado en que el producto podrá exigir la adaptación 
+  				del usuario.
+  			</para>
+  			<para>
+  				Imaginemos dos diseños, que para una misma tarea requieran el mismo esfuerzo del usuario. Esto no significa que ambos sean igual de usables, ya 
+  				que la motivación y resistencia a la frustración del usuario estará determinada por el beneficio que perciba de completar la tarea, percepción 
+  				que será producto tanto de su utilidad real como de la capacidad del diseño para comunicar esta utilidad.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Dimensión relativa</title>
+  			<para>
+  				La usabilidad no debe ser entendida como una cualidad universal. Todo producto, aplicación o sitio web, nace para satisfacer las necesidades 
+  				de una audiencia específica. Por tanto, estos productos serán usables si lo son para esta audiencia objetiva, no necesariamente para el resto 
+  				de la población.
+  			</para>
+  			<para>
+  				Esta dimensión relativa queda evidenciada en la definición que la norma ISO 9241-11 (1998) ofrece de la usabilidad: <quote>grado de eficacia, 
+  				eficiencia y satisfacción con la que usuarios específicos pueden lograr objetivos específicos, en contextos de uso específicos</quote>.
+  			</para>
+  			<para>
+  				Como vemos en esta definición, la usabilidad no sólo es relativa a sus usuarios, sino también a los usos (objetivos y contextos). Un microondas 
+  				puede ser usado por sus usuarios objetivos para descongelar comida, o puede ser usado por estos mismos usuarios para guardar zapatos, un objetivo 
+  				este último para el que el diseño del microondas no tiene por qué estar preparado, ni por tanto resultar usable.
+  			</para>
+  			<para>
+  				Además, aún cuando el producto es usado para los objetivos y en los contextos previstos, estos objetivos y contextos determinarán la importancia 
+  				de su usabilidad. Por ejemplo, un teléfono móvil puede ser usado para realizar una llamada de emergencia (en situaciones de riesgo o peligro), o 
+  				para escuchar las diferentes melodías que incorpora, un objetivo este último para el que la usabilidad puede que no sea tan relevante como para 
+  				el primero.
+  			</para>
+  			<para>
+  				No definimos la usabilidad como un atributo relativo con la intención de enfrentarlo a conceptos como “Accesibilidad Universal” o “Usabilidad Universal” 
+  				(Shneiderman; 2000), sino, como veremos en los siguientes apartados, con el objetivo de entender los límites reales de 
+  				esa “universalidad”.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Dimensión ética</title>
+  			<para>
+  				Diseñar productos usables resulta rentable económicamente. De hecho, el “buen diseño” se evalúa por su retorno de inversión. No obstante, el 
+  				objetivo final del “buen diseño”, del diseño usable, es mejorar la calidad de vida de las personas, y esta rentabilidad económica no es más que 
+  				una consecuencia lógica de este objetivo cuando el diseño tiene fines comerciales.
+  			</para>
+  			<para>
+  				Lo primero que debemos asumir es que la práctica de la usabilidad requiere una permanente actitud de empatía, pues será el usuario final, 
+  				en última instancia, quien determine la calidad de nuestro trabajo.
+  			</para>
+  			<para>
+  				De este modo, nosotros somos los principales responsables de evitar la “infoexclusión”, de evitar que nuestros usuarios se vean discriminados al 
+  				no poder acceder o comprender cómo usar nuestros diseños.  Asegurar la usabilidad de nuestros diseños significa proteger al usuario final de 
+  				posibles efectos perjudiciales, fruto de su confusión o de malinterpretar el uso del producto (en el capítulo sobre Cognición hablaremos sobre 
+  				cómo intentar evitar los errores del usuario).
+  			</para>
+  			<para>
+  				Además, cuando afirmamos que un diseño usable es aquel que se adapta a sus usuarios, no sólo es un principio motivado con el fin de que el usuario 
+  				entienda cómo usar el producto, sino también con el de evitar que se sienta molesto, insultado o vea herida su sensibilidad. Por ejemplo, uno de 
+  				los pilares de la interacción se encuentra en el uso del lenguaje, donde no sólo se debe asegurar la correcta interpretación del mensaje por el 
+  				usuario, sino también evitar dañar sensibilidades culturales, sociales, políticas, religiosas, o de cualquier otro tipo.
+  			</para>
+  		</section>
+  	</section>
+  	<section xml:id="ch02a2">
+  		<title>Accesibilidad</title>
+  		<para>
+  			La accesibilidad de un producto o sitio web es definida como la <quote>posibilidad de que pueda ser accedido y usado por el mayor número posible 
+  			de personas, indiferentemente de las limitaciones propias del individuo o de las derivadas del contexto de uso</quote> (Hassan-Montero, Martín-Fernández; 
+  			2004). Por limitaciones propias del individuo nos referimos a las discapacidades –permanentes o temporales– de los usuarios, 
+  			o a las impuestas por su nivel de conocimientos, habilidades o experiencia. Por limitaciones derivadas del contexto de uso nos referimos a las 
+  			condicionadas por el software, hardware o entorno de uso.
+  		</para>
+  		<para>
+  			A pesar de que en los siguientes capítulos de este trabajo no se mencionará el término accesibilidad, es un tema que estará presente en todos y 
+  			cada uno de ellos. La razón es que creemos que no tiene sentido pensar en accesibilidad y usabilidad como dos atributos o cualidades diferentes. 
+  			Si un diseño no es usable, no puede considerarse accesible, y viceversa. Por tanto, en este trabajo englobamos accesibilidad bajo el concepto de 
+  			usabilidad.
+  		</para>
+  		<para>
+  			La extendida creencia de que son atributos diferentes (y en ocasiones incluso incompatibles), normalmente es consecuencia de una (errónea) 
+  			interpretación exclusivamente técnica del concepto de accesibilidad, en la que ésta parece quedar reducida al cumplimiento de las directrices WAI 
+  			(<link xl:href="http://www.w3.org/WAI"/>). Las pautas de accesibilidad deben considerarse, tan sólo, como un punto de partida en el camino hacia 
+  			la accesibilidad (Ribera, Térmens, García; 2008), ya que no es posible considerar un diseño plenamente accesible mientras 
+  			haya usuarios objetivos que no puedan o sepan usar el sitio web.
+  		</para>
+  		<para>
+  			Se podría argumentar que la accesibilidad tiene vocación universal y es resultado de un “diseño para todos”, mientras que la usabilidad es relativa, 
+  			y resultado de un diseño orientado a satisfacer a una audiencia específica. Pero esto no es cierto, ya que usabilidad y accesibilidad son resultado 
+  			de un diseño centrado en todos los usuarios que conforman la audiencia del producto, pero no en el resto de la población. Es decir, una filosofía de 
+  			diseño usable es aquella que persigue satisfacer a su audiencia específica, asumiendo la diversidad de esta audiencia.
+  		</para>
+  		<para>
+  			Según Shneiderman (2000), atender esta diversidad implica complacer a usuarios con diferentes habilidades, conocimientos, edad, género, discapacidades, 
+  			condiciones de acceso, formación, cultura, ingresos, etc.
+  		</para>
+  		<para>
+  			Como podemos intuir, la diversidad de la audiencia no es un problema baladí. Para empezar porque habrá unas pocas características compartidas por 
+  			un gran porcentaje de la audiencia, pero una gran cantidad de ellas compartidas por porcentajes mucho menores. Además, como alertan Newell y Gregor 
+  			(2000) <quote>proporcionar acceso a personas con cierto tipo de discapacidad puede hacer el producto significativamente más difícil de usar por 
+  			personas sin discapacidad, y con frecuencia imposible de usar por personas con diferente tipo de discapacidad</quote>. Esto significa que, en muchas 
+  			ocasiones, deberemos ofrecer diseños diferentes o adaptables dinámicamente para diferentes usuarios (y contextos de uso) (Hassan-Montero, 
+  			Martín-Fernández; 2004), algo que actualmente es posible tecnológicamente, aunque también más costoso.
+  		</para>
+  	</section>
+  	<section xml:id="ch02a3">
+  		<title>Arquitectura de información</title>
+  		<para>
+  			Podemos definir la arquitectura de información como la actividad y resultado de organizar, clasificar, ordenar, estructurar y describir los 
+  			contenidos de un sitio web, con el fin de que sus usuarios puedan satisfacer sus necesidades informativas con el menor esfuerzo posible. Para 
+  			referirse al grado en que una arquitectura de información satisface a sus usuarios, suele emplearse el término 
+  			<foreignphrase xml:lang="en">findability</foreignphrase> o “encontrabilidad” (para un mayor detalle sobre el origen del concepto y disciplina 
+  			de la arquitectura de información, se recomienda la consulta del trabajo de Ronda-León, 2008).
+  		</para>
+  		<para>
+  			Anatómicamente, la arquitectura de información de un sitio web representa su esqueleto; el elemento del diseño que sostiene estructuralmente el 
+  			contenido. Por tanto, la arquitectura de la información debe definirse en las primeras etapas del ciclo de diseño, ya que de esta organización 
+  			conceptual dependerán otros elementos de diseño, como su diseño de interacción, o su diseño gráfico.
+  		</para>
+  		<para>
+  			Al igual que sucedía con la accesibilidad, la <foreignphrase xml:lang="en">findability</foreignphrase> es considerada en este trabajo parte de la 
+  			usabilidad. Mientras que la usabilidad representa el grado con el que el usuario puede acometer eficaz, eficiente y satisfactoriamente tareas 
+  			interactivas, la <foreignphrase xml:lang="en">findability</foreignphrase> representa el grado con el que el usuario puede acometer un tipo concreto 
+  			de estas tareas, las de recuperación de información.
+  		</para>
+  		<para>
+  			Esto no significa que la arquitectura de información se enfrente a un problema accesorio. La recuperación de información es la tarea de mayor 
+  			importancia de entre las que los usuarios realizan en un sitio web. Como afirma Nielsen (2009), una mala arquitectura de información es la piedra 
+  			con la que tropiezan los usuarios cuando buscan cualquier tipo de contenido en un sitio web, y por tanto lo que les impide poder llegar a realizar 
+  			otras tareas (como comprar).
+  		</para>
+  	</section>
+  	<section xml:id="ch02a4">
+  		<title>Diseño de interacción</title>
+  		<para>
+  			Un concepto de diseño íntimamente relacionado con la arquitectura de información es el diseño de interacción. Si la primera representaba el 
+  			esqueleto del sitio web, el diseño de interacción representa su “sistema nervioso”. Por diseño de interacción nos referimos a la actividad y 
+  			resultado de definir el comportamiento interactivo del sitio web, es decir, qué acciones se ofrecerán al usuario en cada momento, y cómo 
+  			responderá la aplicación a las acciones que realice. Actualmente ya no es posible entender el diseño de sitios web como la concepción de 
+  			simples sistemas hipertextuales. Con la popularización de tecnologías web como AJAX (<foreignphrase xml:lang="en">Asynchronous JavaScript And 
+  			XML</foreignphrase>), se han aumentado exponencialmente las posibilidades interactivas de las aplicaciones web, por lo que cada vez su usabilidad 
+  			depende más de un correcto diseño de la interacción.
+  		</para>
+  		<informalfigure xreflabel="Fig 1">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-005.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Aunque los dos botones son objetivamente igual de usables, el segundo tiene más probabilidad de persuadir al usuario y ser percibido 
+		  				subjetivamente como más sencillo y claro (Anderson; 2009).
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch02a5">
+  		<title>Diseño gráfico</title>
+  		<para>
+  			Una vez que se ha definido la arquitectura de la información y el diseño de interacción de un sitio web, se procede a diseñar, en detalle, cuál 
+  			será su aspecto gráfico o visual. Esta dimensión gráfica del producto será la que, desde el primer momento de la interacción, condicione su 
+  			usabilidad. La comunicación visual no sólo está supeditada a la facilidad con la que el usuario pueda localizar visualmente el contenido de su 
+  			interés, o sea capaz de discriminar visualmente el sentido y significado de los elementos de la página. Un diseño gráfico usable, también, se 
+  			convierte en una forma más de lograr la expresividad del producto y de potenciar, entre otras cosas, la identidad visual como parte del proceso 
+  			de comunicación.
+  		</para>
+  		<para>
+  			En ocasiones se suele equiparar “lo feo” con “lo usable”, minimizando la importancia que la estética tiene en el uso de productos. Esto es un error, 
+  			ya que, como demuestran diferentes estudios (Kurosu,Kashimura; 1995) (Tractinsky, Katz, Ikar; 2000) (Laviea, Tractinsky; 2004), la usabilidad 
+  			percibida correlaciona con la apariencia estética. Es decir, “lo bonito” es percibido por el usuario automáticamente como más fácil de usar 
+  			(aunque desde un punto de vista objetivo realmente no sea tan fácil de usar).
+  		</para>
+  		<informalfigure xreflabel="Fig 2">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-006.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				El paraguas de la Experiencia del Usuario. Fuente: <link xl:href="http://uxnet.org"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Esto no implica que denotar “amateurismo” gráficamente –ofrecer un aspecto gráfico aparentemente tosco y poco cuidado– no pueda aportar valor en 
+	  		determinados contextos. La estética, al igual que la usabilidad, tiene una dimensión subjetiva, es relativa a sus usuarios y contextos de uso. 
+	  		Es decir, aunque podamos hablar de principios estéticos universales, el estilo estará condicionado por el producto y la audiencia a la que se dirija.
+	  	</para>
+  	</section>
+  	<section xml:id="ch02a6">
+  		<title>Experiencia del usuario: una visión global</title>
+  		<para>
+  			Aunque, como hemos visto, todos los elementos y atributos de diseño descritos se encuentran fuertemente interrelacionados, e incluso pueden 
+  			englobarse bajo el concepto de usabilidad, la realidad es que cada uno de ellos identifica actividades y roles profesionales claramente 
+  			diferenciados y especializados. Dentro de un proyecto web podemos encontrarnos trabajando a diseñadores de interacción, arquitectos de 
+  			información, especialistas en accesibilidad, diseñadores gráficos y especialistas en usabilidad, entre muchos otros perfiles.
+  		</para>
+  		<para>
+  			Como en la conocida parábola del elefante y los seis hombres ciegos (Gutiérrez-Restrepo, McCathieNevil; 2005), las diferentes comunidades 
+  			profesionales se encuentran afrontando un mismo problema desde enfoques parciales, atendiendo a atributos o componentes de diseño de forma 
+  			aislada. En la búsqueda de visiones y soluciones globales, en los últimos años se ha popularizado el concepto de “Experiencia de Usuario” 
+  			o “Diseño de Experiencias de Usuario”, un concepto “paraguas” bajo el que integrar las diferentes disciplinas y roles profesionales 
+  			(Hassan-Montero, Martín-Fernández; 2005) (Paluch; 2006).
+  		</para>
+  		<para>
+  			Pero la Experiencia del Usuario pretende ser algo más que la suma de sus partes. En palabras de González-Vilalta (2004) <quote>es una evolución, 
+  			un cambio de paradigma o el crecimiento de la disciplina más allá de las fronteras que hasta ahora le ponían coto</quote>. Como señala D’Hertefelt 
+  			(2000), la Experiencia del Usuario representa un cambio emergente del propio concepto de usabilidad, donde el objetivo no se limita a mejorar el 
+  			rendimiento del usuario en la interacción –eficacia, eficiencia y facilidad de aprendizaje–, sino que se intenta resolver el problema estratégico 
+  			de la utilidad del producto y el problema psicológico del placer y diversión de su uso. Por último señalar que la Experiencia del Usuario no 
+  			constituye una disciplina cerrada y definida, sino un enfoque de trabajo abierto y multidisciplinar (Knapp-Bejerén; 2002).
+  		</para>
+  		<para>
+  			Algunos recursos de interés:
+  		</para>
+  		<itemizedlist>
+  			<listitem>
+  				<para>
+  					<link xl:href="http://sidar.org"/>: Fundación Sidar-Acceso Universal
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					<link xl:href="http://aipo.es"/>: Asociación Interacción Persona-Ordenador
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					<link xl:href="http://cadius.org"/>: Comunidad de Arquitectura de Información, Usabilidad y Diseño de Interacción
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					<link xl:href="http://iainstitute.org"/>: The Information Architecture Institute
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					<link xl:href="http://ixda.org"/>: Interaction Design Association
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					<link xl:href="http://upassoc.org"/>: Usability Professionals Association
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					<link xl:href="http://uxnet.org"/>: User Experience Network
+  				</para>
+  			</listitem>
+  		</itemizedlist>
+  	</section>
+  </section>
+  <section xml:id="ch02b">
+  	<title>Simplicidad</title>
+  	<para>
+  		Construimos rellenando espacios vacíos, completando huecos en la pantalla. Estamos dispuestos a cubrir y completar cada rincón de nuestras 
+  		interfaces ya que, quizás, sea la forma de sentir que añadimos valor al producto o que aprovechamos las posibilidades expresivas del medio. 
+  		Si se nos da una hoja en blanco, un bolígrafo, y se nos hace esperar un poco, no podemos resistirnos a adornar esa hoja con algún trazo, no 
+  		tanto para comprobar que el bolígrafo funciona como por romper con ese vacío, con la “simplicidad” que representa tanto espacio en blanco.
+  	</para>
+  	<para>
+  		Sin embargo, en los últimos años la simplicidad se ha demostrado como un atributo más de calidad en la red. Se busca de alguna manera la 
+  		diferenciación con el resto de sitios, pero en este caso minimizando la carga visual y cognitiva del usuario. No hay duda de que los 
+  		diseños simples tienen atractivo, son diferentes, y esto puede ser utilizado en estrategias de venta. Pero no por esto debemos eludir la 
+  		realidad de que trabajamos con sistemas complejos y con usuarios cuyo principal objetivo no es la simplicidad. Están dispuestos a asumir 
+  		la complejidad, siempre y cuando no se vean superados.
+  	</para>
+  	<para>
+  		La complejidad inherente de un sitio web está supeditada al número de funciones y volumen de sus contenidos, pero su complejidad aparente 
+  		lo está a nuestras decisiones de diseño, a cómo facilitemos su uso estructural y visualmente. Nuestro objetivo debe ser que el usuario 
+  		sienta el control durante la interacción, y que las funciones y contenidos que se les presenten en cada momento respondan a sus objetivos 
+  		inmediatos. Que el usuario se sienta cómodo mientras navega implica reducir y organizar los diferentes contenidos y opciones sin que esto 
+  		suponga un impedimento para la consecución de sus objetivos, es decir, sin que esta simplificación desemboque en una mayor complejidad.
+  	</para>
+  	<section xml:id="ch02b1">
+  		<title>Definiendo la simplicidad</title>
+  		<para>
+  			Son numerosos los autores (Maeda; 2006) (Norman; 2008) (Tanenn; 2008) que han dedicado su trabajo a definir el concepto de simplicidad 
+  			y otorgarle la relevancia que merece en el desarrollo y diseño de interfaces web. En todo momento sus argumentos han tomado en 
+  			consideración la existencia de una complejidad inherente a cualquier dispositivo, tecnología o sistema creado. No es nuestro propósito 
+  			establecer límites a esta complejidad, sino definir el concepto de “simplicidad” en la web asumiendo la propia dificultad que entraña 
+  			la tecnología.
+  		</para>
+  		<para>
+  			Nuestras primeras reflexiones nos pueden llevar a pensar que prescindir de elementos poco significativos en una interfaz reducirá la 
+  			carga visual y por tanto facilitará directamente su uso. Pero no creemos tan importante comenzar a prescindir de elementos arbitrariamente 
+  			como estudiar la interacción de las partes que conforman nuestro sitio y su influencia en el comportamiento del usuario.
+  		</para>
+  		<para>
+  			Pensemos en un puzzle compuesto de miles de piezas. Es un objeto complejo, pero que está dividido en pequeñas partes que permiten que 
+  			seamos capaces de dominar dicha complejidad. Cada pieza tiene su lugar, inducido por su forma y aspecto, y a medida que vamos ubicando 
+  			las piezas aumenta nuestra comprensión del conjunto y la función de cada una de ellas respecto al total.
+  		</para>
+  		<para>
+  			Uno de los principales problemas de usabilidad surge cuando el usuario percibe que cada elemento de una interfaz puede relacionarse de 
+  			forma distinta con el resto y adoptar formas y funciones variadas. Esto aumenta la complejidad y le obliga a hacer un esfuerzo mayor 
+  			para clarificar y comprender la función exacta de cada elemento (<xref linkend="fig3" xreflabel="véase figura 3"/>).
+  		</para>
+  		<para>
+  			Cuando la función de cada elemento y sus relaciones con el resto sean perceptibles inmediata e inequívocamente, y cuando hayamos prescindido 
+  			de cualquier elemento sin función ni relación alguna, entonces habremos reducido la complejidad del sitio web a su nivel óptimo, a una 
+  			complejidad necesaria, funcional, irreductible. El caso contrario sería una complejidad artificial, producto de la ornamentación innecesaria, 
+  			del exceso de opciones y contenidos irrelevantes, y donde la relación entre elementos se caracterice por su ambigüedad.
+  		</para>
+  		<para>
+  			Esta primera explicación no debe hacernos creer que simplicidad es sinónimo de usabilidad. Nielsen (2006a) se refiere al concepto simplicidad 
+  			como una práctica continuada, centrada en optimizar los sitios web y maximizar el éxito de los negocios. Una forma también de reducir 
+  			“las barreras” que imponemos a nuestros usuarios para llegar a donde desean.
+  		</para>
+  		<para>
+  			Simplificar sería por tanto un proceso transformador, orientado a facilitar el uso del producto, y dirigido a reducir la complejidad a un 
+  			nivel comprensible, asumible y controlable por el usuario. El método para alcanzar esta complejidad funcional es la “deconstrucción”, análisis 
+  			que nos permitirá reducir la complejidad sin sacrificar la presencia de elementos significativos y relevantes.
+  		</para>
+  		<para>
+  			Como señala Norman (2008), lo que estamos buscando –nuestro objetivo final– no es la simplicidad, sino reducir la frustración del usuario a la 
+  			hora de enfrentarse a las tareas. La simplicidad es uno de los medios para lograr un diseño comprensible y que genere experiencias de uso 
+  			satisfactorias.
+  		</para>
+  		<informalfigure xreflabel="Fig 3" xml:id="fig3">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-007.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Mensaje de Yahoo! Groups, en el que la función y relación semántica entre elementos resulta confusa. 
+		  				Fuente: <link xl:href="http://nordic-desing.net"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch02b2">
+  		<title>Deconstrucción</title>
+  		<para>
+  			La deconstrucción, o el desmontaje por medio del análisis y la búsqueda de ambigüedades o contradicciones, fue defendido por diversos autores 
+  			como una forma de romper con el modelo heredado de la cultura impresa (Bush; 1945) (Derrida; 1989) (Nelson; 1993).
+  		</para>
+  		<para>
+  			En la literatura impresa encontramos infinidad de prácticas que contravienen el pensamiento no lineal que caracteriza a nuestras estructuras y 
+  			sistemas de navegación online.  La asignación de lugares específicos a ciertos elementos, o el simple hecho de recurrir a más información visual 
+  			de la que normalmente se tiene en cuenta, es una herencia retórica del texto impreso (Landow; 1995), el cual es útil para una exploración secuencial 
+  			del contenido pero no tanto para estructurales hipertextuales e hipermedia.
+  		</para>
+  		<para>
+  			En el ejemplo que vemos en la <xref linkend="fig4" xreflabel="figura 4"/>, la estructura presentada aporta en sí misma una buena cantidad de 
+  			información visual (espaciados, párrafos, tipos y tamaños de letras, posiciones…) potencialmente significativa, pero corresponde a un modelo 
+  			que no se adapta al comportamiento interactivo del usuario.
+  		</para>
+  		<para>
+  			No siempre es fácil explotar la riqueza visual del texto y acudimos a elementos alternativos (imágenes, fotografías, iconos, vídeos...) para 
+  			expresar las mismas ideas. Entonces descubrimos en la variación, la dispersión, la fragmentación o la atomización, fórmulas para romper con el 
+  			fluido discurso textual. Esto permite integrar elementos multimedia, bloques de significado que se complementan o se interrelacionan para 
+  			facilitar la comprensión.
+  		</para>
+  		<informalfigure xreflabel="Fig 4" xml:id="fig4">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-008.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Imagen del Wordpress - WpNewpaper
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Los avances tecnológicos y la evolución de la web 2.0 nos facilitan llegar a esta situación. El problema es alcanzar la unicidad con este 
+	  		exceso de medios y multiplicidad de significados. Conseguir trabajos significativos y bellos con medios simples. (Karvonen: 2000).
+	  	</para>
+	  	<para>
+	  		Con la deconstrucción llegamos a una exploración de la forma, la función y la utilidad de cada elemento en una interfaz web. Podremos 
+	  		hacer uso de diferentes técnicas o metodologías para reducir el número de elementos no relevantes que están presentes en la web. Pero no 
+	  		debemos olvidar que siempre serán los usuarios quienes mejor decidan, porque son ellos quienes están buscando dominar y gestionar la 
+	  		complejidad. Por lo tanto, las metodologías más pertinentes serán aquellas que involucren en este proceso al usuario.
+	  	</para>
+  	</section>
+  	<section xml:id="ch02b3">
+  		<title>Lo importante permanece por mucho que cambien las cosas</title>
+  		<para>
+  			Si por un momento pensáramos que nos fueran a cobrar por cada píxel que ocupamos en la pantalla, seguramente nos olvidaríamos de ciertos 
+  			elementos que acostumbramos a colocar en nuestras páginas.
+  		</para>
+  		<para>
+  			Esto no quiere decir, como decíamos antes, que tengamos que reducir todas las páginas a la mínima expresión. Todo depende de las características, 
+  			objetivos y necesidades de nuestros usuarios. Pero si prescindimos de un elemento, y el cambio no afecta a la comprensión del usuario, entonces 
+  			su presencia no era necesaria.
+  		</para>
+  		<para>
+  			Si valoramos cada elemento del diseño desde la perspectiva del usuario, y entendemos que hay una relación directa entre dichos elementos y la 
+  			tasa de éxito, se puede extraer todo aquello que no resulta relevante y que, incluso, puede distraer y desviar la atención del usuario.
+  		</para>
+  		<para>
+  			La reducción debe plantearse siempre desde la funcionalidad. Esto no quiere decir que aquello que no alcance la funcionalidad adecuada deba 
+  			ser eliminado. Siempre será posible modificar su presencia, aspecto y ubicación, disminuyendo su jerarquía visual. Por ejemplo, todos aquellos 
+  			elementos de mayor tamaño, o los ubicados en zonas centrales de la interfaz, tienen mayor capacidad de atracción de la atención visual. Por el 
+  			contrario, si su tamaño o posición quedan minimizados, o simplemente están ocultos, se disminuye su jerarquía visual (véase capítulo sobre 
+  			<xref linkend="ch03a" xreflabel="Percepción visual"/>).
+  		</para>
+  		<informalfigure xreflabel="Fig 5">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-051.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Ejemplo de cómo la falta y exceso de reducción aumentan la complejidad.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch02b4">
+  		<title>Nada puede provenir de la nada</title>
+  		<para>
+  			Esta categórica frase inicial, defendida en diferentes ámbitos del saber, encuentra su sentido en nuestras explicaciones sobre la 
+  			simplicidad. Todo es predispuesto en nuestras interfaces porque está dotado de significado y funcionalidad, aportando información 
+  			al usuario, orientando y canalizando su interacción.
+  		</para>
+  		<para>
+  			Incluso la ausencia de información también está aportando significado. Es el arte de <quote>no decir nada diciendo algo</quote> (Watzlawick, 
+  			Bavelas y Jackson; 1997) o la perspectiva de que <quote>nada es algo</quote> importante (Maeda; 2006).
+  		</para>
+  		<para>
+  			Cuando separamos elementos en pantalla con espacios vacíos, o cuando eliminamos información de ciertas zonas, estamos guiando la 
+  			atención del usuario hacia aquello que permanece y es relevante. Al contar con menos elementos valoramos y confiamos más en aquello 
+  			que es visible, reforzando su percepción. Esto no implica que el sistema no sea complejo. Solo se está buscando la “reducción razonada”, 
+  			la ocultación o invisibilidad de la complejidad inherente, aumentando la percepción de facilidad de uso. Los espacios o la ausencia de 
+  			espacios pueden ser mensajes poderosos dentro de un contexto determinado.
+  		</para>
+  		<para>
+  			Cualquier elemento o concepto integrado en nuestra interfaz web debe presentar un alto grado de significatividad, tanto interna como 
+  			externamente (Ortega-Santamaría; 2004). Internamente porque debe tener sentido en sí mismo y mostrar una estructura lógica que permita 
+  			entender el concepto o elemento como tal. Por ejemplo, un logotipo transmite por sí solo un significado con relación a los valores que 
+  			la empresa pretende comunicar a sus clientes.
+  		</para>
+  		<para>
+  			Externamente porque este elemento cumple una función dentro del sistema, definida principalmente por su relación con el resto de elementos. 
+  			Nuestro logotipo está marcando una coherencia en la identidad de conjunto, además de indicar a los usuarios en todo momento dónde se 
+  			encuentran (sin contar con su aporte a la navegación al vincular a la página de inicio).
+  		</para>
+  		<para>
+  			De esta manera, deducimos que cada elemento colocado en nuestra interfaz transmite información, aporta significado al conjunto y propone 
+  			conductas y acciones determinadas en el usuario.
+  		</para>
+  		<para>
+  			Los usuarios hacen uso de la información y de los objetos visibles en pantalla en función de sus relaciones y relevancia en el conjunto. 
+  			Cuando sobrecargamos los espacios la sensación de fatiga y de frustración aumenta.
+  		</para>
+  	</section>
+  	<section xml:id="ch02b5">
+  		<title>Limitar y evidenciar las características de tu producto o servicio</title>
+  		<para>
+  			Una forma muy común de diferenciarnos de la competencia es aumentando el número de características de nuestro sitio web. Así podemos pensar 
+  			que nuestros visitantes se van a sentir más atraídos y esto favorecerá su fidelidad.
+  		</para>
+  		<para>
+  			Pero un exceso de características puede causar fatiga, distracción y provocar reacciones emocionales negativas, aumentando la percepción de 
+  			dificultad de uso. En otras palabras, al incrementar el número de características se observa un efecto positivo sobre las capacidades percibidas, 
+  			pero un efecto negativo sobre la usabilidad percibida (Thompson, Hamilton, Rust; 2005).
+  		</para>
+  		<para>
+			En el gráfico de la <xref linkend="fig6" xreflabel="figura 6"/> podemos observar dicha relación de dependencia. A medida que la tecnología ha ido avanzando hemos conseguido 
+			diseñar interfaces con un número mayor de características aumentando su capacidad. Esto se trata de algo que inicialmente todos deseamos. 
+			Como señalan Thompson, Hamilton y Rust (2005) las preferencias iniciales de los consumidores dependen más de las capacidades de los productos 
+			que de la usabilidad de los mismos.
+  		</para>
+  		<informalfigure xreflabel="Fig 6" xml:id="fig6">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-052.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Gráfico de Rob Tanenm (<link xl:href="http://www.designingforhumans.com"/>)
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Sin embargo, aunque los consumidores comenzamos dando más importancia a estas capacidades, acabamos valorando la usabilidad. La clave está en 
+	  		ofrecer un número limitado de características, aquellas que con más probabilidad responderán a las necesidades reales del usuario, y no todas 
+	  		las posibles. Ofrecer productos y servicios especializados que aporten valor y utilidad, sin que esto merme su usabilidad.
+	  	</para>
+	  	<para>
+	  		La reducción de las características, ya sea por eliminación o su degradación en la jerarquía visual, no es la única vía para simplificar. 
+	  		Organizar, clasificar y ordenar son también formas de simplificar. Cuando clasificamos o agrupamos características bajo categorías comunes, 
+	  		estamos resumiendo y sintetizando su significado a través de rótulos descriptivos. De este modo, ofrecemos al usuario una vía rápida para 
+	  		entender el todo, sin necesidad de analizar cada una de sus partes.
+	  	</para>
+	  	<informalfigure xreflabel="Fig 7">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-009.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Agrupación de características. Fuente: <link xl:href="http://www.plaxo.com"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Cuando ordenamos o relacionamos espacialmente diferentes elementos en función de criterios compartidos (momento secuencial de la acción, 
+	  		orden alfabético, orden cronológico, relevancia...), guiamos y simplificamos su búsqueda y localización por el usuario, permitiéndole 
+	  		economizar su esfuerzo. Por ejemplo, Google no simplifica los resultados de búsqueda por reducción o clasificación, sino por ordenación. 
+	  		Es la ordenación por relevancia de los resultados de una consulta la que nos permite ordenar nuestra propia exploración, guiándola de lo 
+	  		más relevante a lo menos.
+	  	</para>
+  	</section>
+  	<section xml:id="ch02b6">
+  		<title>El tiempo es oro</title>
+  		<para>
+  			Muchos de los sitios web que visitamos a diario contienen información y servicios que rara vez utilizamos. Esto es extensible a sistemas 
+  			operativos, software o productos físicos. Sabemos qué podemos conseguir y qué nos ha funcionado siempre y descartamos aquello que nos obliga 
+  			a dedicar demasiado tiempo al aprendizaje o al manejo. Krug (2001) fue muy certero con el título de su libro <citetitle pubwork="book">No me hagas pensar</citetitle> 
+  			al indagar en los problemas más complejos en la construcción de sitios web y proponer soluciones sencillas, que parezcan fáciles durante el 
+  			proceso. Esto implica que los usuarios se olviden de la estructura para centrarse en el contenido y minimicen cualquier pensamiento acerca 
+  			de su funcionamiento o significado.
+  		</para>
+  		<para>
+  			Tannen (2008) a su vez propone un método para cuantificar y comparar la complejidad de dos interfaces a partir del tiempo requerido para 
+  			completar una tarea. Es una manera de evaluar prototipos y valorar de forma ágil aquellas propuestas que facilitan la toma de decisiones. 
+  			Aunque deben tomarse en cuenta algunas consideraciones previas, como la experiencia del usuario o la forma de presentación. Aun así, el 
+  			propio autor reconoce que algunos procesos longitudinales, aunque conlleven más tiempo, pueden ser percibidos como más cómodos y usables 
+  			si se incide correctamente en las informaciones visuales. Es decir, no siempre la reducción conlleva menor complejidad.
+  		</para>
+  		<informalfigure xreflabel="Fig 8">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-010.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Ordenación secuencial.Fuente: <link xl:href="http://snapily.com"/>
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  	<section xml:id="ch02b7">
+  		<title>A modo de conclusión</title>
+  		<para>
+  			Como veíamos en apartados anteriores, la percepción de un sitio web se ve afectada por la cognición, el contenido o la forma. Cognición en 
+  			cuanto a la manera que tiene un usuario de recuperar y utilizar la información. Contenido en cuanto a la cantidad de información que es 
+  			presentada en cada página. La forma en cuanto a la interfaz, la navegación y la estructura que creamos.
+  		</para>
+  		<para>
+  			Un diseño es descrito como complejo cuando sus partes son difíciles de identificar y dotar de significado en el conjunto. Esto a su vez 
+  			depende de la cantidad de agrupamientos que el usuario es capaz de realizar de forma inconsciente, la familiaridad con un diseño web y el 
+  			conocimiento previo de los objetos presentes en la interfaz (Michailidou, Harper, Bechhofer; 2008).
+  		</para>
+  		<para>
+  			El error es intentar hacer frente a esa complejidad pensando que nuestros usuarios están buscando simplicidad. Sus necesidades están marcadas 
+  			por la facilidad de uso de la complejidad. Adecuar las características a las necesidades de nuestros usuarios, destacando la utilidad, 
+  			funcionalidad y facilidad de uso, puede ayudarnos a gestionar la complejidad necesaria y producir diseños que eviten la frustración del usuario.
+  		</para>
+  	</section>
+  </section>
+</chapter>

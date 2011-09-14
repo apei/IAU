@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch04"
+	lang="es" version="5.0" 
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>Diseño centrado en el usuario (DCU)</title>
+  <section xml:id="ch04a">
+  	<title>Introducción</title>
+  	<para>
+  		El Diseño Centrado en el Usuario (DCU), o <foreignphrase xml:lang="en">User Centered Design (UCD)</foreignphrase>, es definido por la 
+  		<foreignphrase xml:lang="en">Usability Professionals Association (UPA)</foreignphrase> como un  enfoque de diseño cuyo proceso está dirigido 
+  		por información sobre las personas que van a hacer uso del producto.
+  	</para>
+  	<para>
+  		El origen de esta visión se enmarca en el diseño industrial y militar de la década de los cincuenta. Por entonces, los diseñadores estaban 
+  		convencidos de que la optimización y adaptación al ser humano del diseño de productos respondía a un minucioso proceso de investigación en 
+  		antropometría, ergonomía, arquitectura o biomecánica.
+  	</para>
+  	<para>
+  		Grandes diseñadores y arquitectos como Norman Bel Geddes, Henry Dreyfuss, George Nelson o Charles y Ray Eames, influenciados por los avances en la 
+  		arquitectura o la ingeniería de la época, estilizaron los productos y aportaron soluciones innovadoras que, progresivamente, derivaron en 
+  		adaptaciones tecnológicas a las características de las personas.
+  	</para>
+  	<para>
+  		Esa capacidad para ofrecer visiones de futuro e ir más allá de la funcionalidad les abrió las puertas a una nueva manera de enfocar el diseño, 
+  		donde la utilidad no estaba reñida con el placer de uso, y la necesidad se convertía en el contrapunto para ofrecer nuevas técnicas y métodos 
+  		de trabajo.
+  	</para>
+  	<para>
+  		Henry Dreyfuss, autor del libro Designing for people (1955) popularizó la concepción del “diseño como proceso” a partir de sus diseños de 
+  		teléfonos de la serie 500 para Bell Telephones. Este diseñador industrial, pionero del diseño centrado en el usuario, estudió cómo se construían 
+  		los teléfonos, cómo se percibían y eran utilizados por las personas. Sus conclusiones fueron aplicadas a un nuevo diseño donde se corregían 
+  		aspectos como la forma, el tamaño, las proporciones o el color (<xref linkend="fig25" xreflabel="figura 25"/>).
+  	</para>
+  	<informalfigure xreflabel="Fig 25" xml:id="fig25">
+	  	<mediaobject>
+	  		<imageobject>
+	  			<imagedata fileref="resource/INF-3-029.jpg" />
+	  		</imageobject>
+	  		<caption>
+	  			<para>
+	  				Teléfono modelo 500 de AT&amp;T. Fuente: <link xl:href="http://blog.duopixel.com/articulos/dreyfuss.html"/>
+	  			</para>
+	  		</caption>
+	  	</mediaobject>
+  	</informalfigure>
+  	<para>
+  		En esa misma década los avances informáticos daban luz a la segunda generación de ordenadores, pero la atención de los ingenieros de software 
+  		seguía centrada en comprender la forma de trabajo del ordenador, y muy poco en comprender la forma de trabajo de las personas.
+  	</para>
+  	<para>
+  		Podría parecer un descuido, pero lo cierto es que el cambio que se produjo con la incorporación de los transistores en los circuitos de los 
+  		ordenadores no ayudó a dirigir la atención hacia los nuevos usuarios. Estos transistores, además de ser escasos, tenían serias limitaciones 
+  		de procesamiento y almacenamiento, que requerían una dedicación mayor por parte de los ingenieros e informáticos y que, en consecuencia, relegaban 
+  		el interés por el comportamiento o las características de aquellas personas que comenzaban a experimentar procesos de interacción con las máquinas.
+  	</para>
+  	<para>
+  		En la década de los ochenta comienza la plena expansión del diseño centrado en el usuario, como atestigua el aumento de revistas, artículos y foros 
+  		especializados en los estudios de Interacción Persona-Ordenador (IPO) o <foreignphrase xml:lang="en">Human-Computer Interaction (HCI)</foreignphrase> 
+  		(Marcos; 2004).
+  	</para>
+  	<para>
+  		Norman (1983b), profesor de la Northwestern University y cofundador de Nielsen Norman Group, fue quien comenzó a utilizar el termino 
+  		<foreignphrase xml:lang="en">User Centered System Design</foreignphrase> en el conjunto de conferencias presentadas por su equipo, en la primera 
+  		CHI Conference (1983), organizada por la ACM <foreignphrase xml:lang="en">Special Interest Group on Computer-Human Interaction (SIGCHI)</foreignphrase>, 
+  		en Boston (Massachusetts, USA).
+  	</para>
+  	<para>
+  		El concepto de DCU se utilizó como marco de trabajo, investigación y desarrollo de principios del diseño de interfaces de usuario. Era el momento de 
+  		observar cómo la gente usaba los sistemas y creaba sus propios modelos mentales a partir de los procesos de interacción. Tres fueron los términos que 
+  		debían ser valorados para entender estos procesos:
+  	</para>
+  	<itemizedlist>
+  		<listitem>
+  			<para>
+  				El modelo conceptual: ofrecido por el diseñador del sistema.
+  			</para>
+  		</listitem>
+  		<listitem>
+  			<para>
+  				Interfaz: la imagen que el sistema presenta al usuario.
+  			</para>
+  		</listitem>
+  		<listitem>
+  			<para>
+  				El modelo mental: desarrollado por el usuario a partir de la imagen.
+  			</para>
+  		</listitem>
+  	</itemizedlist>
+  	<para>
+  		Como señala Norman (1983b), la imagen del sistema guía al usuario en la adquisición y construcción de un modelo mental ajustado al modelo conceptual 
+  		creado por el diseñador.
+  	</para>
+  	<para>
+  		De este modo, el enfoque del DCU persigue asegurar la consecución de un producto con la funcionalidad adecuada para usuarios concretos. El objetivo 
+  		de esta filosofía es ofrecer respuesta a preguntas como ¿quién usará este sistema?, ¿qué es lo que va a hacer con él? ó ¿qué información necesitará 
+  		para alcanzar sus objetivos?
+  	</para>
+  	<para>
+  		Se habla del DCU como una filosofía o un enfoque porque como diseñadores partimos de una premisa que condicionará todas nuestras acciones: el usuario 
+  		debe ubicarse en el centro de toda decisión de diseño. No sólo diseñamos productos, diseñamos experiencias de usuario, porque no es posible entender 
+  		el producto desvinculado de su uso, su contexto, o de las necesidades  y motivaciones del usuario final.
+  	</para>
+  	<para>
+  		La identidad del DCU puede definirse por diferenciación a otros enfoques o filosofías de diseño, como los que describe Kalbach (2007):
+  	</para>
+  	<itemizedlist>
+  		<listitem>
+  			<para>
+  				Diseño centrado en el diseñador (<foreignphrase xml:lang="en">Designer-centered design</foreignphrase>): El diseñador, a partir de su 
+  				visión personal, sabe qué es lo mejor en cada momento.
+  			</para>
+  		</listitem>
+  		<listitem>
+  			<para>
+  				Diseño centrado en la empresa (<foreignphrase xml:lang="en">Enterprise-centered design</foreignphrase>): El sitio web se diseña atendiendo 
+  				a la estructura y necesidades de la empresa.
+  			</para>
+  		</listitem>
+  		<listitem>
+  			<para>
+  				Diseño centrado en el contenido (<foreignphrase xml:lang="en">Content-centered design</foreignphrase>): El cuerpo de información es la base 
+  				para organizar el sitio y la estructura de navegación.
+  			</para>
+  		</listitem>
+  		<listitem>
+  			<para>
+  				Diseño centrado en la tecnología (<foreignphrase xml:lang="en">Technology-centered design</foreignphrase>): Todo gira en torno a la tecnología 
+  				y se busca la manera más fácil de implementar una solución.
+  			</para>
+  		</listitem>
+  	</itemizedlist>
+  	<para>
+  		Que el DCU represente un enfoque diferente a los expuestos, no implica que sea incompatible. Afrontar un diseño desde este enfoque significa que 
+  		debe ser el usuario final el que prevalezca sobre otros factores en la toma de decisiones, no que esos otros factores deban ser desatendidos, ya 
+  		que como indica Louie (2009) los resultados podrían ser desastrosos.
+  	</para>
+  	<para>
+  		En ocasiones se tiende a confundir usabilidad con DCU, pero aunque la usabilidad es un concepto central e inherente al DCU, es evidente que podemos 
+  		señalar diferencias entre ambos conceptos. La usabilidad es un atributo de calidad del diseño, mientras que el DCU es una vía para alcanzar y mejorar 
+  		empíricamente la usabilidad del producto. Es decir, la usabilidad representa el qué, mientras el DCU representa el cómo. Como indica Cañada (2003), 
+  		diseñar objetos usables es algo muy loable, pero no implica necesariamente que se hayan logrado aplicando una filosofía de DCU.
+  	</para>
+  	<para>
+  		Sintetizando podemos afirmar que un sitio web podrá satisfacer las necesidades de una organización, institución o empresa si es capaz de dar 
+  		respuesta a las necesidades de los usuarios a través de la calidad de uso. El objetivo final del DCU es, por tanto, lograr la satisfacción de 
+  		las necesidades de todos sus usuarios potenciales, adaptar la tecnología utilizada a sus expectativas y crear interfaces que faciliten la 
+  		consecución de sus objetivos.
+  	</para>
+  	<section xml:id="ch04a1">
+  		<title>Proceso</title>
+  		<para>
+  			El DCU es un proceso cíclico en el que las decisiones de diseño están dirigidas por el usuario y los objetivos que pretende satisfacer el 
+  			producto, y donde la usabilidad del diseño es evaluada de forma iterativa y mejorada incrementalmente.
+  		</para>
+  		<para>
+  			De acuerdo a la norma ISO 13407, podemos desgranar este proceso en cuatro fases (<xref linkend="fig26" xreflabel="figura 26"/>):
+  		</para>
+  		<itemizedlist>
+  			<listitem>
+  				<para>
+  					Entender y especificar el contexto de uso: Identificar a las personas a las que se dirige el producto, para qué lo usarán y en qué condiciones.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Especificar requisitos: Identificar los objetivos del usuario y del proveedor del producto deberán satisfacerse.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Producir soluciones de diseño: Esta fase se puede subdividir en diferentes etapas secuenciales, desde las 
+  					primeras soluciones conceptuales hasta la solución final de diseño.
+  				</para>
+  			</listitem>
+  			<listitem>
+  				<para>
+  					Evaluación: Es la fase más importante del proceso, en la que se validan las soluciones de diseño (el sistema satisface 
+  					los requisitos) o por el contrario se detectan problemas de usabilidad, normalmente a través de test con usuarios.
+  				</para>
+  			</listitem>
+  		</itemizedlist>
+  		<informalfigure xreflabel="Fig 26" xml:id="fig26">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-030.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Proceso del Diseño Centrado en el Usuario.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Sin embargo, el proceso descrito no debe hacernos creer en la filosofía de DCU únicamente como un proceso de ejecución. El DCU es 
+	  		también un enfoque para pensar la idea del producto, para resolver el problema estratégico de su utilidad. Es decir, diseñar centrándonos 
+	  		en el usuario no sólo implica entender cómo será usado el producto y evaluar las soluciones de diseño a partir de los usuarios, sino también 
+	  		analizar el valor del producto que pretendemos crear, su capacidad para resolver necesidades reales.
+	  	</para>
+	  	<para>
+	  		Por ejemplo, imaginemos que vamos a diseñar un sitio web de comercio electrónico. El enfoque de DCU no sólo debe guiar el diseño de tal modo 
+	  		que el sitio web se adapte a sus usuarios, sino también ayudarnos a analizar si el sitio web tendrá usuarios potenciales o cómo aumentar 
+	  		esta posible audiencia, indagando para ello en las necesidades que los usuarios buscan satisfacer.
+	  	</para>
+  	</section>
+  	<section xml:id="ch04a2">
+  		<title>Necesidades del usuario</title>
+  		<para>
+  			Antes de empezar a describir las metodologías propias del DCU (siguiente apartado), nos vamos a detener en la importancia que tiene que el 
+  			producto satisfaga necesidades, porque el primer paso para alcanzar una meta es tomar un dirección de salida acertada. Si la concepción de 
+  			un producto no parte de las necesidades reales e intereses de sus usuarios, poco podrán aportar las siguientes etapas de desarrollo a la 
+  			aceptación del producto por parte del usuario final.
+  		</para>
+  		<para>
+  			De este modo estamos presuponiendo que el motor de la conducta humana son las necesidades. Con esto no obviamos, como indica Keinonen (2008), 
+  			que a pesar de este claro vínculo entre necesidades y conducta, las necesidades por sí solas no puedan explicar la conducta.
+  		</para>
+  		<para>
+  			Por tanto, si son las necesidades del usuario las que motivarán (en gran parte) el uso del producto, deben ser precisamente esas necesidades 
+  			las que motiven y condicionen el diseño. La forma de detectar y analizar estas necesidades es a través de la observación, investigación e 
+  			indagación del usuario: la actividad, el entorno y el contexto en los que tendría lugar el uso del producto (véase siguiente apartado).
+  		</para>
+  		<informalfigure xreflabel="Fig 27" xml:id="fig27">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-031.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Relación Diseñador-Usuario.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<para>
+	  		Ponerse en la piel del usuario no es una tarea fácil. En muchas ocasiones los usuarios no serán conscientes de sus propias necesidades y 
+	  		tendremos que “excavar” en su actividad diaria para descubrir aquello que necesitan, aquello que sólo una vez que vean reconocerán como 
+	  		necesidad. En otras, nuestra implicación en el proyecto, las preocupaciones técnicas o de plazos de entrega, sesgarán nuestra visión y 
+	  		capacidad de empatía. Y en muchas otras es posible que terminemos confundiendo nuestros propios deseos con los de los usuarios.
+	  	</para>
+	  	<para>
+	  		El término necesidad resulta, por otro lado, bastante ambiguo. Como Keinonen (2008) señala, este término se suele usar dándole hasta tres 
+	  		sentidos diferentes: deseos, necesidades instrumentales y necesidades fundamentales. Para el autor, diseñar atendiendo a las necesidades, 
+	  		implica proteger a los usuarios de posibles daños, frustraciones y confusiones.
+	  	</para>
+	  	<para>
+	  		La relación entre necesidades y producto es, no obstante, más compleja que lo expuesto. Hay ocasiones en las que el diseño no cumple la 
+	  		función de resolver necesidades, sino de generar e impulsar nuevas necesidades (Cañas, Waerns; 2001). En otras ocasiones el diseñador 
+	  		“impregnará” de unos objetivos al producto orientándolo hacia unas necesidades específicas, pero el usuario terminará usándolo buscando 
+	  		satisfacer una necesidad no contemplada en su diseño.
+	  	</para>
+	  	<para>
+	  		Esta última afirmación no implica que debamos flexibilizar nuestros diseños de tal forma que puedan servir para prácticamente cualquier 
+	  		propósito, no al menos cuando esa flexibilización implique un aumento tal en el número de sus características o funciones que incremente 
+	  		su complejidad, hasta el punto de dificultar su uso (véase apartado sobre <xref linkend="ch02b" xreflabel="Simplicidad"/>).
+	  	</para>
+	  	<para>
+	  		Según las explicaciones de Norman (2000), muchas veces los productos muestran un alto grado de complejidad por cometer el error de preguntar 
+	  		a los usuarios qué quieren y darles lo que piden. Nuestro trabajo de observación debe centrarse en lo que la gente hace y en qué momentos 
+	  		no son eficaces o evidencian dificultades para alcanzar objetivos. 
+	  	</para>
+	  	<para>
+	  		Los diseños deben orientarse hacia aquellas necesidades y propósitos más probables. Factores contextuales como las diferencias individuales 
+	  		de nuestros usuarios, el tipo y las características del producto, la situación o actividad que vayamos a desarrollar o, incluso, el tiempo 
+	  		que va a dedicar el usuario a interactuar con el producto (Karapano, Hassenzahl, Martens; 2008), modificarán la importancia de aquellas 
+	  		cualidades del diseño que van a satisfacer la experiencia de uso.
+	  	</para>
+  	</section>
+  	<section xml:id="ch04a3">
+  		<title>A modo de conclusión</title>
+  		<para>
+  			La evolución de los productos y herramientas ha estado basada históricamente en procesos que en pocas ocasiones hacían partícipe al usuario 
+  			final. En nuestra historia más reciente, en cambio, hemos experimentado un cambio de paradigma, fruto de la confluencia de disciplinas y 
+  			caracterizado por una filosofía que convierte al usuario en el foco central del proceso de diseño.
+  		</para>
+  		<para>
+  			De aquellos orígenes, y gracias al aporte de estudios e investigaciones posteriores, hoy en día contamos con un marco metodológico que 
+  			nos permite diseñar productos interactivos que previsiblemente ofrecerán experiencias de uso satisfactorias. Esto exige comprender a las 
+  			personas y, como decíamos en anteriores apartados, comprender también cómo utilizan los sistemas en contextos específicos.
+  		</para>
+  		<para>
+  			La guía metodológica que exponemos a continuación recoge técnicas, procedimientos y métodos que nos ayudarán y permitirán empíricamente 
+  			la adecuación de nuestros diseños a las necesidades reales de los usuarios.
+  		</para>
+  		<informalfigure>
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-053.jpg" />
+		  		</imageobject>
+		  	</mediaobject>
+	  	</informalfigure>
+  	</section>
+  </section>
+  <section xml:id="ch04b">
+  	<title>Metodologías y técnicas de DCU</title>
+  	<para>
+  		El DCU, como filosofía de diseño, engloba o se relaciona con un heterogéneo conjunto de metodologías y técnicas que comparten un objetivo común: 
+  		conocer y comprender las necesidades, limitaciones, comportamiento y características del usuario, involucrando en muchos casos a usuarios 
+  		potenciales o reales en el proceso.
+  	</para>
+  	<para>
+  		Este apartado pretende servir de guía metodológica, respondiendo a preguntas fundamentales sobre cada técnica: su descripción 
+  		(<emphasis role="strong">qué</emphasis>), su procedimiento (<emphasis role="strong">cómo</emphasis>), su ubicación en el ciclo del producto 
+  		(<emphasis role="strong">cuándo</emphasis>), y qué limitaciones o problemas pueden presentar.
+  	</para>
+  	<section xml:id="ch04b1">
+  		<title>Test de usuarios</title>
+  		<section>
+  			<title>Qué</title>
+  			<para>
+  				El test de usuarios es la prueba reina del DCU, ya que representa la mejor forma de evaluar la usabilidad de un diseño. Estas pruebas 
+  				se basan en la observación de cómo un grupo de usuarios llevan a cabo una serie de tareas encomendadas por el evaluador, analizando 
+  				los problemas de usabilidad con los que se encuentran (Hassan-Montero; Martín-Fernández; 2003a).
+  			</para>
+  			<para>
+  				Aún cuando el diseñador tenga amplios conocimientos sobre usabilidad, resulta recomendable evaluar el diseño con usuarios. Esto se debe 
+  				a que, conforme más tiempo dedica un diseñador a un proyecto, menor es su perspectiva y más difícilmente detectará posibles problemas. 
+  				Podemos decir que gran parte de lo que el diseñador percibe cuando mira su propia obra, es una construcción mental; ve aquello que tiene 
+  				en mente, no aquello que sus usuarios tendrán ante sus ojos.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Cómo</title>
+  			<para>
+  				El número de participantes que son necesarios para detectar el 100% de los problemas (más importantes) de usabilidad de un diseño se 
+  				encuentra en torno a 15. Nielsen (2000) recomienda que, en vez de hacer una prueba con 15 participantes, es mejor llevar a cabo tres 
+  				pruebas con 5 participantes por cada una, repartidas en diferentes momentos del proceso de desarrollo. Como Nielsen (2000) defiende, 
+  				el objetivo de estas pruebas es mejorar de forma iterativa la usabilidad de la aplicación, por lo que cada prueba con 5 participantes 
+  				nos ofrecerá suficiente información para mejorar la solución de diseño, aún cuándo no nos permita detectar el 100% de los problemas 
+  				de usabilidad.
+  			</para>
+  			<para>
+  				En el reclutamiento de participantes debemos asegurarnos de que los elegidos tienen perfiles acordes con los usuarios reales o 
+  				potenciales del sitio web, muestran interés por el tipo de sitio web a evaluar y, a ser posible, tienen experiencia usando sitios 
+  				web de naturaleza similar (Hassan-Montero; 2007a). Este reclutamiento de participantes, como en cualquier técnica de DCU que implique 
+  				la participación de usuarios, sigue tres pasos: determinar la audiencia del sitio web a evaluar, localizar a miembros representativos 
+  				de esa audiencia, y convencerles para participar (Kuniavsky; 2003). El que los participantes estén motivados resulta crucial para el 
+  				éxito de la prueba. Por tanto, cuando los participantes no sean amigos, familiares o compañeros de trabajo, será muy importante 
+  				ofrecerles algún tipo de remuneración o recompensa por su colaboración en la prueba.
+  			</para>
+  			<para>
+  				Cada uno de los participantes realizará la prueba por separado, y durante cada prueba deberemos registrar toda aquella información 
+  				relevante para el posterior análisis del comportamiento del usuario. Para esto se puede utilizar desde un bloc de notas, hasta 
+  				grabaciones de vídeo del usuario, pasando por aplicaciones que registren las acciones del usuario sobre la interfaz.
+  			</para>
+  			<para>
+  				La primera impresión que se lleve el participante al mostrarle el diseño supone una información muy valiosa sobre su usabilidad. Los usuarios, 
+  				ante una página web, juzgan lo que ven y toman decisiones intuitivas en muy poco tiempo (véase apartado sobre Cognición), juicios y decisiones 
+  				que resultan de gran relevancia para entender la capacidad comunicativa del diseño. Por ello, antes de comenzar formalmente el test se recomienda 
+  				llevar a cabo lo que Perfetti (2005) denomina un <quote>test de 5 segundos</quote>. Este método consiste en ofrecer al participante un contexto 
+  				y objetivos concretos (ej.: “Te encuentras en época de exámenes, y necesitas saber si hoy estará la biblioteca abierta por la tarde”), y a 
+  				continuación mostrarle la página durante un periodo de cinco segundos. Después se le solicita al participante que exprese todo aquello que 
+  				recuerda de la página que ha visto. Esta prueba también se puede llevar a cabo sin ofrecer objetivo o contexto alguno al participante, 
+  				mostrándole la página durante 5 segundos y preguntándole posteriormente cuál ha sido su primera impresión, qué contenidos cree que ofrece o 
+  				puede encontrar en ese sitio web, permitiéndonos de esta forma evaluar la capacidad autoexplicativa de su diseño visual.
+  			</para>
+  			<para>
+  				A continuación podemos comenzar la prueba completa, en la que solicitaremos al participante una serie de tareas a realizar sobre el sitio web, 
+  				analizando los errores que cometa, el tiempo empleado y su satisfacción final una vez finalice la tarea. Es decir, esta es una prueba destinada 
+  				a medir tanto la usabilidad objetiva (qué y cómo actúa el usuario), como la usabilidad subjetiva (cómo de fácil ha percibido la tarea) 
+  				(recordemos el apartado sobre <xref linkend="ch02a" xreflabel="Experiencia de Usuario"/>).
+  			</para>
+  			<para>
+  				Según Kuniavsky (2003), algunos requisitos que deben cumplir las tareas encomendadas al participante son:
+  			</para>
+  			<itemizedlist>
+  				<listitem>
+  					<para>
+  						Ser razonables: Es decir, tareas típicas que un usuario real llevaría a cabo.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Estar descritas en términos de objetivos finales: La tarea debe contextualizarse bajo un objetivo o motivación mayor.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Ser específicas: La tarea no puede se demasiado genérica, sino que debe describir objetivos concretos con el fin de poder comparar 
+  						los problemas encontrados con los del resto de participantes.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Ser factibles: Encomendar al usuario tareas irrealizables no aporta información útil sobre los problemas reales de usabilidad del 
+  						sitio web. En estas pruebas lo que se debe evaluar es el diseño a través de los usuarios, no al contrario.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Duración razonable: Si la tarea requiere demasiado tiempo para ser completada, sería recomendable descomponerla en subtareas
+  					</para>
+  				</listitem>
+  			</itemizedlist>
+  			<para>
+  				Con los test de usuarios no sólo pretendemos detectar en qué momentos el usuario se equivoca o se detiene durante la realización de la tarea, 
+  				sino también el porqué: qué es aquello que no entiende o qué le ha llevado a tomar decisiones equivocadas. Una forma de obtener esta 
+  				información es mediante el protocolo <foreignphrase xml:lang="en">think-aloud</foreignphrase> o “pensamiento en voz alta”, que consiste en 
+  				solicitar al participante que exprese verbalmente durante la prueba qué está pensando, qué no entiende, por qué lleva a cabo una acción o 
+  				duda. No obstante, este protocolo tiene algunos inconvenientes, como el hecho de contar lo que uno hace y por qué lo hace inevitablemente 
+  				altera la forma en la que se hacen las cosas (en comparación con cómo se harían en circunstancias normales). Una alternativa es el método 
+  				“<foreignphrase xml:lang="en">think-aloud</foreignphrase> retrospectivo”, en el que el participante primero realiza la tarea y, una vez 
+  				finalizada, expresa verbalmente cómo recuerda que ha sido su proceso interactivo.
+  			</para>
+  			<para>
+  				Una vez los participantes finalicen la prueba y se haya registrado toda la información pertinente, se procede a analizar los resultados y 
+  				sintetizarlos en un informe final, concluyendo qué mejoras necesita el diseño en base a estos resultados.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Cuándo</title>
+  			<para>
+  				Aunque los test de usuarios son pruebas de evaluación, no debemos por esto creer que deben llevarse a cabo una vez ha finalizado el proceso 
+  				de diseño, desarrollo e implantación del producto. Recordemos que el DCU es una filosofía de diseño iterativa basada en la mejora incremental 
+  				del producto. Por tanto, cuanto más esperamos para realizar la primera de las pruebas, más costoso resultará la reparación de los errores de 
+  				diseño que se detecten.
+  			</para>
+  			<para>
+  				En las etapas más tempranas del proyecto, ya que el producto aún no ha tomado forma, los test de usuarios deben realizarse sobre prototipos 
+  				(modelos desechables elaborados específicamente para la evaluación de las decisiones de diseño). Estos prototipos pueden realizarse en papel 
+  				(Medero; 2007), en HTML (Ramsay; 2009), o mediante aplicaciones específicas como Axure (véase el siguiente apartado sobre 
+  				<foreignphrase xml:lang="en"><xref linkend="ch04c3" xreflabel="wireframes"/></foreignphrase>).
+  			</para>
+  		</section>
+  		<section>
+  			<title>Limitaciones y problemas</title>
+  			<para>
+  				El primer problema de los test de usuarios es el alto coste que implica tanto el reclutamiento de los participantes, como el tiempo y esfuerzo 
+  				dedicados a realizar las pruebas y a sintetizar y analizar los resultados. Para reducir costes se recomienda realizar una evaluación heurística 
+  				(véase el siguiente apartado) de forma previa a la prueba con usuarios, una técnica más económica que nos permite detectar una gran cantidad de 
+  				problemas de usabilidad sin necesidad de implicar a usuarios. No obstante, el coste de las pruebas con usuarios se justifica por el retorno de 
+  				inversión derivado (<foreignphrase xml:lang="en">ROI: Return of Investment</foreignphrase>) (Marcus; 2002).
+  			</para>
+  			<para>
+  				El otro problema es que, al tratarse de pruebas que se realizan en laboratorio y en las que los objetivos y tareas se les imponen explícitamente 
+  				a los participantes, la interacción del usuario se encuentra descontextualizada, influyendo en su forma de resolver problemas. Por ejemplo, 
+  				Nielsen (1997) afirmaba que los resultados de sus estudios de usabilidad mostraban que más de la mitad de los usuarios se dirigían directamente 
+  				al buscador interno para resolver sus necesidades cuando visitaban un sitio web, un dato que difícilmente se corresponde con el uso real de los 
+  				buscadores internos que podemos observar analizando las estadísticas de un sitio web (véase apartado sobre <xref linkend="ch04b6c" xreflabel="analítica web"/>).
+  			</para>
+  			<informalfigure xreflabel="Fig 28" xml:id="fig28">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-032.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Escena de un test de usuarios. Fuente (Elten; 2008)
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+  		</section>
+  	</section>
+  	<section xml:id="ch04b2">
+  		<title>Evaluación heurística</title>
+  		<section>
+  			<title>Qué</title>
+  			<para>
+  				No todas las técnicas de DCU requieren la participación de usuarios, resultando de esta forma más económicas. Tal es el caso de los métodos 
+  				de evaluación por inspección como la evaluación heurística, propuesta originalmente por Molich y Nielsen (1990).
+  			</para>
+  			<para>
+  				En esta técnica varios expertos inspeccionan y analizan el diseño en busca de potenciales problemas de usabilidad, comprobando para ello el 
+  				cumplimiento de principios de diseño usable (principios heurísticos) previamente establecidos. Estos principios de diseño o “heurísticas” 
+  				son directrices que establecen requisitos que debe cumplir el diseño con el fin de facilitar su comprensión y uso por el usuario final.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Cómo</title>
+  			<para>
+  				El número ideal de expertos que deben participar en la evaluación debe ser entre 3 y 5. Cada uno de los evaluadores examinará el diseño de forma 
+  				independiente, documentando los problemas de usabilidad detectados. Una vez finalicen su trabajo, harán una puesta en común de los problemas, 
+  				y se procederá a elaborar un informe final consensuado. Si la evaluación se hace con menos de tres evaluadores, muchos problemas de usabilidad 
+  				quedarán sin detectar, y usar más de 5 aumentaría el coste de la evaluación sin ofrecer resultados que los justificasen (Nielsen; 1994).
+  			</para>
+  			<para>
+  				Respecto al perfil de los revisores, aunque no es imprescindible que sean expertos en usabilidad, diferentes estudios demuestran que conforme 
+  				más experiencia tengan, mayor será el número de problemas que puedan detectar (González, Pascual, Lorés; 2006).
+  			</para>
+  			<para>
+  				Durante la prueba, los revisores no sólo deben identificar problemas de usabilidad, sino también ponderar la gravedad de esos problemas, 
+  				tanto en términos de frecuencia y persistencia del problema, como del impacto o consecuencias que tendrá para el usuario (Manchón; 2003).
+  			</para>
+  			<para>
+  				Como indica Villa (2003), el revisor puede acometer la evaluación en dos capas:
+  			</para>
+  			<itemizedlist>
+  				<listitem>
+  					<para>
+  						Evaluación de alto nivel: examinando el aspecto y comportamiento de la interfaz desde un punto de vista de tareas y objetivos, 
+  						procesos y pasos...
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Evaluación en detalle: centrada en aspectos concretos de la interfaz. Pantalla por pantalla, analizaremos en detalle el interfaz 
+  						atendiendo a puntos como el carácter autoexplicativo de la información, ubicación de la misma, controles, textos, accesos a sistema 
+  						de ayuda, etc.
+  					</para>
+  				</listitem>
+  			</itemizedlist>
+  			<para>
+  				Numerosos autores han propuesto conjuntos de principios heurísticos o reglas de diseño que pueden ser empleadas como heurísticas 
+  				(Schneiderman; 1986) (Nielsen; 1994) (Tognazzini; 2003). Otros autores (Hassan-Montero, Martín-Fernández; 2003b) (Márquez-Correa; 2003) 
+  				(Marcos, Cañada; 2003) ofrecen guías compuestas por criterios heurísticos más específicos que los principios heurísticos, y por tanto de 
+  				más fácil aplicación por evaluadores no expertos. Además, el lector puede revisar numerosos trabajos que nos ofrecen casos prácticos de 
+  				aplicación de evaluación heurística (Marcos et al.; 2006) (García-Gómez; 2008) (Candamil-Llano; Guevara-Hurtado; 2009a).
+  			</para>
+  		</section>
+  		<section>
+  			<title>Cuándo</title>
+  			<para>
+  				La evaluación heurística, por lo sencillo y económico de su proceso, puede llevarse a cabo en cualquier momento del ciclo de desarrollo 
+  				del proyecto. Como indicábamos en el apartado sobre test de usuarios, un momento idóneo para su realización es antes de estas pruebas 
+  				con usuarios, aunque esto no significa que siempre que realicemos una evaluación heurística debamos seguidamente llevar a cabo un test 
+  				con usuarios.
+  			</para>
+  			<para>
+  				Dependiendo del momento de aplicación de la evaluación heurística, los principios o criterios a comprobar podrían variar. En las etapas 
+  				más tempranas se suelen verificar criterios relacionados con la arquitectura de información, mientras que en etapas posteriores, cuando 
+  				el diseño se encuentra más elaborado, entrarán en juego también principios de diseño gráfico o visual.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Limitaciones y problemas</title>
+  			<para>
+  				González, Pascual y Lorés (2006), tras una revisión exhaustiva de la literatura científica sobre evaluación heurística, resumen los 
+  				problemas o desventajas destacados por diferentes autores, entre los que podemos encontrar los siguientes:
+  			</para>
+  			<para>
+  				La evaluación heurística permite identificar una mayor cantidad de problemas de usabilidad menores, pero una menor cantidad de problemas 
+  				de usabilidad mayores que otras metodologías como los test de usuarios. Esto significa que esta metodología no puede sustituir a la 
+  				realización de test de usuarios, ya que resulta menos eficaz en la detección de aquellos problemas de usabilidad que mayor impacto 
+  				tendrán en el usuario final.
+  			</para>
+  			<para>
+  				La evaluación heurística puede reportar falsas alarmas. Es decir, identificar como un problema de usabilidad aquello que realmente 
+  				no lo es.
+  			</para>
+  			<para>
+  				Aunque se trata de una técnica económica, para que ofrezca resultados realmente relevantes deberían participar varios evaluadores, 
+  				por lo que tampoco es una técnica exenta de coste.
+  			</para>
+  		</section>
+  	</section>
+  	<section xml:id="ch04b3">
+  		<title>Card sorting</title>
+  		<section>
+  			<title>Qué</title>
+  			<para>
+  				Como vimos en el apartado sobre modelos mentales, el conocimiento que los usuarios adquieren y registran a partir de su experiencia lo 
+  				estructuran internamente en forma de conceptos y relaciones semánticas, pudiendo de esta forma recuperar y aplicar ese conocimiento en 
+  				su actividad diaria.
+  			</para>
+  			<para>
+  				Cuando diseñamos arquitecturas de información, siempre y cuando esas arquitecturas no deban cumplir una función didáctica (como pudiera 
+  				ser el caso de la arquitectura de información de una enciclopedia online), deben adaptarse al modelo mental del usuario. El arquitecto 
+  				de información, por tanto, tiene un rol de traductor, cuya tarea principal es transformar el modelo organizativo de la empresa o institución 
+  				que pretende su proyección online (sitio web), al modelo mental de los usuarios a los que se dirige.
+  			</para>
+  			<para>
+  				Si bien extraer el modelo mental y objetivos del cliente es una tarea relativamente fácil (por ejemplo, por medio de simples entrevistas), 
+  				extraer el modelo mental del usuario para adaptar la organización y clasificación de información a dicho modelo, resulta una tarea más 
+  				compleja. Una de las técnicas más populares y eficaces para elicitar o extraer la estructura semántica del conocimiento que los usuarios 
+  				tienen sobre un dominio concreto, es la llamada <foreignphrase xml:lang="en">card sorting</foreignphrase> o “Agrupación de tarjetas”.
+  			</para>
+  			<para>
+  				Esta técnica consiste en solicitar a un grupo de participantes –que como en el caso del test de usuarios deben tener un perfil acorde con 
+  				la audiencia a la que se dirige el sitio– que agrupen los conceptos representados en cada tarjeta por su similitud semántica. El objetivo 
+  				es, por tanto, identificar qué conceptos, de los representados en cada tarjeta, tienen relación semántica entre sí, e incluso cuál es el 
+  				grado de esa relación.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Cómo</title>
+  			<para>
+  				Lo primero que debemos decidir al planificar una prueba de <foreignphrase xml:lang="en">card sorting</foreignphrase> es si vamos a realizar 
+  				un análisis cualitativo de los resultados o uno cuantitativo, ya que esto influirá tanto en el número de participantes como en la forma de 
+  				dirigir la prueba.
+  			</para>
+  			<para>
+  				En el análisis cualitativo, el número de participantes debe encontrarse en torno de 5. De esta forma podremos acompañar a cada participante 
+  				en su tarea, e interrogarle acerca de por qué toma la decisión de agrupar unos conceptos u otros y con qué problemas de comprensión se 
+  				encuentra durante la prueba (Carreras-Plaza, Guaderrama-Hernández; 2004) (Ortega-Santamaría; 2005).
+  			</para>
+  			<para>
+  				Con el análisis cuantitativo, por el contrario, lo que buscamos es una imagen global de las relaciones semánticas entre conceptos. No 
+  				buscamos tanto un conocimiento en detalle de cómo los usuarios entienden que se relacionan los conceptos, como obtener las relaciones 
+  				semánticas compartidas y colectivamente más reforzadas que tienen los conceptos para la audiencia del sitio web. En este tipo de análisis, 
+  				para que los resultados sean representativos, debemos contar con un número mayor de participantes, que Tullis y Wood (2004) estiman entre 20 y 30.
+  			</para>
+  			<para>
+  				Otra de las decisiones que debemos tomar en la planificación de la prueba es el tipo de <foreignphrase xml:lang="en">card sorting</foreignphrase> 
+  				que llevaremos a cabo, en función de su propósito. Rosenfeld y Morville (2002) diferencian entre <foreignphrase xml:lang="en">card sorting</foreignphrase> 
+  				abierto y cerrado. En el abierto el usuario puede agrupar los conceptos libremente en el número de conjuntos que crea necesario, mientras que en 
+  				el cerrado los grupos o conjuntos están predefinidos y etiquetados, y el participante únicamente deberá ubicar cada concepto en el grupo que 
+  				crea pertinente. El <foreignphrase xml:lang="en">card sorting</foreignphrase> cerrado es recomendable para evaluar si una categorización resulta 
+  				predecible para el usuario, mientras que el abierto tiene el objetivo de descubrir qué tipo de categorización o agrupación de los conceptos 
+  				resultará más natural y acorde con el modelo mental compartido de la audiencia del sitio web. En el trabajo de Hassan-Montero et al. (2004), 
+  				podemos ver descrito un caso práctico de card sorting abierto, mientras que Candamil-Llano y Guevara-Hurtado (2008) nos ofrecen un caso de 
+  				<foreignphrase xml:lang="en">card sorting</foreignphrase> cerrado.
+  			</para>
+  			<para>
+  				En el análisis cuantitativo de los resultados de <foreignphrase xml:lang="en">card sorting</foreignphrase> (abierto) entran en juego multitud de 
+  				técnicas estadísticas, que comparten el objetivo de reducir la matriz NxN (N es el número de conceptos) donde se representa el número de 
+  				participantes que han colocado en un mismo grupo cada par posible de categorías, a representaciones gráficas que faciliten al evaluador 
+  				analizar las relaciones semánticas entre conceptos, y en algunos casos el peso de esas relaciones (Hassan-Montero et al.; 2004). Entre las 
+  				técnicas que podemos utilizar se encuentran el escalamiento multidimensional (MDS: <foreignphrase xml:lang="en">Multidimensional Scaling</foreignphrase>), 
+  				la técnica de poda <foreignphrase xml:lang="en">Pathfinder</foreignphrase> (PFNets), el Análisis de Clusters (<foreignphrase xml:lang="en">clustering</foreignphrase>), 
+  				el Análisis de Componentes Principales (<foreignphrase xml:lang="en">PCA: Principal Component Analysis</foreignphrase>), o la Redes Neuronales 
+  				Artificiales (Herrero-Solana, Hassan-Montero; 2006). Como señalan Antolí et al. (2005), la más popular y conocida entre los profesionales de 
+  				la experiencia de usuario es el análisis de <foreignphrase xml:lang="en">clusters</foreignphrase>.
+  			</para>
+  			<para>
+  				Las pruebas de <foreignphrase xml:lang="en">card sorting</foreignphrase> pueden ser realizadas de forma manual o virtual. En el primer caso 
+  				(<xref linkend="fig29" xreflabel="figura 29"/>), los conceptos son representados en tarjetas reales (papel o cartón), y los participantes 
+  				proceden a agruparlas sobre una mesa. En el segundo caso se emplean aplicaciones software específicas, mediante las que los participantes 
+  				realizan la prueba (ejemplos de aplicaciones populares son <link xl:href="http://optimalsort.com"/> y <link xl:href="http://websort.net"/>). 
+  				La ventaja principal de usar estas aplicaciones es que automatizan y facilitan la recogida de datos y su análisis estadístico, por lo que son 
+  				más recomendables cuando el propósito es el análisis cuantitativo. Como desventaja podemos señalar que, como nos indica nuestra experiencia 
+  				personal llevando a cabo numerosas pruebas de <foreignphrase xml:lang="en">card sorting</foreignphrase>, los participantes suelen encontrar 
+  				más divertido el <foreignphrase xml:lang="en">card sorting</foreignphrase> manual, y por tanto suelen estar más concentrados durante la tarea.
+  			</para>
+  			<informalfigure xreflabel="Fig 29" xml:id="fig29">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-033.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Participante repartiendo tarjetas. Fuente (García-Gómez; 2005).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		En las pruebas de <foreignphrase xml:lang="en">card sorting</foreignphrase> hay pequeños detalles que pueden influir y condicionar 
+		  		enormemente la forma en que los participantes realicen el ejercicio, y por tanto el resultado final de la prueba. Por ejemplo, el orden en 
+		  		que se presenten las diferentes tarjetas puede influir en el tipo de agrupaciones que realizará el usuario, tal y como explican Antolí 
+		  		et al. (2005). En pruebas manuales, como sugiere García-Gómez (2005), el tamaño de la mesa podría influir en el número máximo de tarjetas 
+		  		que el participante asignará a cada grupo. En nuestra experiencia con este tipo de pruebas, además, hemos detectado que los participantes 
+		  		tienen una tendencia natural a hacer agrupaciones por relación sintáctica, es decir, a ubicar automáticamente en un mismo grupo tarjetas 
+		  		que tengan en común alguna palabra, aún cuando la relación semántica entre ambos conceptos no esté clara.
+		  	</para>
+		  	<para>
+		  		No obstante, el factor que en mayor grado puede influir en cómo ejecuten el ejercicio los participantes, es su comprensión acerca de qué 
+		  		tienen que hacer y cómo deben hacerlo. En este sentido, Spencer y Warfel (2007) ofrecen una útil guía, que incluye un ejemplo de las 
+		  		instrucciones que se deben dar a los participantes antes de dar comienzo a la prueba.
+		  	</para>
+		  	<para>
+		  		Hasta el momento hemos hablado de agrupar “conceptos”, sin establecer un vínculo claro con qué elementos del sitio web pudieran representar 
+		  		estos “conceptos”. En las pruebas de <foreignphrase xml:lang="en">card sorting</foreignphrase> los “conceptos” suelen representar categorías 
+		  		u opciones de navegación, y por tanto lo que se pretende con la prueba es extraer de los propios usuarios cuál sería la mejor forma de 
+		  		agruparlas o clasificarlas, condicionando de este modo cómo los usuarios encontrarán estas opciones o categorías organizadas cuando 
+		  		naveguen por sitio web.
+		  	</para>
+		  	<para>
+		  		Sin embargo, estos “conceptos” no siempre tienen por qué representar categorías u opciones de menús de navegación, ya que podrían representar 
+		  		bloques de contenido de una misma página, permitiéndonos saber cómo ordenarlos espacialmente de acuerdo a su similitud semántica; o incluso 
+		  		podrían representar productos que se vayan a ofrecer desde el sitio web.
+		  	</para>
+		  	<para>
+		  		Lo que se persigue, en gran medida, es lograr la coherencia local y global del contenido. Cuando el usuario salta desde una unidad de 
+		  		información a otra lo hace porque ambas presentan una conexión semántica. A su vez, cada una de esas unidades de información es posible 
+		  		interpretarla y comprenderla en función de sus relaciones temporales, causales y lógicas, que las relacionan con el contexto global.
+		  	</para>
+  		</section>
+  		<section>
+  			<title>Cuándo</title>
+  			<para>
+  				El <foreignphrase xml:lang="en">card sorting</foreignphrase> es una prueba destinada a adaptar la arquitectura de información al modelo 
+  				mental del usuario, por tanto tiene lugar en etapas tempranas del proyecto (arquitectura de información). Dado que el 
+  				<foreignphrase xml:lang="en">card sorting</foreignphrase> abierto cumple la función de ayudar en la toma de decisiones organizativas, y 
+  				el <foreignphrase xml:lang="en">card sorting</foreignphrase> cerrado cumple la función de evaluar esas decisiones, en el caso de que se 
+  				realicen ambas pruebas, la abierta debe preceder a la cerrada. De hecho, ya que ambos tipos de <foreignphrase xml:lang="en">card sorting</foreignphrase> 
+  				tienen propósitos diferentes y complementarios, su utilización combinada puede ofrecernos una imagen más fiel el modelo mental del usuario 
+  				(García-Martín; 2008).
+  			</para>
+  		</section>
+  		<section>
+  			<title>Limitaciones y problemas</title>
+  			<para>
+  				Aunque muchos autores coinciden en afirmar que el <foreignphrase xml:lang="en">card sorting</foreignphrase> es un método rápido, fiable y 
+  				barato (Sepencer, Warfel; 2007), coincidimos con Antolí et al. (2005) en que su uso inexperto o inadecuado puede producir resultados 
+  				erróneos.
+  			</para>
+  			<para>
+  				Por un lado, tal y como hemos visto, existen numerosos factores que, aún pareciendo poco significativos, pueden influir enormemente 
+  				en los resultados que se obtengan.
+  			</para>
+  			<para>
+  				Por otro lado, y como Antolí et al. (2005) comentan, de todas las opciones posibles para el análisis estadístico de resultados, en la 
+  				mayoría de aplicaciones software de <foreignphrase xml:lang="en">card sorting</foreignphrase>, así como en los estudios publicados, 
+  				suele aplicarse sólo una de las técnicas –análisis de <foreignphrase xml:lang="en">clusters</foreignphrase>–, y siempre uno de sus 
+  				tipos, el <foreignphrase xml:lang="en">clustering</foreignphrase> determinista mediante técnicas “aglomerativas”.
+  			</para>
+  			<para>
+  				No sólo existen más tipos de <foreignphrase xml:lang="en">clustering</foreignphrase>, sino que incluso entre las técnicas aglomerativas 
+  				podemos diferenciar alrededor de 150 tipos en función de las reglas de aglomeración que utilicen (Herrero-Solana, Hassan-Montero; 2006). 
+  				El problema está en que cada uno de estos tipos de análisis de clusters, aplicados sobre los mismos datos, podría ofrecer agrupaciones 
+  				diferentes.
+  			</para>
+  			<para>
+  				Con esto, no obstante, no pretendemos desanimar en el uso de esta técnica, ya que creemos que siempre obtendremos una visión más fiel 
+  				del modelo mental de nuestros usuarios a través de una prueba de <foreignphrase xml:lang="en">card sorting</foreignphrase> –aún con 
+  				errores– que sin llevar a cabo prueba alguna.
+  			</para>
+  			<para>
+  				Por último señalar que, además del <foreignphrase xml:lang="en">card sorting</foreignphrase>, existen diversas técnicas estrechamente 
+  				relacionadas, en cuanto que también están orientadas a extraer patrones de conocimiento semántico de los usuarios. Tal es el caso del 
+  				“listado libre” (Sinha; 2003) o el “análisis de secuencia” (Ronda-León, Mesa-Rábade; 2005).
+  			</para>
+  		</section>
+  	</section>
+  	<section xml:id="ch04b4">
+  		<title>Eye-tracking</title>
+  		<section>
+  			<title>Qué</title>
+  			<para>
+  				Como se puede deducir tras leer el apartado sobre <xref linkend="ch03a" xreflabel="Percepción Visual"/>, analizando una interfaz desde el 
+  				conocimiento teórico sobre cómo las personas percibimos visualmente, podemos predecir en gran medida cuál será el comportamiento 
+  				visual de los usuarios, detectando qué elementos atraerán su atención visual con más fuerza.
+  			</para>
+  			<para>
+  				Por ejemplo, en función del tipo de elementos que esté buscando visualmente el usuario en cada instante (contenidos, navegación, mapa del 
+  				sitio web, contacto…), será mayor la probabilidad de que atienda automáticamente a diferentes zonas de la página; un comportamiento que 
+  				habrá interiorizado a partir de su experiencia previa navegando por otros sitios web. Igualmente sabemos que si un elemento es gráficamente 
+  				inusual, si presenta características gráficas diferentes a las de sus elementos colindantes, éste atraerá con mayor fuerza la atención del 
+  				usuario.
+  			</para>
+  			<para>
+  				No obstante, las interfaces no suelen estar compuestas por formas gráficas simples. Un diseño puede presentar un alto grado de sofisticación 
+  				visual, sin necesidad de que esto sea consecuencia de una complejidad artificial u ornamental. En estos casos, ser capaz de predecir qué 
+  				mirará el usuario y en qué orden, se convierte en una actividad propia del mentalismo.
+  			</para>
+  			<para>
+  				Desde el punto de vista empírico, existe un tipo de pruebas con usuarios que nos permiten estudiar y analizar su exploración visual, 
+  				denominadas pruebas de <foreignphrase xml:lang="en">eye-tracking</foreignphrase> o de “seguimiento visual”. El concepto de 
+  				<foreignphrase xml:lang="en">eye-tracking</foreignphrase> hace referencia a un conjunto de tecnologías (hardware y software) que permiten 
+  				monitorizar y registrar la forma en la que una persona mira una determinada escena o imagen, en concreto en qué áreas fija su atención, 
+  				durante cuánto tiempo y qué orden sigue en su exploración visual (Hassan-Montrero, Herrero-Solana; 2007).
+  			</para>
+  		</section>
+  		<section>
+  			<title>Cómo</title>
+  			<para>
+  				Desde el punto de vista procedimental, las pruebas de <foreignphrase xml:lang="en">eye-tracking</foreignphrase> resultan muy similares a los 
+  				test con usuarios descritos anteriormente. La diferencia estriba en la tecnología usada para registrar el comportamiento del usuario, y en 
+  				qué comportamiento se pretende analizar con mayor detalle: su exploración visual.
+  			</para>
+  			<informalfigure xreflabel="Fig 30" xml:id="fig30">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-034.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Comportamiento visual de cuatro ususarios diferentes sobre una misma página. Fuente: Nielsen (2007).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		La mayoría de sistemas de <foreignphrase xml:lang="en">eye-tracking</foreignphrase> se basan en el uso de cámaras 
+		  		(<foreignphrase xml:lang="en">eye-trackers</foreignphrase>) que proyectan rayos infrarrojos hacia uno o los dos ojos del participante, 
+		  		infiriendo la zona de la escena visual que el usuario se encuentra atendiendo en cada momento. Podemos diferenciar dos clases de sistemas de 
+		  		<foreignphrase xml:lang="en">eye-tracking</foreignphrase>: aquellos que se colocan en la cabeza del participante, y aquellos que registran su 
+		  		movimiento ocular desde la distancia, normalmente ubicados y camuflados en el monitor. Estos últimos resultan menos intrusivos (Goldberg, 
+		  		Wichansky; 2003), y por tanto más adecuados para la evaluación de interfaces, donde no resulta crucial que el usuario tenga completa libertad 
+		  		para mover su cabeza.
+		  	</para>
+		  	<para>
+		  		Tras un breve proceso de calibración del sistema, el participante de la prueba puede dar comienzo a la realización de las tareas que le hayan 
+		  		sido encomendadas, tiempo durante el cual el sistema monitorizará y registrará continuamente su movimiento ocular: fijaciones y “sacadas” 
+		  		(estos conceptos fueron descritos en el apartado sobre <xref linkend="ch03a" xreflabel="Percepción Visual"/>).
+		  	</para>
+		  	<para>
+		  		Una vez finalizada la prueba, el software de <foreignphrase xml:lang="en">eye-tracking</foreignphrase> debe permitirnos analizar los resultados. 
+		  		Para ello, suelen emplearse representaciones gráficas que resumen la ingente cantidad de información que cada participante ha generado con su 
+		  		exploración visual. Para analizar el comportamiento visual de cada participante individualmente, se suelen utilizar representaciones gráficas 
+		  		de su recorrido visual en forma de grafo lineal (<xref linkend="fig30" xreflabel="figura 30"/>), donde cada nodo identifica una fijación, el 
+		  		tamaño del nodo el tiempo de la fijación, y los conectores entre nodos el salto visual de una fijación a la siguiente.
+		  	</para>
+		  	<para>
+		  		Para analizar de forma agregada el comportamiento visual de un grupo de participantes, se suelen emplear <foreignphrase xml:lang="en">“heatmaps”</foreignphrase> 
+		  		o mapas de calor, donde los colores de mayor intensidad señalan las zonas de la interfaz en las que los participantes han fijado su atención 
+		  		con mayor frecuencia (<xref linkend="fig30" xreflabel="figura 31"/>).
+		  	</para>
+  		</section>
+  		<section>
+  			<title>Cuándo</title>
+  			<para>
+  				Las pruebas de <foreignphrase xml:lang="en">eye-tracking</foreignphrase> sólo pueden ofrecer información valiosa sobre diseños gráficos 
+  				elaborados. Pequeños cambios en estos diseños (como cambiar el color de fondo de un bloque, o cambiar la ubicación de un elemento), pueden 
+  				hacer que los patrones de exploración varíen, por lo que no es una técnica recomendable para su uso iterativo durante el ciclo de desarrollo 
+  				del producto, sino sólo para su evaluación final.
+  			</para>
+  			<informalfigure xreflabel="Fig 31" xml:id="fig31">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-035.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Mapas de color sobre tres interfaces diferentes. Fuente: Nielsen (2006b).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+  		</section>
+  		<section>
+  			<title>Limitaciones y problemas</title>
+  			<para>
+  				Los actuales sistemas de <foreignphrase xml:lang="en">eye-tracking</foreignphrase> disponibles en el mercado presentan en su mayoría un 
+  				alto grado de precisión, fruto de la larga evolución que ha experimentado esta tecnología en las últimas décadas. Sin embargo, sigue 
+  				siendo una tecnología cara, un hecho que impide una mayor difusión en el entorno profesional.
+  			</para>
+  			<para>
+  				Otro problema es que, aunque el proceso de calibración visual de los participantes previo a la prueba es rápido y sencillo, existe un 
+  				significativo porcentaje de personas cuyos ojos no pueden calibrarse (Jacob, Karn; 2003), lo que encarece aún más este tipo de estudios.
+  			</para>
+  			<para>
+  				Como otras pruebas con usuarios descritas en este apartado, las pruebas de <foreignphrase xml:lang="en">eye-tracking</foreignphrase> requieren 
+  				del evaluador un conocimiento y esfuerzo considerable en la interpretación de los resultados, por lo que su uso inexperto puede conducir a 
+  				conclusiones erróneas. Una vez más, no obstante, defendemos que cualquier prueba con usuarios resulta más útil que no hacer prueba alguna, 
+  				aún cuando se comentan errores de interpretación.
+  			</para>
+  			<para>
+  				Por último señalar que las pruebas de eye-tracking ofrecen datos cualitativos escondidos bajo la apariencia de datos cuantitativos. 
+  				Analizar una interfaz con 5 participantes generará una gran cantidad de datos, pero desde el punto de vista estadístico, sigue siendo 
+  				una muestra de 5 sujetos.
+  			</para>
+  		</section>
+  	</section>
+			
+  	<section xml:id="ch04b5">
+  		<title>Etnografía</title>
+  		<informalfigure xreflabel="Fig 32" xml:id="fig32">
+		  	<mediaobject>
+		  		<imageobject>
+		  			<imagedata fileref="resource/INF-3-036.jpg" />
+		  		</imageobject>
+		  		<caption>
+		  			<para>
+		  				Diagrama de la aproximación etnográfica.
+		  			</para>
+		  		</caption>
+		  	</mediaobject>
+	  	</informalfigure>
+	  	<section>
+	  		<title>Qué</title>
+	  		<para>
+	  			La etnografía constituye una rama de estudio de la antropología que busca estudiar y describir científicamente la conducta, el comportamiento, 
+	  			las creencias y las acciones de los usuarios de una sociedad y una cultura específica. El investigador convive con los sujetos de la 
+	  			investigación para comprender, por propia experiencia y observación directa, el ámbito sociocultural donde están inmersos.
+	  		</para>
+	  		<para>
+	  			Es un campo de estudio que emplea principalmente métodos cualitativos, con el objetivo de ayudarnos a descubrir y comprender el comportamiento 
+	  			social de nuestros usuarios. Sus métodos nos permiten predecir o explicar acciones e interacciones que, de otro modo, podrían quedar aisladas 
+	  			y provocar resultados contrarios a los objetivos propuestos en nuestro sitio.
+	  		</para>
+	  		<para>
+	  			Los estudios etnográficos nos acercan a un conjunto de valoraciones (sociales, culturales, idiomáticas, actitudinales, mentales…) relacionadas 
+	  			con el contexto de uso, que son incluidas en el proceso y que proporcionan, necesariamente, una garantía sobre la objetividad y certeza de 
+	  			explicaciones o descripciones que se hagan sobre dicho contexto.
+	  		</para>
+	  	</section>
+	  	<section>
+	  		<title>Cómo</title>
+	  		<para>
+	  			Este tipo de investigación no es utilizada para validar o invalidar hipótesis generales, porque todo depende, como decíamos antes, del 
+	  			contexto de uso y de la gestión de significados.
+	  		</para>
+	  		<para>
+	  			Con las técnicas etnográficas observamos a las personas en situaciones reales, contextos naturales que nos permiten examinar y analizar 
+	  			sus experiencias y ver el sentido que tienen en sus vidas. Esto no significa que estemos estudiando concretamente a las personas. Son su 
+	  			entorno, su actividad, su situación o los procesos e interacciones que llevan a cabo, el objeto de nuestro análisis.
+	  		</para>
+	  		<para>
+	  			Podemos optar por estudios prolongados, que requerirán de un análisis más detallado de las observaciones realizadas, materiales audiovisuales 
+	  			y datos recogidos, o por una etnografía rápida (Norman; 2000) (Millen; 2000) que podrá afectar a la reducción de tiempos, objetivos, equipo 
+	  			de trabajo o recursos empleados. Dependiendo de la aproximación etnográfica que empleemos, el material empírico y analítico (Dourish; 2006) 
+	  			se verá ampliado o reducido condicionando la transferencia y utilización de los resultados.
+	  		</para>
+	  		<para>
+	  			En cualquier caso el observador no deberá comportarse como un simple grabador de eventos. Actúa como un observador que, sin afectar ni ser 
+	  			afectado por el entorno, reconoce la situación de observación, percibe, recoge y descifra lo explícito e implícito, para ofrecer una 
+	  			representación fiel que facilite el proceso analítico.
+	  		</para>
+	  		<para>
+	  			La forma de hacerlo puede ser a partir de diarios de campo, anotaciones, documentación extraída del propio contexto o bien a partir de métodos 
+	  			y técnicas de indagación, que permiten recoger de los usuarios sus opiniones y experiencias (en posteriores apartados describiremos la 
+	  			entrevista, una de las técnicas más utilizadas en combinación con otras).
+	  		</para>
+	  	</section>
+	  	<section>
+	  		<title>Cuándo</title>
+	  		<para>
+	  			Un estudio etnográfico nos aporta datos cualitativos que debemos organizar, comprender e interpretar en fases tempranas, anteriores al proceso 
+	  			de diseño del producto. Aun así, la información obtenida tendrá la función de servir de referencia en posteriores etapas de diseño y desarrollo.
+	  		</para>
+	  		<para>
+	  			Sin embargo, estos estudios no pueden condicionar el ritmo de producción ni alzarse como instrumentos imprescindibles que retrasen la labor 
+	  			del equipo de trabajo. Norman (2006) cree que es importante separar las observaciones y estudios de campo del diseño conceptual y del 
+	  			análisis de necesidades. Deberían quedar fuera del proceso y tomarse en consideración en la medida que aporten consistencia y reflejen 
+	  			aspectos cruciales, pero no pueden condicionar el ritmo de trabajo o el comienzo del diseño.
+	  		</para>
+	  	</section>
+	  	<section>
+	  		<title>Limitaciones y problemas</title>
+	  		<para>
+	  			Mientras que las técnicas descritas hasta el momento tienen una relación más inmediata con la calidad del producto, la investigación etnográfica 
+	  			se enfrenta a serios desafíos para superar la validez y pragmatismo de sus métodos. Su posición frente a otros métodos de DCU puede verse como 
+	  			una diferenciación entre validar para lograr la calidad deseada o inspirar para llevar a cabo el diseño (Gilmore; 2002). Pero aún cuando el 
+	  			objetivo principal de la etnografía es la inspiración, no es menos cierto que los equipos de diseño encuentran dificultades para aprovechar 
+	  			y aplicar en su trabajo los resultados extraídos del mundo real.
+	  		</para>
+	  		<para>
+	  			Se plantea así una disyuntiva. Por un lado aceptamos que el diseño debe atender al contexto y a los aspectos sociales que influyen en el 
+	  			comportamiento de nuestros usuarios. Pero por otro, encontramos dificultades para integrar la investigación y las metodologías de trabajo en 
+	  			el proceso. Para Räsänen y Nyce (2006) el problema se produce cuando los desarrolladores y diseñadores usan la etnografía como un instrumento 
+	  			para identificar y resolver problemas o para extraer datos estadísticos, en vez de para predecir y explicar resultados. Esto conlleva que 
+	  			reduzcamos todo su potencial al considerarlo un método para producir respuestas a preguntas específicas, en vez de para descubrir necesidades, 
+	  			comportamientos y actitudes.
+	  		</para>
+	  		<para>
+	  			Por otra parte, mientras que las investigaciones etnográficas son lentas y requieren tiempo y esfuerzo en la observación e interpretación, la 
+	  			tendencia actual en el entorno profesional es la de reducir y acelerar los ciclos de desarrollo de productos al máximo. En consecuencia, 
+	  			resulta complicada tanto su aplicación, como su aplicación correcta.
+	  		</para>
+	  		<para>
+	  			Atender a grupos excesivamente amplios también puede verse como un problema o limitación. La etnografía debe trabajar con grupos relativamente 
+	  			pequeños, ya que el observador puede que no realice su trabajo correctamente y acabe por recoger tal cantidad de datos que difuminen las 
+	  			posibilidades argumentativas o interpretativas de los mismos.
+	  		</para>
+	  	</section>
+  	</section>
+  	<section xml:id="ch04b6">
+  		<title>Otras técnicas destacables</title>
+  		<para>
+  			Además de las técnicas descritas, existen muchas otras que ofrecen información muy valiosa acerca de los usuarios. Sin embargo, debido a las 
+  			limitaciones del presente trabajo, no todas pueden ser tratadas con el mismo nivel de detalle. Por tanto, a continuación ofrecemos una breve 
+  			descripción de otras técnicas de valor destacable en DCU.
+  		</para>
+  		<section xml:id="ch04b6a">
+  			<title>Entrevistas</title>
+  			<para>
+  				La información más valiosa sobre la usabilidad de un diseño la obtenemos observando el comportamiento de los usuarios, no preguntándoles. 
+  				De hecho, revisando las técnicas que involucran a usuarios descritas hasta el momento, comprobaremos que están orientadas principalmente 
+  				a obtener información objetiva (qué hacen los participantes), y en mucho menor grado información subjetiva (qué dicen).
+  			</para>
+  			<para>
+  				Cuando Nielsen (2001) afirma que la primera regla de usabilidad es no escuchar a los usuarios, no le falta razón. Como señala el autor, 
+  				cuando se le pregunta a un usuario acerca de un diseño, su respuesta estará motivada por lo que cree debería responder o quiere ser oído 
+  				por quien pregunta. Además, si se nos pregunta sobre el porqué de nuestro comportamiento (en este contexto, usando una aplicación), las 
+  				personas tendemos a racionalizarlo, a completar, reinventar y reinterpretar nuestros recuerdos, y a buscar una causa, aunque la desconozcamos, 
+  				a nuestras acciones pasadas.
+  			</para>
+  			<para>
+  				Esto no significa que no podamos obtener información valiosa para el diseño preguntando a los usuarios. Las entrevistas con usuarios son una 
+  				poderosa herramienta cualitativa, pero no para evaluar la usabilidad de un diseño, sino para descubrir deseos, motivaciones, valores y 
+  				experiencias de nuestros usuarios (Kuniavsky; 2003).
+  			</para>
+  			<para>
+  				Durante estas entrevistas, el entrevistador debe mostrarse neutral y no dirigir o condicionar las respuestas del entrevistado. Lo que 
+  				pretendemos es descubrir información que nos oriente en el diseño, no confirmar nuestras propias creencias sobre cómo son los usuarios.
+  			</para>
+  			<para>
+  				Una variante interesante de las entrevistas, son los <foreignphrase xml:lang="en">focus group</foreignphrase> (en español grupos focales 
+  				o sesiones de grupo), en las que un moderador entrevista de forma conjunta a un grupo de usuarios, y donde la interacción entre los 
+  				participantes nos ofrece información adicional sobre problemas, experiencias o deseos compartidos.
+  			</para>
+  		</section>
+  		<section xml:id="ch04b6b">
+  			<title>Encuestas</title>
+  			<para>
+  				Hasta el momento, las técnicas descritas han sido esencialmente cualitativas. Estas técnicas nos ayudan a encontrar respuesta acerca de los 
+  				problemas de usabilidad de nuestros diseños, cómo los usuarios interactúan y comprenden el diseño, e incluso qué pueden desear o necesitar. 
+  				Sin embargo, por su naturaleza cualitativa, estas técnicas no nos permiten delimitar cómo son realmente nuestros usuarios, y en qué se 
+  				diferencian del resto de la población.
+  			</para>
+  			<para>
+  				Las encuestas representan una poderosa herramienta cuantitativa para conocer a nuestra audiencia, a través de preguntas estructuradas que 
+  				deben ser respondidas por una proporción estadísticamente representativa de dicha audiencia. Estas preguntas suelen versar sobre cuestiones 
+  				demográficas (cómo son), tecnológicas (cómo acceden a Internet), de necesidades y hábitos (cómo y para qué usan Internet), competitivas 
+  				(qué sitios web suelen visitar), de satisfacción (acerca de nuestro producto), de preferencias (qué les gusta y qué no), y de deseos 
+  				(qué echan en falta) (Kuniavsky; 2003).
+  			</para>
+  			<para>
+  				El mayor error a cometer en la realización de una encuesta se encuentra en el sesgo que se puede producir en la delimitación de la muestra; 
+  				es decir, a quién se invitará a participar, y qué subconjunto de los encuestados será considerado válido.
+  			</para>
+  			<para>
+  				Por último, debemos recordar que las encuestas, al igual que las entrevistas, tampoco representan una herramienta fiable de evaluación de 
+  				usabilidad, ya que su objetivo es otro.
+  			</para>
+  		</section>
+  		<section xml:id="ch04b6c">
+  			<title>Analítica Web</title>
+  			<para>
+  				La Analítica Web es definida como la medición, recolección, análisis y documentación de datos de Internet con el objetivo de comprender y 
+  				optimizar el uso de la Web (WAA; 2009). Bajo el concepto de Analítica Web se engloba una gran cantidad de herramientas y técnicas de 
+  				investigación, aunque sin duda la más definitoria es el análisis de datos reales de uso del sitio web, ya sea a través de los datos 
+  				recogidos en “ficheros log” desde el lado del servidor, o a través de aplicaciones de monitorización javascript desde el lado del 
+  				cliente. Estas últimas ofrecen mayor cantidad de información sobre las acciones de los usuarios, lo que sumado al hecho del lanzamiento 
+  				de herramientas gratuitas como Google Analytics, ha provocado que en los últimos años hayan ganado mucha popularidad.
+  			</para>
+  			<para>
+  				Estas técnicas permiten un análisis cuantitativo de las acciones que el usuario realiza sobre un sitio web, pero su principal fortaleza es 
+  				que, al contrario que otras técnicas cuantitativas, no se basan en muestras, sino en la monitorización del total de los usuarios que están 
+  				haciendo uso del sitio web. Como consecuencia, se trata de una técnica fiable y muy económica, pues no hay sesgo ni necesidad de invertir 
+  				en la identificación y reclutamiento de participantes.
+  			</para>
+  			<para>
+  				Las herramientas de monitorización de uso obtienen y manejan una serie de métricas, a través de las que podemos analizar el comportamiento 
+  				de nuestros usuarios, tales como (WAA; 2007): páginas vistas, visitantes, visitantes únicos, nuevos visitantes, duración de la visita, 
+  				<foreignphrase xml:lang="en">click-through</foreignphrase>, etc.
+  			</para>
+  			<para>
+  				Como argumenta Rovira-Samblancat (2007), existen muy diversas formas de aprovechar los datos que recogen estas herramientas a fin de 
+  				mejorar la usabilidad de un sitio web, como: analizar dónde hacen clic los usuarios; comparar el número de abandonos y éxitos de una 
+  				tarea entre dos páginas con la misma función pero diferente diseño; detectar en qué campo de un formulario se produce mayor número de 
+  				abandonos; o analizar las rutas de navegación que siguen los usuarios.
+  			</para>
+  			<para>
+  				Otra información de gran valor que podemos obtener a través de estas herramientas, de cara a mejorar la arquitectura de información del 
+  				sitio web, es analizar el vocabulario utilizado por los usuarios en sus consultas a través del buscador interno del sitio web. De esta 
+  				forma podemos estudiar, con datos reales y cuantitativos, el grado de correspondencia existente entre el vocabulario utilizado por los 
+  				usuarios y el utilizado en el sitio web.
+  			</para>
+  		</section>
+  	</section>
+  </section>
+  <section xml:id="ch04c">
+  	<title>Documentación del diseño</title>
+	<para>
+		En cualquier proyecto la comunicación –tanto con el cliente como entre los miembros del equipo– resulta fundamental en la consecución 
+		de los objetivos fijados. Como diseñadores, además de ser capaces de extraer de los usuarios y el cliente toda aquella información relevante 
+		para nuestro trabajo, debemos también ser capaces de comunicar de forma efectiva y precisa los resultados de análisis e investigación, así 
+		como las decisiones de diseño que se deriven.
+	</para>
+	<para>
+		La comunicación y el flujo de información en el proyecto pueden realizarse de muy diversas formas, aunque sin duda su documentación es el 
+		medio más estable, efectivo y fácilmente reutilizable. Documentar consiste en registrar ideas y conceptos de diseño, no sólo con el fin de 
+		posibilitar su comunicación, sino también de preservar ese conocimiento –es común que los miembros de un equipo cambien a lo largo del 
+		proyecto–. Estos documentos, en el contexto del diseño de interacción, suelen denominarse “entregables” (del inglés 
+		<foreignphrase xml:lang="en">deliverables</foreignphrase>).
+	</para>
+	<para>
+		La elección del tipo de documentación a emplear debe realizarse a partir de su eficacia comunicativa, algo que podemos deducir de nuestra 
+		experiencia como diseñadores. Como vimos en el apartado sobre la cognición, a las personas les cuesta interiorizar nuevas ideas y conocimiento, 
+		por lo que suelen buscar reglas o patrones que sinteticen o resuman esa información. Una de las herramientas que podemos usar para facilitar 
+		esta comunicación es la narrativa, es decir, estructurar una serie de hechos en un marco temporal, de tal modo que la sucesión lógica 
+		facilite su comprensión y asimilación. Como es sabido, las “anécdotas”, las historias personales, son más fáciles de recordar que los datos; 
+		la historia de cómo un usuario intenta afrontar un proceso interactivo y los problemas con los que se encuentra, puede tener más poder 
+		comunicativo que una gran cantidad de datos estadísticos sobre el uso del sitio web.
+	</para>
+	<para>
+		Otra herramienta –no excluyente– es el pensamiento visual. Con este concepto nos referimos a nuestra capacidad de traducción y representación 
+		de nuestros modelos mentales a formas visuales –un tema que ya revisábamos en el apartado sobre modelos mentales–. A partir de estos modelos 
+		visuales otros podrán abstraer y construir su propio modelo mental acerca del problema. Pero estos modelos visuales no sólo debemos entenderlos 
+		como un medio para comunicar ideas, sino más allá, como uno para compartir visualmente, pensar y resolver problemas de diseño cooperativamente.
+	</para>
+	<para>
+		Aunque no existe normalización o estandarización en lo que a tipos de entregables –ni su proceso de desarrollo– se refiere, sí existen ciertas 
+		convenciones o estándares de facto. Partiendo de los trabajos de Brown (2007) y Morville (2009), a continuación exponemos algunos de los tipos 
+		de documentos más comúnmente usados por diseñadores y arquitectos de información, clasificados en tres categorías: documentos de proyecto, de 
+		investigación con usuarios y de diseño.
+	</para>
+  	<section xml:id="ch04c1">
+  		<title>Documentos de proyecto</title>
+  		<para>
+  			Un proyecto puede contar con suficientes recursos económicos, humanos y tecnológicos, y no obstante fracasar debido a una mala gestión. 
+  			La gestión de proyectos es, precisamente, el nombre que recibe la disciplina dedicada a la planificación, coordinación y organización de 
+  			los recursos con el fin de alcanzar los objetivos del proyecto, dentro de los límites temporales y económicos definidos.
+  		</para>
+  		<para>
+  			El presente trabajo asume que no es tarea del diseñador llevar a cabo la gestión del proyecto, pero sí que participará activamente en la 
+  			toma de decisiones sobre las estrategias que contextualizarán, condicionarán y guiarán el trabajo de diseño.
+  		</para>
+  		<section>
+  			<title>Diagramas de Gantt</title>
+  			<para>
+  				Los diagramas de Gantt reciben su nombre de Henry Gantt, considerado uno de los “padres” de la gestión de proyectos como disciplina. 
+  				Estos diagramas son un tipo de gráfico de barras, donde cada barra representa un elemento –como por ejemplo la actividad o tarea a 
+  				desarrollar–, y sus fechas programadas de inicio y fin. Por tanto, la función de este tipo de diagramas no es otra que representar la 
+  				planificación o programación temporal de un proyecto. Para su elaboración se pueden usar desde aplicaciones específicas hasta 
+  				aplicaciones de hojas de cálculo (coloreando celdas).
+  			</para>
+		  	<informalfigure xreflabel="Fig 33" xml:id="fig33">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-037.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Ejemplo de diagrama de Gantt. Fuente: <link xl:href="http://www.spottydog.u-net.com/guides/faq/faq.html"/>
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		Un medio que nos puede facilitar la tarea de programar actividades en el contexto de proyectos bajo la filosofía del DCU, es partir de 
+		  		diagramas de Gantt “marco”. En estos diagramas de referencia no se detallan los tiempos y fechas de cada actividad, pues no responden 
+		  		a ningún proyecto concreto, pero sí nos ofrecen una visión general del orden cronológico que debe ocupar cada actividad, así como su 
+		  		duración relativa al resto de actividades. Como ejemplo podemos analizar el “diagrama del proceso de diseño” (Spencer, Warfel; 2007) 
+		  		de la <xref linkend="fig34" xreflabel="figura 34"/>.
+		  	</para>
+  		</section>
+  		<section>
+  			<title>Análisis Competitivo</title>
+  			<para>
+  				Nuestro proyecto web, una vez online, tendrá que competir inevitablemente por la atención de los usuarios con otros sitios web de 
+  				naturaleza similar. Una de las formas que tenemos para afrontar este reto es precisamente investigar a la competencia y detectar 
+  				las mejores prácticas (en nuestro caso, de diseño), para obtener con su aplicación una ventaja competitiva. Esta forma de innovación 
+  				aditiva está condicionada por nuestra capacidad para detectar qué es lo que otros hacen mejor que nosotros, y no terminar empeorando 
+  				nuestra solución tomando por válidas decisiones de diseño menos eficaces. Además, debemos recordar que es una técnica poco adecuada 
+  				en contextos donde las mejores prácticas se concentran en un único competidor.
+  			</para>
+  			<para>
+  				El análisis competitivo tiene dos dimensiones principales: competidores y criterios de análisis (Brown; 2007). Ya que el número de 
+  				competidores a los que se enfrente nuestro proyecto puede ser muy elevado, elegiremos para el análisis un grupo reducido, lógicamente 
+  				los de mayor éxito. A continuación debemos determinar cuáles serán los criterios de comparación, es decir, qué tipo de soluciones de 
+  				diseño vamos a analizar y comparar entre los competidores.
+  			</para>
+  			<informalfigure xreflabel="Fig 34" xml:id="fig34">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-039.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Diagrama del proceso de diseño (Spencer, Warfel;2007).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		La forma de medir los criterios depende en gran medida de la naturaleza de los mismos. En ocasiones podremos usar valores binarios para 
+		  		indicar si los competidores cumplen o no el criterio (ej.: “¿se utiliza en la home una nube de etiquetas?”); en otras ocasiones se podrán 
+		  		utilizar puntuaciones, indicando el grado en que se cumple el criterio (ej.: “cantidad de publicidad”); en otras ocasiones valores 
+		  		numéricos exactos (ej.: “peso en Kb de la página de inicio”); y en otras descripciones textuales del resultado de comprobar el criterio 
+		  		en cada competidor.
+		  	</para>
+		  	<para>
+		  		La forma de documentar el resultado del análisis competitivo puede variar enormemente, dependiendo, una vez más, de los criterios elegidos 
+		  		para el análisis. En el caso de valores binarios se pueden representar mediante una simple hoja de cálculo coloreando celdas, en forma de 
+		  		matriz “competidores x criterios”. Cuando los valores son cualitativos o cuantitativos se recomienda el uso de gráficas que sinteticen 
+		  		visualmente los datos como, por ejemplo, en la propuesta de Hawley (2009).
+		  	</para>
+		  	<para>
+		  		Para determinados criterios, como aquellos que pretenden comparar el <foreignphrase xml:lang="en">layout</foreignphrase> o distribución 
+		  		de contenidos en las páginas de los competidores, se pueden emplear ilustraciones esquemáticas como la de la 
+		  		<xref linkend="fig35" xreflabel="figura 35"/> (Brown; 2007).
+		  	</para>
+		  	<informalfigure xreflabel="Fig 35" xml:id="fig35">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-038.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Representación esquemática de varios layouts (Brown: 2007).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+  		</section>
+  		<section>
+  			<title>Inventarios de contenido</title>
+  			<para>
+  				Cuando nos enfrentamos a la tarea de definición o reestructuración de una arquitectura de información, el primero de los problemas que 
+  				debemos resolver es determinar el volumen de información a organizar, su naturaleza, audiencia, granularidad, relevancia y localización. 
+  				La forma tradicional de documentar los inventarios de contenido es a través de hojas de cálculo, ubicando en filas cada pieza de información, 
+  				y en columnas los diferentes campos o metadatos a registrar.
+  			</para>
+  			<para>
+  				En Usability.gov (<link xl:href="http://www.usability.gov/design/inventory.html"/>) proponen los siguientes campos a incluir en el inventario:
+  			</para>
+  			<itemizedlist>
+  				<listitem>
+  					<para>
+  						La temática general del contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						El título.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						URL (o nombre del fichero).
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Breve descripción del contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Fecha de creación.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Fecha de la última revisión o modificación.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Autor o creador (si se conoce).
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Responsable actual del contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Fecha en la que debe ser revisado el contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Fecha de caducidad del contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Páginas enlazadas en el contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						El “estatus” del contenido. Es decir, qué acciones hay programadas o se están realizando sobre éste (ej.: revisión, 
+  						eliminación, adaptación…).
+  					</para>
+  				</listitem>
+  			</itemizedlist>
+  			<para>
+  				Veen (2002) propone un conjunto de campos que presenta algunas diferencias, además de ofrecer una plantilla en Excel para la elaboración 
+  				de estos inventarios:
+  			</para>
+  			<itemizedlist>
+  				<listitem>
+  					<para>
+  						Identificador del contenido (facilitándonos su gestión).
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Nombre (título o descripción).
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						URL o localización.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Tipo de documento. En este caso no se refiere a su formato (html, pdf, etc…), sino al tipo documental (notas de prensa, información 
+  						legal, ficha de producto, etc…).
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Palabras clave que describan la temática del contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Responsable o Autor del contenido.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						ROT. Acrónimo que se refiere a Redundante, Obsoleto o Trivial. Con este campo se pretende identificar los contenidos que pueden ser 
+  						candidatos a eliminación.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Notas: cualquier información adicional que pueda resultar de utilidad sobre el contenido.
+  					</para>
+  				</listitem>
+  			</itemizedlist>
+  			<para>
+  				La elaboración de inventarios de contenido es una de las tareas más complejas, meticulosas y probablemente aburridas que deben acometer 
+  				los arquitectos de información. Además, algunos autores defienden que su elaboración puede resultar incluso contraproducente.
+  			</para>
+  			<para>
+  				Reichelt (2006) opina que la creación de inventarios detallados es una de las peores decisiones que se puede tomar si se pretende lograr una 
+  				buena arquitectura de información, ya que al hacerlo perdemos la perspectiva sobre cómo estos contenidos deberían estructurarse y relacionarse 
+  				en la nueva arquitectura de información. Maurer (2006) opina lo contrario, argumentando que no es posible crear arquitecturas de información 
+  				desconociendo la naturaleza en detalle de los contenidos. Por otro lado Rosenfeld (2006) afirma que el problema (de este debate) se encuentra 
+  				en la visión tradicional que se tiene de los inventarios de contenidos, en la que se entienden como un documento estático –una instantánea 
+  				del contenido– en vez de como un proceso.
+  			</para>
+  		</section>
+  	</section>
+  	<section xml:id="ch04c2">
+  		<title>Documentos de investigación con usuarios</title>
+  		<para>
+  			La filosofía del diseño centrado en el usuario determina que, con el objetivo de que el resultado final sea usable, el proceso de diseño debe 
+  			estar dirigido por los usuarios; sus necesidades, habilidades, conocimientos, modelos mentales, objetivos, experiencia y contexto. Además, esta 
+  			filosofía también nos indica que son precisamente los propios usuarios la mejor fuente de información acerca de la usabilidad de cualquier diseño.
+  		</para>
+  		<para>
+  			Toda esta información, como vimos en el anterior apartado, puede extraerse por diferentes técnicas de investigación, como encuestas, entrevistas, 
+  			analítica web, <foreignphrase xml:lang="en">card sorting</foreignphrase>, test de usuarios, etc.
+  		</para>
+  		<para>
+  			Con el objetivo de que la información que extraemos de la investigación con usuarios resulte útil y posibilite la toma de decisiones de diseño 
+  			acertadas, debemos representarla, sintetizarla y estructurarla en documentos.
+  		</para>
+  		<section>
+  			<title>Personas y escenarios</title>
+  			<para>
+  				La técnica <foreignphrase xml:lang="en">Persona-Scenario</foreignphrase> (Copper; 1999) (Cooper, Reimann, Cronin; 2007) –que traducimos como 
+  				“personaje-escenario”– pretende sintetizar la información extraída en etapas de indagación de la audiencia a una serie de documentos (o fichas) 
+  				que representarían arquetipos de usuarios. Mientras que la identidad de estos personajes es inventada (nombre, fotografía, etc.), la información 
+  				sobre sus necesidades, motivaciones, actitudes y comportamientos debe esta basada en datos reales extraídos de usuarios potenciales o reales 
+  				del sitio web a diseñar. Es decir, se trata de arquetipos de usuarios, no de estereotipos. Los personajes suelen contextualizarse con escenarios 
+  				o descripciones de situaciones de uso concretas.
+  			</para>
+  			<informalfigure xreflabel="Fig 36" xml:id="fig36">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-040.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Ficha “persona-Scenario” (Warfel; 2007).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		La función de estos documentos es potenciar en el diseñador la empatía con el usuario final, facilitando la toma de decisiones de diseño 
+		  		centradas en los usuarios representados, y no en suposiciones o ideas vagas acerca del público al que nos dirigimos en el sitio web. 
+		  		Además, facilitan la toma de decisiones de diseño cooperativas, ya que con ellos los diferentes miembros del equipo pueden compartir un 
+		  		mismo modelo mental acerca del usuario final.
+		  	</para>
+		  	<para>
+		  		En la elección de los personajes nos enfrentamos a la problemática de la diversidad de la audiencia, que describíamos en el apartado sobre la 
+		  		<xref linkend="" xreflabel="Experiencia del Usuario"/>. Deberemos conseguir que los personajes creados (que no deben superar los 7 u 8), 
+		  		representen al mayor porcentaje posible de la audiencia, y que sus características no se solapen entre sí (de poco sirve tener dos personajes 
+		  		que comparten demasiadas propiedades, y por tanto representan arquetipos de usuarios muy similares).
+		  	</para>
+		  	<para>
+		  		La información de estos documentos puede estar representada de diversas formas, aunque la forma más común suele ser mediante el uso de la 
+		  		narrativa, tal y como Wiggins (2009) demuestra en su artículo. La ficha de cada personaje suele incluir además una fotografía (algo que 
+		  		ayuda a humanizarlo), datos personales, palabras clave, e incluso representaciones gráficas que sinteticen visualmente su perfil (conocimientos, 
+		  		intereses, motivaciones…), tal y como podemos observar en el ejemplo de la <xref linkend="fig36" xreflabel="figura 36"/>.
+		  	</para>
+		  	<para>
+		  		Para ampliar información sobre el enfoque “personaje-escenario”, se recomienda la consulta de la recopilación de recursos de Dey Alexander 
+		  		Consulting sobre el tema: (<link xl:href="http://deyalexander.com/resources/uxd/personas.html"/>)
+		  	</para>
+  		</section>
+  	</section>
+  	<section xml:id="ch04c3">
+  		<title>Documentos de diseño</title>
+  		<para>
+  			Diseñar es un proceso que parte de lo general a lo específico, de la idea a su materialización, de lo abstracto a lo concreto. Los primeros pasos 
+  			son investigar a la audiencia, analizar el entorno competitivo, o analizar la naturaleza del contenido que pretendemos comunicar. Sobre esta 
+  			información comenzamos la propuesta de soluciones de diseño, tomando decisiones acerca de cómo estructurar el contenido, cómo presentar la 
+  			información en las diferentes páginas, o cuáles serán las posibilidades interactivas del sitio web.
+  		</para>
+  		<para>
+  			A continuación se describen algunos documentos dirigidos a registrar este tipo de decisiones.
+  		</para>
+  		<section>
+  			<title>Wireframes</title>
+  			<para>
+  				Los <foreignphrase xml:lang="en">wireframes</foreignphrase> son esquematizaciones de la interfaz, documentos en los que se representa cómo 
+  				deberá ser la distribución, ordenación y relación de los diferentes elementos en cada una de las páginas (o tipos de páginas) del sitio web.
+  			</para>
+  			<para>
+  				Quién deba llevar a cabo la elaboración de los <foreignphrase xml:lang="en">wireframes</foreignphrase> no deja de ser una cuestión 
+  				controvertida. Como señala Brown (2007), estos documentos desdibujan la línea que separa la arquitectura de la información del 
+  				diseño gráfico.
+  			</para>
+  			<para>
+  				Se suele diferenciar entre wireframes de “baja fidelidad” y de “alta fidelidad”, aunque no se trate de dos categorías con límites definidos. 
+  				En los primeros se representa el esqueleto de la interfaz, la distribución de los diferentes bloques de contenido y, en algunos casos, el 
+  				rotulado. Los de alta fidelidad incluyen mayor detalle visual, como imágenes, colores, tipografías… Las ventajas de unos y otros son obvias. 
+  				Los primeros son más fácilmente elaborables y modificables, mientras que los segundos ofrecen una imagen más fiel y realista del diseño final 
+  				de las páginas.
+  			</para>
+  			<para>
+  				En la <xref linkend="fig37" xreflabel="figura 37"/> podemos observar un <foreignphrase xml:lang="en">wireframes</foreignphrase> de baja 
+  				fidelidad, extraído del trabajo de Candamil-Llano y Guevara-Hurtado (2009b), quienes describen detalladamente un caso práctico de elaboración 
+  				de <foreignphrase xml:lang="en">wireframes</foreignphrase>.
+  			</para>
+  			<para>
+  				Entre las herramientas que pueden utilizarse en la elaboración de <foreignphrase xml:lang="en">wireframes</foreignphrase>, podemos destacar 
+  				(Ronda-León; 2007) (Barber; 2009):
+  			</para>
+  			<informalfigure xreflabel="Fig 37" xml:id="fig37">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-041.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Wireframe de baja fidelidad (Candamil-Llano, Guevara-Hurtado; 2009b).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<itemizedlist>
+		  		<listitem>
+		  			<para>
+		  				Herramientas generales de diagramación:
+		  			</para>
+		  			<itemizedlist>
+		  				<listitem>
+		  					<para>
+		  						Microsoft Visio: Fink (2005) y Abbett (2008) ofrecen <foreignphrase xml:lang="en">stencils</foreignphrase> de Visio 
+		  						específicamente ideados para la elaboración de wireframes.
+		  					</para>
+		  				</listitem>
+		  				<listitem>
+		  					<para>
+		  						OmniGraffle: En <link xl:href="http://graffletopia.com"/> podemos encontrar <foreignphrase xml:lang="en">stencils</foreignphrase> 
+		  						para elaborar wireframes para esta aplicación.
+		  					</para>
+		  				</listitem>
+		  			</itemizedlist>
+		  		</listitem>
+		  		<listitem>
+		  			<para>
+		  				Herramientas específicas:
+		  			</para>
+		  			<itemizedlist>
+		  				<listitem>
+		  					<para>
+		  						Balsamiq (<link xl:href="http://www.balsamiq.com"/>)
+		  					</para>
+		  				</listitem>
+		  				<listitem>
+		  					<para>
+		  						Axure (<link xl:href="http://www.axure.com"/>)
+		  					</para>
+		  				</listitem>
+		  				<listitem>
+		  					<para>
+		  						The Pencil Project (<link xl:href="http://www.evolus.vn/Pencil/"/>) (Gratuita)
+		  					</para>
+		  				</listitem>
+		  			</itemizedlist>
+		  		</listitem>
+		  	</itemizedlist>
+		  	<para>
+		  		Otros recursos de interés son el artículo de Howard (2009), en el que se ofrecen 20 consejos prácticos para la elaboración de 
+		  		<foreignphrase xml:lang="en">wireframes</foreignphrase>, o el de Olsen (2006), pequeño tutorial sobre el uso de Microsoft 
+		  		Visio en la documentación mediante <foreignphrase xml:lang="en">wireframes</foreignphrase>.
+		  	</para>
+  		</section>
+  		<section>
+  			<title>Diagramas de interacción</title>
+  			<para>
+  				Documentar el diseño de interacción consiste en representar el comportamiento interactivo de la aplicación o sitio web, es decir, cómo 
+  				la aplicación responderá a las acciones del usuario. La diferencia principal de los diagramas de interacción frente a otros documentos 
+  				de diseño, es que estos describen la dimensión dinámica, temporal, en movimiento e interactiva del diseño.
+  			</para>
+  			<para>
+  				La diagramación de la interacción puede hacerse a través de dos tipos de documentos. Por un lado se pueden usar secuencias del estado 
+  				de la interfaz (mezcla entre un <foreignphrase xml:lang="en">wireframe</foreignphrase> y un <foreignphrase xml:lang="en">storyboard</foreignphrase>), 
+  				tal y como podemos ver en la <xref linkend="fig38" xreflabel="figura 38"/>, extraída del trabajo de Scott (2005).
+  			</para>
+  			<informalfigure xreflabel="Fig 38" xml:id="fig38">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-042.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Secuencia del estado de la interfaz. Podemos apreciar cómo la aplicación responde a las acciones del usuario; qué cambios se 
+			  				producen en la interfaz en función de las acciones del usuario. Fuente: Scout (2005).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		El segundo tipo de documento es el conocido como diagramas de flujo de interacción. En estos documentos las posibles acciones del usuario y 
+		  		las respuestas del sistema se representan en forma de diagramas, mediante elementos (nodos) y conectores. El significado de cada elemento, 
+		  		así como de la relación definida por los conectores, suele codificarse mediante su forma gráfica, y explicitarse mediante leyendas descriptivas.
+		  	</para>
+		  	<para>
+		  		Aunque puede usarse el vocabulario gráfico que se desee (una vez más, no existe normalización), uno de los vocabularios gráficos más 
+		  		extendidos y populares es el propuesto por Garrett (2002), del que podemos ver un ejemplo de aplicación en la 
+		  		<xref linkend="fig39" xreflabel="figura 39"/>.
+		  	</para>
+		  	<informalfigure xreflabel="Fig 39" xml:id="fig39">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-043.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Diagrama de Flujo de Interacción (Garrett; 2002).
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+  		</section>
+  		<section>
+  			<title>Patrones de diseño de interacción</title>
+  			<para>
+  				Los patrones de diseño fueron originalmente propuestos por el arquitecto Christopher Alexander en el contexto del diseño y construcción 
+  				urbanística, quien los definió como soluciones a problemas que se usan repetidamente en contextos similares con algunas variantes en la 
+  				implementación. Esta idea ha sido importada al mundo del diseño de interacción.
+  			</para>
+  			<para>
+  				Un patrón de diseño responde qué hay que hacer, pero integrando un contexto y objetivos concretos (Welie, Veer, Eliëns; 2000). Los patrones 
+  				de diseño son, por tanto, específicos, sólo aplicables a contextos determinados, y suelen incluir ejemplos concretos de aplicación 
+  				(Henninger; 2000)(Henninger, Oltman; 2002). Su naturaleza específica es lo que los diferencia de las directrices de usabilidad o heurísticas, 
+  				ya que los patrones de diseño incorporan además el resultado deseado (Spool; 2003) (Henninger; 2001).
+  			</para>
+  			<para>
+  				Aunque los patrones de diseño pueden estructurarse de muy diversas formas (no existe normalización), suelen compartir los siguientes campos 
+  				(Moreno, Sánchez-Segura; 2003) (Hernández-Hernández et al.; 1998) (Malone et al.; 2005) (Varela-Tabuyo; 2005):
+  			</para>
+  			<itemizedlist>
+  				<listitem>
+  					<para>
+  						Título o nombre del patrón: Debería ser claro, conciso, significativo y sugestivo respecto al problema abordado.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Problema: Descripción del problema de interacción abordado.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Principio/s de usabilidad: Determina sobre qué principios o criterios de usabilidad se sustenta el patrón.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Contexto: Descripción del contexto o situación de interacción para la que puede ser aplicado el patrón.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Representación visual: Se trata de un elemento opcional, en el que se representa visualmente la esencia o resumen del patrón 
+  						(diagramas, esquemas, capturas de interfaz,...).
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Solución: Este es el elemento principal de un patrón, donde se describe de forma clara y precisa qué decisión de diseño será 
+  						la más adecuada para solucionar el problema de interacción.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Consecuencias: Impacto de la decisión de diseño sobre otros elementos y atributos del producto.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Beneficios: Se argumentan las ventajas y beneficios en términos de usabilidad que implica la aplicación del patrón.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Ejemplo: Se muestra un ejemplo de aplicación con éxito del patrón, normalmente de forma gráfica.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Patrones relacionados: Relación del patrón con otros patrones similares, como aquellos destinados a solucionar el mismo problema 
+  						en contextos diferentes.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Bibliografía: Fuentes de información sobre los que se fundamenta el patrón o a través de las cuales poder ampliar información.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Comentarios: Posibilitan que otros puedan aportar información, experiencias y opiniones sobre el patrón.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Autor: Persona que propone el patrón.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Palabras clave: Describen los conceptos principales tratados en el patrón.
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Copyright: Información sobre los derechos de autor del patrón.
+  					</para>
+  				</listitem>
+  			</itemizedlist>
+  			<para>
+  				Actualmente existen numerosas librerías o repositorios de patrones de diseño accesibles en línea, entre los que cabe destacar:
+  			</para>
+  			<itemizedlist>
+  				<listitem>
+  					<para>
+  						Yahoo! Pattern Library (<link xl:href="http://developer.yahoo.com/ypatterns"/>)
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						Welie.com, Patterns in Interaction Design (<link xl:href="http://www.welie.com"/>)
+  					</para>
+  				</listitem>
+  				<listitem>
+  					<para>
+  						UI-Patterns, User Interface Design Pattern Library (<link xl:href="http://www.ui-patterns.com"/>)
+  					</para>
+  				</listitem>
+  			</itemizedlist>
+  			<para>
+  				Los patrones de diseño de interacción suponen una valiosa herramienta como soporte a la toma de decisiones de diseño acertadas, sustentadas 
+  				en base al conocimiento compartido y derivado de soluciones alcanzadas previamente para problemas y contextos similares. Por ello, son un 
+  				medio muy recomendable para registrar el conocimiento del equipo de diseño, permitiendo su reutilización posterior.
+  			</para>
+  			<para>
+  				Esto no significa que debamos acatar cualquier patrón de diseño como una solución universal e inamovible para el problema descrito. Un patrón 
+  				de diseño no debe considerarse una respuesta a un problema, sino el punto de partida en el proceso de toma de decisiones de diseño. Una vez 
+  				analizamos la solución que plantea un patrón de diseño, debemos preguntarnos: ¿podemos aportar una solución que mejore la experiencia del 
+  				usuario?
+  			</para>
+  			<para>
+  				Como ejemplo de innovación, podemos tomar la propuesta de Mac Funamizu, quien nos descubre una nueva manera de indicar a los pasajeros del 
+  				metro su situación exacta y el recorrido de estaciones para la línea que han tomado, redimensionando el espacio y superando límites que en 
+  				realidad no existían.
+  			</para>
+  		</section>
+  		<section>
+  			<title>Mapas de sitio web</title>
+  			<para>
+  				Mientras que los diferentes documentos de diseño expuestos hasta el momento registran diferentes facetas o dimensiones del diseño (por ejemplo, 
+  				los <foreignphrase xml:lang="en">wireframes</foreignphrase> registran la organización de los contenidos dentro de cada página, mientras que los 
+  				patrones de diseño registran soluciones corroboradas a problemas recurrentes), los mapas del sitio web lo que persiguen es ofrecer una visión 
+  				global del producto, su estructura general.
+  			</para>
+  			<informalfigure xreflabel="Fig 40" xml:id="fig40">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-045.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Ejemplo de una posible alternativa en la forma de orientar a los pasajeros del metro. Fuente: 
+			  				<link xl:href="http://petitinvention.wordpress.com/2009/03/08/train-ceiling-as-info-screen/"/>
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<informalfigure xreflabel="Fig 41" xml:id="fig41">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-044.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Jerarquías de elementos
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		En estos documentos lo que se representan son las diferentes piezas de contenido (o grupos de piezas), y su relación. Ya que las piezas 
+		  		(y grupos) de contenido pueden tener muy diversos tipos de relaciones entre sí, normalmente las relaciones representadas suelen reducirse 
+		  		a las más relevantes, es decir, las jerárquicas.
+		  	</para>
+		  	<para>
+		  		Representar una jerarquía de elementos puede hacerse de muy diversas formas. Se puede simplemente crear un índice, donde cada ítem hijo se 
+		  		encuentre tabulado respecto al ítem padre, o se pueden usar diagramas en forma de árbol, donde las relaciones entre unidades se representen 
+		  		como conectores, los ítems como nodos, y el nivel jerárquico venga determinado por su ubicación vertical (<xref linkend="fig41" xreflabel="figura 41"/>).
+		  	</para>
+		  	<informalfigure xreflabel="Fig 42" xml:id="fig42">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-046.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Mapa del sitio web de Microsoft.com
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+		  	<para>
+		  		Los mapas de sitio web, como documentos de diseño, tienen la peculiaridad de que suelen dar pie a sistemas de navegación que responden al 
+		  		mismo nombre, englobados por Rosenfeld y Morville (2002) bajo la categoría de sistemas de navegación suplementarios. El objetivo de los 
+		  		mapas de sitios web como sistemas de navegación es permitir al usuario obtener una visión global del sitio web, y servir de vía directa 
+		  		de acceso a las principales secciones o grupos de contenido del sitio web (véase ejemplo de la <xref linkend="fig42" xreflabel="figura 42"/>).
+		  	</para>
+		  	<para>
+		  		No obstante, la popularidad de estos mapas de navegación ha ido variando a lo largo de los años. Uno de los objetivos principales que 
+		  		motivaban la inclusión de estos mapas era que facilitaban la tarea de los robots de los buscadores, mejorando la indización del sitio y 
+		  		por tanto su posicionamiento en los resultados de búsqueda. Sin embargo, desde que Google introdujo el concepto de mapa de sitio web en 
+		  		XML –ficheros cuya función es indicar la ubicación de cada pieza de contenido al robot de forma directa– los mapas de sitio web tradicionales 
+		  		han perdido popularidad entre las tácticas de optimización para buscadores.
+		  	</para>
+		  	<para>
+		  		Sin embargo, aún persisten como sistema de navegación suplementario, aunque como demuestra La (2009) a través de numerosos ejemplos, lo que 
+		  		se está produciendo es un cambio en su presentación y ubicación. Si tradicionalmente los mapas se ubicaban tras un enlace de acceso (que 
+		  		recibía el nombre de “mapa del sitio” o <foreignphrase xml:lang="en">site map</foreignphrase>) ubicado en zonas superiores de la página, 
+		  		actualmente se percibe la tendencia de presentarlos directamente ubicados en el pie de todas las páginas del sitio. En el ejemplo de la 
+		  		<xref linkend="fig43" xreflabel="figura 43"/> vemos cómo se presenta una versión reducida del mapa del sitio web a pie de página, 
+		  		incluyendo además un enlace al mapa completo.
+		  	</para>
+		  	<informalfigure xreflabel="Fig 43" xml:id="fig43">
+			  	<mediaobject>
+			  		<imageobject>
+			  			<imagedata fileref="resource/INF-3-047.jpg" />
+			  		</imageobject>
+			  		<caption>
+			  			<para>
+			  				Mapa del sitio web de <link xl:href="http://www.apple.com">Apple.com</link>
+			  			</para>
+			  		</caption>
+			  	</mediaobject>
+		  	</informalfigure>
+  		</section>
+  	</section>
+  </section>
+</chapter>

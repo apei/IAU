@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch05"
+	lang="es" version="5.0" 
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>Conclusiones</title>
+  <section xml:id="ch05a">
+  	<title>La experienia del usuario</title>
+  	<para>
+  		Un producto o aplicación será usable en la medida en que el beneficio que se obtenga de usarlo (utilidad) justifique el esfuerzo necesario 
+  		para su uso (aprendizaje, atención, tiempo…).
+  	</para>
+  </section>
+  <section xml:id="ch05b">
+  	<title>Simplicidad</title>
+  	<para>
+  		Cuando la función de cada elemento y sus relaciones con el resto [en la interfaz] sean perceptibles inmediata e inequívocamente, y cuando 
+  		hayamos prescindido de cualquier elemento sin función ni relación alguna, entonces habremos reducido la complejidad del sitio web a su nivel 
+  		óptimo, a una complejidad necesaria, funcional, irreductible. El caso contrario sería una complejidad artificial, producto de la ornamentación 
+  		innecesaria, del exceso de opciones y contenidos irrelevantes, y donde la relación entre elementos se caracterice por su ambigüedad.
+  	</para>
+  </section>
+  <section xml:id="ch05c">
+  	<title>Percepción visual</title>
+  	<para>
+  		La recomendación principal a la hora de afrontar el diseño de una interfaz visualmente usable es el cumplimiento sistemático de los siguientes 
+  		principios: Enfatizar, Organizar y Hacer reconocible.
+  	</para>
+  </section>
+  <section xml:id="ch05d">
+  	<title>Cognición</title>
+  	<para>
+  		Si bien el canal perceptual tiene un gran ancho de banda, y la memoria a largo plazo una gran capacidad, la memoria operativa y el esfuerzo 
+  		cognitivo requerido para la toma de decisiones suponen un embudo en el procesamiento de información del usuario, que como diseñadores debemos 
+  		evitar que se colapse.
+  	</para>
+  </section>
+  <section xml:id="ch05e">
+  	<title>Modelos mentales</title>
+  	<para>
+  		Nuestro conocimiento está organizado en la memoria como redes interconectadas de representaciones de objetos, sucesos y conceptos, formando 
+  		la base estructural que otorga significado a nuestro mundo.
+  	</para>
+  	<informalfigure xreflabel="Fig 44" xml:id="fig44">
+	  	<mediaobject>
+	  		<imageobject>
+	  			<imagedata fileref="resource/INF-3-054.jpg" />
+	  		</imageobject>
+	  		<caption>
+	  			<para>
+	  				Usabilidad: diseño para el usuario.
+	  			</para>
+	  		</caption>
+	  	</mediaobject>
+	</informalfigure>
+  </section>
+  <section xml:id="ch05f">
+  	<title>El sujeto como ser social</title>
+  	<para>
+  		Los significados y sentidos de los que dotamos a las interfaces que diseñamos, o asignamos a aquellas que usamos, no se encuentran encerrados 
+  		en la mente de cada diseñador y usuario. Un diseño será usable en la medida en que tanto diseñador como usuario compartan esquemas y modelos 
+  		conceptuales, posibilitando la interpretación del mensaje.
+  	</para>
+  </section>
+  <section xml:id="ch05g">
+  	<title>Introducción al diseño centrado en el usuario (DCU)</title>
+  	<para>
+  		El DCU es un proceso cíclico en el que las decisiones de diseño están dirigidas por el usuario y los objetivos que pretende satisfacer el producto, 
+  		y donde la usabilidad del diseño es evaluada de forma iterativa y mejorada incrementalmente.
+  	</para>
+  </section>
+  <section xml:id="ch05h">
+  	<title>Metodologías y técnicas de DCU</title>
+  	<para>
+  		Aún cuando el diseñador tenga amplios conocimientos sobre usabilidad, resulta recomendable evaluar el diseño con usuarios. Esto se debe a que 
+  		conforme más tiempo dedica un diseñador a un proyecto, menor es su perspectiva y más difícilmente detectará posibles problemas.
+  	</para>
+  </section>
+  <section xml:id="ch05i">
+  	<title>Documentación del diseño</title>
+  	<para>
+  		La comunicación y el flujo de información en el proyecto pueden realizarse de muy diversas formas, aunque sin duda su documentación es el medio 
+  		más estable, efectivo y fácilmente reutilizable. Documentar consiste en registrar ideas y conceptos de diseño, no sólo con el fin de posibilitar 
+  		su comunicación, sino también de preservar ese conocimiento.
+  	</para>
+  </section>
+</chapter>

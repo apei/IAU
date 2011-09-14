@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="bio"
+	lang="es" version="5.0" 
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>Autores</title>
+  <section xml:id="bio01">
+  	<title>Yusef Hassan Montero</title>
+  	<informalfigure xml:id="bio01img">
+	  	<mediaobject>
+	  		<imageobject>
+	  			<imagedata fileref="resource/INF-3-049.jpg" />
+	  		</imageobject>
+	  	</mediaobject>
+	</informalfigure>
+	<para>
+		Yusef Hassan Montero trabaja en el grupo SCImago (CSIC), en el que dedica su tiempo a tareas de diseño, programación e investigación. Es 
+		Diplomado y Licenciado en Documentación, y actualmente se encuentra realizando su tesis doctoral sobre visualización de información.
+	</para>
+	<para>
+		Sobre el tema de la usabilidad y la arquitectura de información ha publicado numerosos artículos divulgativos y de investigación, 
+		impartido conferencias y cursos, y realizado trabajos de consultoría como freelance. En 2003 fundó No Solo Usabilidad Journal, 
+		revista electrónica open-access que dirige sobre Diseño Centrado en el Usuario (<link xl:href="www.nosolousabilidad.com"/>).
+	</para>
+	<para>
+		Email: <link xl:href="yusefhassan@gmail.com" />
+	</para>
+	<para>
+		Blog: <link xl:href="http://www.human-computer.net/blog" />
+	</para>
+  </section>
+  <section xml:id="bio02">
+  	<title>Sergio Ortega Santamaría</title>
+  	<informalfigure xml:id="bio02img">
+	  	<mediaobject>
+	  		<imageobject>
+	  			<imagedata fileref="resource/INF-3-048.jpg" />
+	  		</imageobject>
+	  		<caption>
+	  			<para>
+	  				Sergio Ortega Santamaría
+	  			</para>
+	  		</caption>
+	  	</mediaobject>
+	</informalfigure>
+	<para>
+		Sergio Ortega Santamaría es Doctor en Psicopedagogía y profesor e investigador de la Facultad de Comunicación de la Universidad Pontificia de Salamanca.
+	</para>
+	<para>
+		Es miembro de Orionmedialab, el Laboratorio de Comunicación Multimedia de esta Facultad, donde participa como investigador en proyectos relacionados con 
+		las tecnologías de la información y la comunicación.
+	</para>
+	<para>
+		Entre los ámbitos donde desarrolla su actividad se encuentran el desarrollo de propuestas de comunicación digital interactiva, diseño y usabilidad web e 
+		innovación tecnológica en comunicación audiovisual.
+	</para>
+	<para>
+		Cuenta con distintas publicaciones académicas y artículos orientados a estos ámbitos. Es autor del libro <citetitle pubwork="book">Multimedia, hipermedia 
+		y aprendizaje. Construcción de espacios interactivos</citetitle> y miembro del consejo asesor de No Solo Usabilidad Journal.
+	</para>
+	<para>
+		Ha impartido cursos y talleres compatibilizando su labor docente con proyectos de diversa naturaleza: consultorías de usabilidad, diseño web, 
+		identidad visual, entre otros.
+	</para>
+	<para>
+		Email: <link xl:href="sortegasa@gmail.com" />
+	</para>
+	<para>
+		Blog: <link xl:href="http://www.orionmedialab.com/ortega" />
+	</para>
+  </section>
+</appendix>

@@ -1,0 +1,3206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibliography xml:id="bib"
+	lang="es" version="5.0" 
+	xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xl="http://www.w3.org/1999/xlink">
+  <title>Bibliografía</title>
+  
+  
+	<biblioentry>
+		<author>
+			<personname><surname>ABBETT</surname> <firstname>J.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>(2008)</phrase>
+		</bibliomisc> 
+		<title>Updated Sketch GUI Shapes for Visio</title> 
+		<publisher>
+			<publishername>
+				Abbett.org
+			</publishername>
+		</publisher>
+		<bibliosource role="uri">
+			Disponible en: 
+			<link xl:href="http://www.abbett.org/2008/05/27/updated-sketch-gui-shapes-for-visio/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>ANDERSON</surname><firstname>S. P.</firstname></personname>
+		</author>
+		<bibliomisc><phrase>(2009)</phrase></bibliomisc>
+		<title>
+			In Defense of Eye Candy
+		</title>
+		<publisher>
+			<publishername>A List Apart,</publishername>
+			<pubdate>21 de Abril de 2009</pubdate>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.alistapart.com/articles/indefenseofeyecandy"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>ANTOLÍ</surname><firstname>A.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>FAJARDO</surname><firstname>I.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>CAÑAS</surname><firstname>J. J.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>SALMERON</surname><firstname>L.</firstname></personname>
+			</author>
+		</authorgroup>
+		<bibliomisc>
+			<phrase>(2005)</phrase>
+		</bibliomisc>
+		<title>
+			Problemas asociados al uso inexperto de la técnica card sorting
+		</title>
+		<citetitle pubwork="other">Actas del Congreso Interacción</citetitle>
+		<publisher>
+			<pubdate>2005</pubdate>
+			<publishername>AIPO</publishername>
+			<address><city>Granada</city></address>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.ugr.es/~ergocogn/articulos/card_sorting.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>BADDELEY</surname><firstname>A. D.</firstname></personname>
+		</author>
+		<bibliomisc><phrase>(2001)</phrase></bibliomisc> 
+		<title>
+			Is Working Memory Still Working?
+		</title>
+		<citetitle pubwork="journal">En: American Psychologist</citetitle>
+		<issuenum>56</issuenum>
+		<pagenums>pp. 849-864</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>BARBER</surname><firstname>G.</firstname></personname>
+		</author> 
+		<pubdate>(2009)</pubdate>
+		<title>
+			16 Design Tools for Prototyping and Wireframing
+		</title> 
+		<publisher>
+			<publishername>
+				Sitepoint
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.sitepoint.com/article/tools-prototyping-wireframing/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>BROWN</surname><firstname>D. M.</firstname></personname>
+		</author>
+		<bibliomisc>
+			<phrase>(2007)</phrase>
+		</bibliomisc> 
+		<title>
+			Communicating Design
+		</title> 
+		<subtitle>
+			Developing Web Site Documentation for Design and Planning
+		</subtitle> 
+		<publisher>
+			<publishername>
+				New Riders
+			</publishername> 
+			<address>
+				<city>Berkeley</city><state>CA</state>
+			</address>
+			<pubdate>2007</pubdate>
+		</publisher> 
+		<biblioid class="isbn">
+			ISBN 0-321-39235-3
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>BUSH</surname><firstname>V.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>(1945)</phrase>
+		</bibliomisc> 
+		<title>
+			As we may think
+		</title> 
+		<citetitle pubwork="journal">The Atlantic Monthly, julio</citetitle> <issuenum>176(1)</issuenum><pagenums>p. 101-108</pagenums> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.theatlantic.com/unbound/flashbks/computer/bushf.htm"/>
+		</bibliosource>
+	</biblioentry>  
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>BUZAN</surname><firstname>T.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>BUZAN</surname><firstname>B.</firstname></personname>
+			</author>
+		</authorgroup>
+		<pubdate>
+			(1996)
+		</pubdate>
+		<title>
+			El libro de los mapas mentales
+		</title>
+		<subtitle>Como utilizar al máximo las capacidades de la mente</subtitle>
+		<publisher>
+			<address><city>Barcelona</city></address>
+			<publishername>Urano</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>CANDAMIL-LLANO</surname><firstname> M.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>GUEVARA-HURTADO</surname><firstname> A. F.</firstname></personname>
+			</author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc>
+		<title>Card sorting</title> <subtitle>un caso práctico en el diseño de un sitio web universitario</subtitle> 
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 7</issuenum> <pubdate>2008</pubdate> 
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource> 
+		<biblioid class="isbn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>CANDAMIL-LLANO</surname><firstname> M.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>GUEVARA-HURTADO</surname><firstname> A. F.</firstname></personname>
+			</author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2009a)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Análisis de sitios web universitarios colombianos mediante evaluaciones heurísticas para el proyecto del nuevo portal web Unicauca
+		</title> 
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.ragnarok.unicauca.edu.co/nuevoportal/wp-content/uploads/resultados-analisis-heuristico-sitios-web-universidades-colombianas-proyecto-nuevo-portal-web-unicauca.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>CANDAMIL-LLANO</surname><firstname> M.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>GUEVARA-HURTADO</surname><firstname> A. F.</firstname></personname>
+			</author>
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2009b)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Diseño de prototipos (wireframes) para proyecto nuevo portal web Unicauca
+		</title> 
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.ragnarok.unicauca.edu.co/nuevoportal/wp-content/uploads/wireframes/diseno-prototipos-wireframes-proyecto-nuevo-portal-web-unicauca.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>CARRERAS-PLANZA</surname><firstname>J.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>GUADERRAMA-HERNÁNDEZ</surname><firstname>M.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>El Enfoque Cualitativo en el desarrollo de Arquitecturas de Información</title>
+		<subtitle>Card Sorting + Entrevista Abierta</subtitle> 
+		<citetitle>Congreso Interacción</citetitle>
+		<publisher>
+			<pubdate>2004</pubdate>
+			<publishername>
+				AIPO
+			</publishername> 
+			<address><city>Lleida</city></address>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.biguel.com/textos/AIPO-Interaccion-2004_JesusCarreras.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>CAÑADA</surname><firstname>J.</firstname></personname>
+		</author>
+		<pubdate>
+			(2003)
+		</pubdate>
+		<title>
+			10 Malentendidos sobre Interacción Persona-Ordenador
+		</title> 
+		<publisher>
+			<publishername>
+				Terremoto.net
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.terremoto.net/x/archivos/000060.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>CAÑAS</surname><firstname>J. J.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>WAERNS</surname><firstname>Y.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>Ergonomía cognitiva</title>
+		<subtitle>Aspectos psicológicos de la Interacción de las personas con la Tecnología de la Información</subtitle> 
+		<publisher>
+			<address><city>Madrid</city></address>
+			<publishername>Médica Panamericana</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>COPPER</surname><firstname>A.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1999)
+			</phrase>
+		</bibliomisc> 
+		<title>The Inmates Are Running the Asylum</title>
+		<subtitle>Why High-Tech Products Drive Us Crazy and How to Restore the Sanity</subtitle> 
+		<publisher>
+			<publishername>
+				SAMS
+			</publishername>
+		</publisher>
+		<biblioid class="isbn">
+			ISBN: 0-67231-649-8.
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>COPPER</surname><firstname>A.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>REIMANN</surname><firstname>R.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>CRONIN</surname><firstname>D.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>About Face 3</title>
+		<subtitle>The Essentials of Interaction Design</subtitle> 
+		<publisher>
+			<publishername>
+				John Wiley and Sons
+			</publishername><pubdate>2007</pubdate><pagenums>610 pp</pagenums>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>COSTA</surname><firstname>J.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1994)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Diseño, comunicación y cultura
+		</title>
+		<bibliomisc>
+			<phrase>
+				Premio Fundesco de Ensayo
+			</phrase>
+		</bibliomisc> 
+		<publisher>
+			<address><city>Madrid</city></address><publishername>Fundesco</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>COWAN</surname><firstname>N.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1988)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Evolving Conceptions of Memory Storage, Selective Attention, and Their Mutual Constraints Within The Human Information-Processing System
+		</title>
+		<citetitle pubwork="journal">En: Psychological Bulletin</citetitle>
+		<volumenum>vol. 104</volumenum><issuenum>n. 2</issuenum> <pagenums>pp. 163-191</pagenums><pubdate>1988</pubdate>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>COWAN</surname><firstname>N.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1999)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			An embedded-processes model of working memory
+		</title>
+		<citetitle pubwork="book">En: Miyake, A.; Shah, P. Models of working memory: Mechanisms of active maintenance and executive control</citetitle>
+		<publisher>
+			<address><city>New York</city><state>NY</state></address>
+			<publishername>Cambridge University Press</publishername> <pubdate>1999</pubdate>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>COWAN</surname><firstname>N.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>The magical number 4 in short-term memory</title>
+		<subtitle>A reconsideration of mental storage capacity</subtitle>
+		<citetitle pubwork="journal">En: Behavioral and Brain Sciences</citetitle><pubdate>(2001)</pubdate> 
+		<issuenum>24</issuenum> <pagenums>pp. 87-114</pagenums>
+		<publisher>
+			<publishername>
+				Cambridge University Press
+			</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>DERRIDA</surname><firstname>J.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1989)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			La escritura y la diferencia
+		</title> 
+		<publisher>
+			<address><city>Barcelona</city></address>
+			<publishername>Anthropos</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>DILLON</surname><firstname> A.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MORRIS</surname><firstname> M.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(1999)
+			</phrase>
+		</bibliomisc> 
+		<title>P3</title> 
+		<subtitle>modeling and measuring the human determinants of information systems usage</subtitle>
+		<citetitle>Proceedings of the 43rd Annual Meeting of the Human Factors and Ergonomics Society, Paper presented at the Annual Meeting of HFES in Texas, Santa Monica, CA: HFES, September</citetitle>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>DILLON</surname><firstname> A.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>Beyond Usability</title>
+		<subtitle>Process, Outcome and Affect in human computer interactions</subtitle>
+		<citetitle pubwork="journal">Canadian Journal of Information Science</citetitle> <volumenum>26</volumenum>
+		<issuenum>4</issuenum><pagenums>pp. 57-69</pagenums> 
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.ischool.utexas.edu/~adillon/Journals/BeyondUsability.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>DOURISH </surname><firstname>P.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Implications for design
+		</title>
+		<citetitle>Proceedings of the SIGCHI conference on Human Factors in computing systems</citetitle> <pagenums>pp. 541-550</pagenums>
+		<publisher>
+			<pubdate>April 22–27, 2006</pubdate>
+			<address><city>Montréal</city> <state>Québec</state> <country>Canada</country></address>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.ics.uci.edu/~jpd/classes/readings/Dourish-Implications.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>D’HERTEFELT</surname><firstname>S.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Emerging and future usability challenges: designing user experiences and user communities
+		</title> 
+		<publisher>
+			<publishername>
+				InteractionArchitect.com
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.interactionarchitect.com/future/vision20000202shd.htm"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>ELTEN</surname><firstname> N.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Effective usability testing for Intranet
+		</title>
+		<publisher>
+			<publishername>
+				Jungle Minds
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.jungleminds.com/publications/articles/effective_usability_testing_for_intranet"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>FIDALGO</surname><firstname> A.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>Puntos de entrada y jerarquía visual en las páginas de inicio</title> 
+		<subtitle>el caso de Hotelius</subtitle> 
+		<publisher>
+			<publishername>
+				Alzado
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.alzado.org/articulo.php?id_art=541"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>FINK</surname><firstname>N.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>Visio Stencils for Information Architects</title>
+		<publisher>
+			<publishername>
+				Nick Fink Blog
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.nickfinck.com/blog/entry/visio_stencils_for_information_architects/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>FISCHER</surname><firstname> G.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>User Modeling in Human-Computer Interaction</title> 
+		<citetitle>En: User Modeling and User-Adapted Interaction (UMUAI)</citetitle> 
+		<volumenum>vol. 11</volumenum> <issuenum>n. 1/2</issuenum><pagenums>pp 65-86</pagenums> <pubdate>2001</pubdate>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>FURNAS</surname></personname>
+			<phrase>et al</phrase>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1987)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			The Vocabulary Problem in Human-System Communication
+		</title>
+		<citetitle>Communications of the ACM</citetitle> <pubdate>November 1987</pubdate> <issuenum>30(11)</issuenum>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>GARCÍA-GÓMEZ</surname><firstname> J. C.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>Card Sorting</title>
+		<subtitle>El medio es el mensaje</subtitle> 
+		<publisher>
+			<publishername>
+				Usalo.es
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://usalo.es/63/card-sorting-el-medio-es-el-mensaje/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>GARCÍA-GÓMEZ</surname><firstname> J. C.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Análisis de usabilidad de los portales en español para personas mayores
+		</title> 
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 7</issuenum> 
+		<pubdate>2008</pubdate>
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource> 
+		<biblioid class="issn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>GARCÍA-MARTÍN</surname><firstname> M.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Card Sorting en la Intranet de ESADE
+		</title> 
+		<citetitle>Congreso Interacción</citetitle> 
+		<pubdate>2008</pubdate> 
+		<publisher>
+			<publishername>AIPO</publishername>
+			<address><city>Albacete</city></address>
+		</publisher>
+		<pagenums>pp. 131-134</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>GARRETT</surname><firstname>J. J.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			A visual vocabulary for describing information architecture and interaction design
+		</title> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.jjg.net/ia/visvocab/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>GILLMORE</surname><firstname>D.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Understanding and Overcoming Resistance to Ethnographic Design Research
+		</title> 
+		<citetitle pubwork="journal">Interactions</citetitle> <volumenum>vol. 9</volumenum> <issuenum>nº3</issuenum> 
+		<pubdate>mayo-junio</pubdate> <pagenums>pp. 29-35</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>GOLDBERG</surname><firstname>J. H.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>WICHANSKY</surname><firstname>A. M.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Eye tracking in usability evaluation
+		</title> 
+		<subtitle>A Practitioner’s Guide</subtitle> 
+		<citetitle pubwork="book">En: Hyona, J., Radach, R., Duebel, H (Eds.) The mind’s eye: cognitive and applied aspects of eye movement research</citetitle> 
+		<pagenums>(pp. 573-605)</pagenums> 
+		<publisher>
+			<publishername>Boston</publishername>
+			<publishername>North-Holland</publishername>
+			<publishername>Elsevier</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>GONZÁLEZ</surname><firstname>M. P.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>PASCUAL</surname><firstname>A.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>LORÉS</surname><firstname>J.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>Evaluación Heurística</title>
+		<citetitle>En: Lorés, J. (Ed.) (2001). Introducción a la Interacción Persona-Ordenador</citetitle> 
+		<publisher>
+			<publishername>
+				AIPO: Asociación Interacción Persona-Ordenador
+			</publishername>
+		</publisher> 
+		<pubdate>2001</pubdate>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.aipo.es/libro/libroe.php"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>GONZÁLEZ-VILALTA</surname><firstname>D.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			¿Qué es la Experiencia del Usuario?
+		</title>
+		<publisher>
+			<publishername>
+				Nethodical.com
+			</publishername>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.nethodical.com/archivos/000020.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>GUTIÉRREZ-RESTREPO</surname><firstname> E.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MCCATHIENEVILE</surname><firstname> C.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>Usabilidad y Accesibilidad</title>
+		<subtitle>El elefante completo</subtitle> 
+		<citetitle>Jornadas especiales SIDAR, San Juan</citetitle> 
+		<pubdate>2005</pubdate> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.sidar.org/acti/jorna/050224/3/index.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MARTÍN-FERNÁNDEZ</surname><firstname> F. J.</firstname></personname>
+			</author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2003a)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Método de test con usuarios
+		</title>
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 2</issuenum> <pubdate>2003</pubdate> 
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource>
+		<biblioid class="issn">
+			ISSN 1886-8592.
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MARTÍN-FERNÁNDEZ</surname><firstname> F. J.</firstname></personname>
+			</author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2003b)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Guía de Evaluación Heurística de Sitios Web
+		</title>
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 2</issuenum> <pubdate>2003</pubdate> 
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource>
+		<biblioid class="issn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MARTÍN-FERNÁNDEZ</surname><firstname> F. J.</firstname></personname>
+			</author>
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Propuesta de adaptación de la metodología de diseño centrado en el usuario para el desarrollo de sitio web accesibles
+		</title>
+		<citetitle pubwork="journal">Revista Española de Documentación Científica</citetitle> 
+		<volumenum>27</volumenum> <issuenum>3</issuenum> <pagenums>pp.330-344</pagenums> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://redc.revistas.csic.es/index.php/redc/article/viewFile/156/210"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MARTÍN-FERNÁNDEZ</surname><firstname> F. J.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> D.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MARTÍN RODRÍGUEZ</surname><firstname> O.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>Arquitectura de la Información en los entornos virtuales de aprendizaje</title> 
+		<subtitle>Aplicación de la técnica de Card Sorting y análisis cuantitativo de los resultados</subtitle> 
+		<citetitle pubwork="journal">En: El Profesional de la Información</citetitle> <pubdate>2004, marzo-abril</pubdate> 
+		<volumenum>v. 13</volumenum> <issuenum>n. 2</issuenum> <pagenums>pp. 93-99</pagenums> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.nosolousabilidad.com/hassan/cardsorting.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MARTÍN-FERNÁNDEZ</surname><firstname> F. J.</firstname></personname>
+			</author>
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>La Experiencia del Usuario</title>
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 4</issuenum> <pubdate>2005</pubdate> 
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource>
+		<biblioid class="issn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc>
+		<title>Factores del Diseño Web Orientado a la Satisfacción y No-Frustración de Uso</title> 
+		<citetitle pubwork="journal">Revista Española de Documentación Científica</citetitle> <volumenum>29</volumenum> 
+		<issuenum>2</issuenum> <pubdate>Abril-Junio</pubdate> <pagenums>pp. 239-257</pagenums> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://redc.revistas.csic.es/index.php/redc/article/viewFile/291/353"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2007a)
+			</phrase>
+		</bibliomisc> 
+		<title>Experiencia del usuario y medios de comunicación en internet</title> 
+		<citetitle pubwork="book">En: Larrondo-Ureta, A. y Serrano-Tellería, A. (2007). Diseño periodístico en internet</citetitle> 
+		<publisher>
+			<publishername>
+				Servicio editorial de la Universidad del País Vasco.
+			</publishername>
+		</publisher>
+		<biblioid class="isbn">
+			ISBN 978-84-8373-998-3.
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2007b)
+			</phrase>
+		</bibliomisc> 
+		<title>Percepción visual en interfaces web (Artículo 9.4)</title> 
+		<citetitle pubwork="book">En: Cristòfol Rovira; Lluís Codina (dir.). Documentación digital</citetitle> 
+		<publisher>
+			<address><city>Barcelona</city></address>
+			<publishername>
+				Área de Ciencias de la Documentación. Departamento de Periodismo y de Comunicación Audiovisual. Universidad Pompeu Fabra,
+			</publishername> 
+		</publisher>
+		<pubdate>2007</pubdate> 
+		<bibliosource class="uri">
+			<link xl:href="http://www.documentaciondigital.org"/>
+		</bibliosource> 
+		<biblioid class="isbn">
+			ISBN 84-88042-39-6
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>HERRERO-SOLANA</surname><firstname> V.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>Eye-Tracking en Interacción Persona-Ordenador</title>
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 6</issuenum> <pubdate>2007</pubdate> 
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource>
+		<biblioid class="issn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HAWLEY</surname><firstname> M.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>Differentiating Your Design</title> 
+		<subtitle>A Visual Approach to Competitive Reviews</subtitle> 
+		<publisher>
+			<publishername>
+				UX Matters
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.uxmatters.com/mt/archives/2009/04/differentiating-your-design-a-visual-approach-to-competitive-reviews.php"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HENNINGER</surname><firstname>S.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>Supporting Design through Usability Guidelines and Patterns</title> 
+		<citetitle>CHI2001 Workshop on Tools, Conceptual Frameworks, and Empirical Studies for Early Stages of Design</citetitle>
+		<pubdate>10-13, April 2001</pubdate>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HENNINGER</surname><firstname>S.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>OLTMAN </surname><firstname>R.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>Tools Supporting the Delivery and Application of Usability Patterns</title> 
+		<citetitle>CHI 2002 Usability Patterns Workshop</citetitle> 
+		<pubdate>April 2002</pubdate>
+		<pagenums>pp 18-20</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HERNÁNDEZ HERNÁNDEZ</surname><firstname> Mª E.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>ÁLVAREZ CARRIÓN</surname><firstname> G.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>MUÑOZ ARTEAGA</surname><firstname>J.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>Patrones de Interacción para el Diseño de Interfaces Web Usables</title> 
+		<publisher>
+			<publishername>CIECE 2003</publishername> 
+			<address>
+				<city>Zacatepec</city> <state>Morelos</state> <country>México</country>
+			</address>
+		</publisher> 
+		<pubdate>Abril 9, 2003</pubdate>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>HERRERO-SOLAMA</surname><firstname> V.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>HASSAN-MONTERO</surname><firstname> Y.</firstname></personname>
+			</author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>Metodologías para el desarrollo de Interfaces Visuales de recuperación de información</title> 
+		<title>análisis y comparación</title>
+		<citetitle pubwork="journal">En: Information Research</citetitle> <issuenum>11(3)</issuenum> 
+		<issuenum>paper 258</issuenum>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://InformationR.net/ir/11-3/paper258.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HICK</surname><firstname>W. E.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1952)
+			</phrase>
+		</bibliomisc> 
+		<title>On the rate of gain of information</title> 
+		<citetitle pubwork="journal">En: Quarterly Journal of Experimental Psychology</citetitle>
+		<volumenum>vol. 4</volumenum> <pagenums>pp. 11-36</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HOWARD</surname><firstname> C.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>20 Steps to Better Wireframing</title> 
+		<publisher>
+			<publishername>
+				ThinkVitamin
+			</publishername>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://thinkvitamin.com/features/20-steps-to-better-wireframing/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>HYMAN</surname><firstname> R.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1953)
+			</phrase>
+		</bibliomisc> 
+		<title>Stimulus information as a determinant of reaction time</title> 
+		<citetitle pubwork="journal">En: Journal of Experimental Psychology</citetitle> 
+		<volumenum>vol. 45</volumenum> <pagenums>pp. 188-196</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<orgname>
+			ISO 9241-11.
+		</orgname> 
+		<bibliomisc>
+			<phrase>
+				(1998)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Ergonomic requirements for office work with visual display terminals (VDT)s - Part 11 Guidance on usability, 1998.
+		</title>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>JACOB</surname><firstname> R. J. K.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1995)
+			</phrase>
+		</bibliomisc> 
+		<title>Eye Tracking in Advanced Interface Design</title> 
+		<citetitle pubwork="book">En: Virtual Environments and Advanced Interface Design, ed. by W. Barfield and T.A. Furness</citetitle>
+		<pagenums>pp. 258-288</pagenums> 
+		<publisher>
+			<publishername>Oxford University Press</publishername>
+			<address><city>New York</city></address> <pubdate>(1995)</pubdate>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>JACOB</surname><firstname> R. J. K.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>KARN</surname><firstname> K. S.</firstname></personname>
+			</author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>Eye Tracking in Human-Computer Interaction and Usability Research</title> 
+		<subtitle>Ready to Deliver the Promises (Section Commentary)</subtitle> 
+		<citetitle pubwork="book">En: The Mind’s Eye: Cognitive and Applied Aspects of Eye Movement Research, ed. by J. Hyona, R. Radach, and H. Deubel</citetitle> 
+		<pagenums>pp. 573-605</pagenums>
+		<publisher>
+			<address><city>Amsterdam</city></address> 
+			<publishername>Elsevier Science</publishername>
+			<pubdate>(2003)</pubdate>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.cs.tufts.edu/~jacob/papers/ecem.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>JONASSEN</surname><firstname> D. H.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>HENNING</surname><firstname> P.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(1996)
+			</phrase>
+		</bibliomisc> 
+		<title>Mental models</title> 
+		<subtitle>knowledge in the head and knowledge in the world</subtitle> 
+		<citetitle>Proceedings of the 1996 International Conference on Learning Sciences, July 25-27, 1996, Evanston, Illinois</citetitle>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>KALBACH</surname><firstname> J.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc>
+		<title>Designing Web Navigation</title> 
+		<publisher>
+			<address><city>Sebastopol</city><state>CA</state></address>
+			<publishername>O´Reilly Media</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>KARAPANOS</surname><firstname> E.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>HASSENZAHL</surname><firstname> M.</firstname></personname>
+			</author>  
+			<author>
+				<personname><surname>MARTENS</surname><firstname> J. B.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>User experience over time</title> 
+		<citetitle>Conference on Human Factors in Computing Systems. CHI ‘08 extended abstracts on Human factors in computing systems</citetitle>
+		<pagenums>pp. 3561-3566</pagenums> <pubdate>5 al 10 de abril de 2008</pubdate>
+		<bibliomisc>
+			<address><city>Florencia</city> <country>Italia</country></address>
+		</bibliomisc>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>KARVONEN</surname><firstname> K.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>The beauty of simplicity</title> 
+		<citetitle>Proceedings on the 2000 Conference on Universal Usability</citetitle> 
+		<pagenums>p.85-90</pagenums> 
+		<pubdate>noviembre 16-17</pubdate> 
+		<bibliomisc>
+			<address>
+				<city>Arlington</city> <state>Virginia</state> <country>EE. UU</country>
+			</address>
+		</bibliomisc>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>KASHIMURA</surname><firstname> K.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>KUROSU</surname><firstname> M.</firstname></personname>
+			</author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(1995)
+			</phrase>
+		</bibliomisc> 
+		<title>Apparent Usability vs. Inherent Usability</title>
+		<subtitle>Experimental analysis on the determinants of the apparent usability</subtitle>
+		<citetitle>CHI’95 Proceedings - Short papers</citetitle>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>KEINONEN</surname><firstname> T.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>User-Centered Design and fundamental need</title> 
+		<citetitle>En Proceedings of the 5th Nordic conference on Human-computer interaction: building bridges</citetitle>
+		<pubdate>(2008)</pubdate> 
+		<volumenum>Vol. 358</volumenum> <pagenums>pp. 211-219</pagenums> <bibliomisc><phrase>20-22 de octubre</phrase></bibliomisc> 
+		<bibliomisc>
+			<address><city>Lund</city><country>Suecia</country></address>
+		</bibliomisc>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>KNAPP-BEJERÉN</surname><firstname> A.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>La Experiencia del Usuario</title> 
+		<editor>
+			<orgname>Ediciones Anaya Multimedia</orgname>
+		</editor> 
+		<biblioid class="isbn">
+			ISBN 84-415-1044-X
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>KRUG</surname><firstname> Steve</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>No me hagas pensar</title> 
+		<publisher>
+			<address><city>Madrid</city></address>
+			<publishername>Prentice Hall</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>KUROSU</surname><firstname> M.</firstname></personname>
+			</author>
+			<author>
+				<personname><surname>KASHIMURA</surname><firstname> K.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(1995)
+			</phrase>
+		</bibliomisc> 
+		<title>Determinants of the Apparent Usability</title> 
+		<citetitle>Proceedings of IEEE SMC</citetitle> 
+		<pubdate>1995</pubdate>
+		<pagenums>pp. 1509-1513</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>KUNIAVSKY</surname><firstname> M.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>Observing The User Experience</title> 
+		<subtitle>A Practitioner’s Guide to User Research</subtitle>
+		<publisher>
+			<address><city>San Francisco</city></address><publishername>Elsevier</publishername>
+		</publisher> 
+		<biblioid class="isbn">
+			ISBN 1-55860-923-7
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>LA</surname><firstname> N.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>Modern Sitemap and Footer</title> 
+		<publisher>
+			<publishername>
+				WebDesignerWall
+			</publishername>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en:
+			<link xl:href="http://www.webdesignerwall.com/trends/modern-sitemap-and-footer/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>LANDOW</surname><firstname> G.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(1995)
+			</phrase>
+		</bibliomisc>
+		<title>Hipertexto</title>
+		<subtitle>La convergencia de la teoría crítica contemporánea y la tecnología</subtitle> 
+		<publisher>
+			<address><city>Barcelona</city></address>
+			<publishername>Paidós</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>LAVIEA</surname><firstname> T.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>TRACTINSKY</surname><firstname> N.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>Assessing dimensions of perceived visual aesthetics of web sites</title>
+		<citetitle pubwork="journal">International Journal of Human-Computer Studies</citetitle>
+		<volumenum>vol. 60</volumenum> 
+		<issuenum>n. 3</issuenum>
+		<pubdate>2004</pubdate>
+		<pagenums>pp. 269-298</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>LOUIE</surname><firstname> A.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>Evolutionary Design</title>
+		<bibliosource class="uri">
+			Aaron Louis Blog
+			Disponible en: 
+			<link xl:href="http://www.aaronlouie.com/blog/2009/evolutionary-design-part-1-evolution-and-design/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>MAEDA</surname><firstname> J.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>Las leyes de la simplicidad</title> 
+		<publisher>
+			<address><city>Barcelona</city></address>
+			<publishername>Gedisa</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>MALONE</surname><firstname> E.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>LEACOCK</surname><firstname> M.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>WHEELER</surname><firstname> C.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>Implementing a Pattern Library in the Real World</title>
+		<subtitle>A Yahoo! Case Study</subtitle>
+		<publisher>
+			<publishername>
+				Boxes and Arrows
+			</publishername>
+		</publisher> 
+		<pubdate>
+			29 Abril, 2005
+		</pubdate>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>MANCHÓN</surname><firstname> E.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>Evaluación heurística (o por expertos) de la usabilidad</title> 
+		<publisher>
+			<publishername>
+				Alzado.org
+			</publishername>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.alzado.org/articulo.php?id_art=74"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>MARCOS</surname><firstname> M.C.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>CAÑADA</surname><firstname> J.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>Cómo medir la usabilidad</title> 
+		<subtitle>técnicas y métodos para evaluar el uso de sitios web</subtitle> 
+		<bibliomisc>
+			<phrase>
+				[en línea]
+			</phrase>
+		</bibliomisc> 
+		<citetitle>En Cristòfol Rovira; Lluís Codina (dir.). Documentación digital</citetitle> 
+		<publisher>
+			<address><city>Barcelona</city></address>
+			<publishername>Sección Científica de Ciencias de la Documentación. Departamento de Ciencias Políticas y Sociales. Universidad Pompeu Fabra</publishername>
+			<pubdate>2003</pubdate>
+		</publisher>
+		<biblioid class="isbn">
+			ISBN 84-88042-39-6
+		</biblioid> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.mcmarcos.com/pdf/2004_usabilidad-modd.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>MARCOS</surname><firstname> M.C.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>Interacción en interfaces de recuperación de información</title> 
+		<subtitle>conceptos, metáforas y visualización</subtitle> 
+		<publisher>
+			<address><city>Gijón</city></address>
+			<publishername>Trea</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>MARCOS</surname><firstname> M.C.</firstname></personname>
+			</author>
+			<othercredit>
+				 et al.
+			</othercredit>
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>Evaluación de la usabilidad en sistemas de información terminológicos online</title>
+		<bibliomisc>
+			<phrase>
+				[on line]
+			</phrase>
+		</bibliomisc> 
+		<publisher>
+			<publishername>
+				“Hipertext.net”
+			</publishername>
+		</publisher>
+		<issuenum>núm. 4</issuenum><pubdate>2006</pubdate> 
+		<biblioid class="isbn">
+			ISSN 1695-5498.
+		</biblioid> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.hipertext.net"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>MARCUS</surname><firstname>A</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>Return on Investment for Usable User-Interface Design</title> 
+		<subtitle>Examples and Statistics</subtitle>
+		<publisher>
+			<publishername>
+				AM+A
+			</publishername>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.amanda.com/resources/ROI/AMA_ROIWhitePaper_28Feb02.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>MÁRQUEZ-CORREA</surname><firstname> J.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>Guía para evaluación experta</title> 
+		<publisher>
+			<publishername>
+				JMarquez.com
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.jmarquez.com/documentos/jm_checklist.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>MAURER</surname><firstname> D.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>Why you shouldn’t start IA with a Content Inventory</title> 
+		<publisher>
+			<publishername>
+				DonnaM
+			</publishername>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://maadmob.net/donna/blog/2006/why-you-shouldn%e2%80%99t-start-ia-with-a-content-inventory"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>MAYOR</surname><firstname> J.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>SUENGAS</surname><firstname> A.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>GONZÁLEZ</surname><firstname> J.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(1995)
+			</phrase>
+		</bibliomisc> 
+		<title>Estrategias metacognitivas</title>
+		<subtitle>Aprender a aprender y aprender a pensar</subtitle> 
+		<publisher>
+			<address><city>Madrid</city></address>
+			<publishername>Síntesis</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author>
+			<personname><surname>MEDERO</surname><firstname> S.</firstname></personname>
+		</author> 
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>Paper Prototyping</title> 
+		<publisher>
+			<publishername>
+				A List Apart
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.alistapart.com/articles/paperprototyping"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author>
+				<personname><surname>MEHLENBACHER</surname><firstname> B.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>DUFFY</surname><firstname> T. M.</firstname></personname>
+			</author> 
+			<author>
+				<personname><surname>PALMER</surname><firstname> J.</firstname></personname>
+			</author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(1989)
+			</phrase>
+		</bibliomisc> 
+		<title>Finding information on a Menu</title> 
+		<subtitle>Linking Menu Organization to the User’s Goals</subtitle> 
+		<citetitle pubwork="journal">En: Human-Computer Interaction</citetitle> 
+		<volumenum>vol. 4</volumenum> <pagenums>pp. 231-251</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				MICHAILIDOU</surname><firstname> E.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				HARPER</surname><firstname> S.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				BECHHOFER</surname><firstname> S.
+			</firstname></personname></author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>Visual complexity and aesthetic perception of web pages</title> 
+		<citetitle>Proceedings of the 26th annual ACM International Conference on Design of communication, septiembre 22-24, Lisboa, Portugal</citetitle>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			MILLEN</surname><firstname> D. R.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>Rapid ethnography</title> 
+		<subtitle>time deepening strategies for HCI field research</subtitle> 
+		<citetitle pubwork="book">Proceedings of the conference on Designing interactive systems: processes, practices, methods, and techniques</citetitle> 
+		<pagenums>p.280-286</pagenums> <pubdate>August 17-19</pubdate> 
+		<bibliomisc>
+			<phrase>New York, US</phrase>
+		</bibliomisc>
+	</biblioentry> 
+	<biblioentry>
+		<author><personname><surname>
+			MILLER</surname><firstname> G. A.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(1956)
+			</phrase>
+		</bibliomisc> 
+		<title>The magical number seven, plus or minus two</title>
+		<subtitle>Some limits on our capacity for processing information</subtitle> 
+		<citetitle pubwork="journal">
+			En: Psychological Review
+		</citetitle>
+		<issuenum>63</issuenum>
+		<pagenums>pp. 81-97</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				MOLICH</surname><firstname> R.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				NIELSEN</surname><firstname> J.
+			</firstname></personname></author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(1990)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Improving a human-computer dialogue
+		</title> 
+		<citetitle>
+			En: Communications of the ACM,
+		</citetitle> 
+		<issuenum>
+			3 (33)
+		</issuenum> 
+		<pagenums>
+			pp. 338-348
+		</pagenums> 
+		<pubdate>
+			1990.
+		</pubdate>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				MORENO</surname><firstname> A.M.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				SÁNCHEZ-SEGURA</surname><firstname> M.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Patrones de Usabilidad 
+		</title>
+		<subtitle>
+			Mejora de la Usabilidad del Software desde el momento de Arquitectónico
+		</subtitle> 
+		<publisher>
+			<publishername>
+				VIII Jornadas de Ingeniería del Software y Bases de Datos (JISBD’03) 
+				<address>
+					<city>
+						Alicante
+					</city>
+				</address>
+				<pubdate>
+					Noviembre 2003
+				</pubdate>
+			</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			MORVILLE</surname><firstname> P.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			User Experience Deliverables.
+		</title> 
+		<citetitle pubwork="webpage">
+			En: Semantic Studios.
+		</citetitle> 
+		<pubdate>
+			27 de Enero de 2009
+		</pubdate>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://semanticstudios.com/publications/semantics/000228.php"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				NEWELL</surname><firstname> A. F.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				GREGOR</surname><firstname> P.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			User Sensitive Inclusive Design
+		</title> 
+		<citetitle>
+			in search of a new paradigm
+		</citetitle> 
+		<citetitle>
+			En: CUU 2000 First ACM Conference on Universal Usability.
+		</citetitle> 
+		<pagenums>
+			pp.39-44
+		</pagenums> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://web.mit.edu/16.459/Newell.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(1994)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Heuristic evaluation.
+		</title> 
+		<citetitle pubwork="book">
+			En: Nielsen, J., Mack, R.L. (Eds.), Usability Inspection Methods
+		</citetitle>
+		<publisher>
+			<publishername>
+				John Wiley &amp; Sons
+			</publishername>
+			<address>
+				<city>New York</city>
+				<state>NY</state>
+			</address>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(1997)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Search and You May Find
+		</title>
+		<citetitle pubwork="webpage">
+			UseIt.com Alertbox.
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.useit.com/alertbox/9707b.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author>
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Why You Only Need to Test With 5 Users
+		</title> 
+		<citetitle pubwork="webpage">
+			UseIt.com Alertbox.
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: http://www.uie.com/articles/five_second_test
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			First Rule of Usability? Don’t Listen to Users.
+		</title> 
+		<citetitle pubwork="webpage">
+			UseIt.com Alertbox.
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.useit.com/alertbox/20010805.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Usability 101
+		</title> 
+		<subtitle>
+			Introduction to Usability
+		</subtitle> 
+		<citetitle pubwork="webpage">
+			UseIt.com Alertbox
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.useit.com/alertbox/20030825.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				NIELSEN</surname><firstname> J.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				LORANGER</surname><firstname> H.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2006a)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Usabilidad
+		</title> 
+		<subtitle>
+			Prioridad en el diseño web
+		</subtitle> 
+		<publisher>
+			<address>
+				<city>
+					Madrid:
+				</city>
+			</address> 
+			<publishername>
+				Anaya.
+			</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2006b)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			F-Shaped Pattern For Reading Web Content
+		</title> 
+		<citetitle pubwork="webpage">
+			UseIt.com Alertbox
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.useit.com/alertbox/reading_pattern.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Fancy Formatting, Fancy Words = Looks Like a Promotion = Ignored
+		</title> 
+		<citetitle pubwork="webpage">
+			UseIt.com Alerbox
+		</citetitle>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.useit.com/alertbox/fancy-formatting.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NIELSEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			IA Task Failures Remain Costly
+		</title> 
+		<citetitle>
+			UseIt.com Alertbox
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.useit.com/alertbox/ia-failures.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(1983a)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Some observations on mental models
+		</title> 
+		<citetitle pubwork="book">
+			In Gentner, D. y Stevens, A.L. (Eds.) Mental models.
+		</citetitle> 
+		<publisher>
+			<publishername>
+				Lawrence Erlbaum Associates
+			</publishername>
+			<address>
+				<city>Hillsdale</city>
+				<state>NJ</state>
+			</address>
+		</publisher>
+	</biblioentry> 
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(1983b)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Design principles for Human-Computer Interfaces
+		</title> 
+		<citetitle>
+			En Proceedings of the SIGCHI conference on Human Factors in Computing Systems (1983), p.1-10, 12-15 de diciembre, Boston, Massachusetts, EE. UU
+		</citetitle>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			El ordenador invisible
+		</title> 
+		<publisher>
+			<address>
+				<city>
+					Barcelona
+				</city>
+			</address> 
+			<publishername>
+				Paidós
+			</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2005a)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			El diseño emocional
+		</title> 
+		<subtitle>
+			Por qué nos gustan (o no) los objetos cotidianos
+		</subtitle> 
+		<publisher>
+			<address>
+				<city>
+					Barcelona
+				</city>
+			</address> 
+			<publishername>
+				Paidós
+			</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2005b)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Human-Centered Design considered harmful
+		</title> 
+		<citetitle>
+			En Interactions, 12.4 (julio+agosto 2005)
+		</citetitle> 
+		<pagenums>
+			Pp. 14-19
+		</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Why doing user observations first is wrong
+		</title> 
+		<citetitle pubwork="journal">
+			Interactions
+		</citetitle>
+		<issuenum>
+			13 (4)
+		</issuenum> 
+		<pagenums>
+			pp. 50-ff
+		</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Cautious Cars and Cantankerous Kitchens
+		</title> 
+		<subtitle>
+			How Machines Take Control
+		</subtitle> 
+		<citetitle>
+			En: The Design of Future Things. New York: Basic Books. (en prensa)
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.jnd.org/dn.mss/1.1%20Cautious%20Cars.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			NORMAN</surname><firstname> D.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Simplicity is not the answer
+		</title>
+		<citetitle pubwork="journal">
+			Interactions
+		</citetitle> 
+		<bibliomisc>
+			<phrase>
+				septiembre-octubre
+			</phrase>
+		</bibliomisc> 
+		<volumenum>
+			vol. 15
+		</volumenum> 
+		<issuenum>
+			nº 5
+		</issuenum> 
+		<pagenums>
+			p. 45-46
+		</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				NOVAK</surname><firstname> J.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				GOWIN</surname><firstname> D.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(1984)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Learning how to learn
+		</title> 
+		<publisher>
+			<address>
+				<city>
+					London
+				</city>
+			</address> 
+			<publishername>
+				Cambridge University Press
+			</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			OLSEN</surname><firstname> H.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Visio - the interaction designer’s nail gun
+		</title> 
+		<edition>
+			(3rd edition)
+		</edition> 
+		<citetitle pubwork="webpage">
+			Guuui.com
+		</citetitle> 
+		<issuenum>
+			N. 17, Q1
+		</issuenum> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.guuui.com/issues/02_07.php"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			ORTEGA-SANTAMARÍA</surname><firstname> S.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Multimedia, hipermedia y aprendizaje
+		</title> 
+		<subtitle>
+			Construcción de espacios interactivos
+		</subtitle> 
+		<publisher>
+			<address>
+				<city>
+					Salamanca
+				</city>
+			</address> 
+			<publishername>
+				Publicaciones UPSA
+			</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			ORTEGA-SANTAMARÍA</surname><firstname> S.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Desarrollo Conceptual y la técnica de Card Sorting
+		</title> 
+		<citetitle pubwork="webpage">
+			En: No Solo Usabilidad
+		</citetitle> 
+		<issuenum>
+			nº 4,
+		</issuenum> 
+		<pubdate>
+			2005.
+		</pubdate> 
+		<bibliosource class="uri">
+			<link xl:href="http://nosolousabilidad.com"/>
+		</bibliosource> 
+		<biblioid class="issn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			PALUCH</surname><firstname> K.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			What is User Experience Design
+		</title> 
+		<publisher>
+			<publishername>
+				Montparnas
+			</publishername>
+		</publisher> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.montparnas.com/articles/what-is-user-experience-design/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			PERFETTI</surname><firstname> C.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			5-Second Tests
+		</title> 
+		<subtitle>
+			Measuring Your Site’s Content Pages
+		</subtitle> 
+		<citetitle pubwork="webpage">
+			User Interface Engineering
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.uie.com/articles/five_second_test"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			RAMSAY</surname><firstname> A.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Prototyping with XHTML
+		</title> 
+		<citetitle pubwork="webpage">
+			Boxes and Arrows
+		</citetitle> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.boxesandarrows.com/view/prototyping-with"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				RÄSÄNEN</surname><firstname> M.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				NYCE</surname><firstname> J. M.
+			</firstname></personname></author>
+		</authorgroup> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			A new role for anthropology?
+		</title> 
+		<subtitle>
+			rewriting “context” and “analysis”
+		</subtitle> 
+		<citetitle>
+			in HCI research, Proceedings of the 4th Nordic conference on Human-computer interaction: changing roles, p.175-184, October 14-18, 2006, Oslo, Norway
+		</citetitle>
+	</biblioentry> 
+	<biblioentry>
+		<author><personname><surname>
+			REICHELT</surname><firstname> L.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Why you shouldn’t start IA with a Content Inventory
+		</title>
+		<publisher>
+			<publishername>
+				Disambiguity.com
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.disambiguity.com/why-you-shouldnt-start-ia-with-a-content-inventory/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				RIBERA</surname><firstname> M.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				TÉRMENS</surname><firstname> M.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				GARCÍA</surname><firstname> M.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Cómo realizar tests de usabilidad con personas ciegas
+		</title>
+		<citetitle pubwork="journal">En: El profesional de la Información</citetitle> <pubdate>enero-febrero 2008</pubdate> 
+		<volumenum>vol. 17</volumenum><issuenum>núm. 1</issuenum> <pagenums>pp. 99 - 105</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				RONDA-LEÓN</surname><firstname> R.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				MESA-RÁBADE</surname><firstname> Y.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>Análisis de Secuencia</title>
+		<subtitle>una herramienta para la Arquitectura de Información</subtitle>
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 4</issuenum><pubdate>2005</pubdate>
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource>
+		<biblioid class="isbn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			RONDA-LEÓN</surname><firstname> R.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			La diagramación en la arquitectura de información
+		</title>
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 6</issuenum><pubdate>2007</pubdate>
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource>
+		<biblioid class="isbn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			RONDA-LEÓN</surname><firstname> R.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>Arquitectura de Información</title><subtitle>análisis histórico-conceptual</subtitle>
+		<citetitle pubwork="webpage">En: No Solo Usabilidad</citetitle> <issuenum>nº 7</issuenum>
+		<pubdate>2008</pubdate>
+		<bibliosource class="uri">
+			&lt;<link xl:href="http://nosolousabilidad.com"/>&gt;
+		</bibliosource>
+		<biblioid class="isbn">
+			ISSN 1886-8592
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				ROSENFELD</surname><firstname> L.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				MORVILLE</surname><firstname> P.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Information Architecture for the World Wide Web
+		</title>
+		<edition>2nd edition</edition> <biblioid class="isbn">ISBN 0-596-00035-9</biblioid><pubdate>2002</pubdate>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			ROSENFELD</surname><firstname> L.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			The Rolling Content Inventory
+		</title>
+		<publisher>
+			<publishername>
+				Bloug
+			</publishername>
+		</publisher>
+		<bibliosource>
+			Disponible en: 
+			<link xl:href="http://www.louisrosenfeld.com/home/bloug_archive/000448.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			ROVIRA-SAMBLANCAT</surname><firstname> P.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<pubdate>
+				(2007)
+			</pubdate>
+		</bibliomisc> 
+		<title>
+			Usabilidad y Analítica Web
+		</title>
+		<publisher>
+			<publishername>
+				Alzado.org
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.alzado.org/articulo.php?id_art=684"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			RUMELHART</surname><firstname> D.
+		</firstname></personname></author>
+		<title>Schemata</title> <subtitle>the building blocks of cognition</subtitle> 
+		<citetitle pubwork="book">En Spiro, Bruce y Brewer (eds.) (1980): Theoretical issues in reading comprehension. Perspectives from Cognitive Psichology, 
+			Linguistics, Artificial Intelligence, and Education</citetitle>
+		<publisher>
+		 	<address>
+		 		<city>Hillsdale</city> <state>NJ</state>
+		 	</address>
+		 	<publishername>Lawrence Erlbaum Associates</publishername>
+		 </publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				RUMELHART</surname><firstname> D.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				NORMAN</surname><firstname> D.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<pubdate>
+				(1978)
+			</pubdate>
+		</bibliomisc> 
+		<title>Accretion, tuning, and restructuring</title> <subtitle>Three modes of learning</subtitle> 
+		<citetitle pubwork="book">En Cotton, J. W. y R. L. Klatzky (eds) (1978): Semantic factors in cognition</citetitle>
+		<publisher>
+		 	<address>
+		 		<city>Hillsdale</city> <state>NJ</state>
+		 	</address>
+		 	<publishername>Lawrence Erlbaum Associates</publishername>
+		 </publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			SCHNEIDERMAN</surname><firstname> B.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(1986)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Eight Golden Rules of Interface Design
+		</title>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.cs.utexas.edu/users/almstrum/cs370/elvisino/rules.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			SHNEIDERMAN</surname><firstname> B.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Universal Usability
+		</title>
+		<citetitle pubwork="other">Communications of the ACM</citetitle>
+		<pubdate>May 2000</pubdate> <issuenum>43 (2)</issuenum> <pagenums>pp. 84-91</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			SCOTT</surname><firstname> B.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Storyboarding Rich Internet Applications with Visio
+		</title>
+		<publisher>
+			<publishername>
+				Boxes and Arrows
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.boxesandarrows.com/view/storyboarding_rich_internet_applications_with_visio"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				SPENCER</surname><firstname> D.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				WARFEL</surname><firstname> T.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>Card sorting</title> <subtitle>a definitive guide</subtitle>
+		<publisher>
+			<publishername>
+				Boxes and Arrows
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.boxesandarrows.com/view/card_sorting_a_definitive_guide"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			SPERLING</surname><firstname> G.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(1960)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			The Information available in brief visual presentations
+		</title>
+		<citetitle pubwork="journal">En: Psychological Monographs</citetitle> <issuenum>nº 74</issuenum> <pagenums>(498)</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			TANENN</surname><firstname> Rob
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc>
+		<title>
+			Clarity&amp;Complexity
+		</title>
+		<citetitle pubwork="journal">Appliance Design</citetitle>
+		<bibliomisc><phrase>septiembre</phrase></bibliomisc> <volumenum>vol. 56</volumenum> <issuenum>nº 9</issuenum> 
+		<pagenums>p. 20-25</pagenums>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.nxtbook.com/nxtbooks/bnp/ad0908/#/22"/>
+		</bibliosource>
+	</biblioentry>  
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				THOMSON</surname><firstname> A. J.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				SCHMOLDT</surname><firstname> D. L.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2001)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Ethics in Computer Software Design and Development
+		</title>
+		<citetitle pubwork="journal">Computers and Electronics in Agriculture</citetitle>
+		<issuenum>30</issuenum> <pubdate>(2001)</pubdate> <pagenums>pp. 85-102</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				THOMPSON</surname><firstname> D. V.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				HAMILTON</surname><firstname> R. W.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				RUST</surname><firstname> R. T.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>Feature Fatigue</title><subtitle>When Product Capabilities Become Too Much of a Good Thing</subtitle>
+		<citetitle pubwork="journal">Journal of Marketing Research</citetitle>
+		<issuenum>42:4</issuenum><pagenums>431-442</pagenums> 
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.rhsmith.umd.edu/marketing/faculty/pdfs/Article-FeatureFatigue.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			TOGNAZZINI</surname><firstname> B.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			First Principles of Interaction Design
+		</title>
+		<bibliosource class="uri">
+			Disponible en: <link xl:href="http://www.asktog.com/basics/firstPrinciples.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				TRACTINSKY</surname><firstname> N.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				KATZ</surname><firstname> A. S.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				IKAR</surname><firstname> D.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			What is beautiful is usable
+		</title>
+		<citetitle pubwork="journal">Interacting with Computers</citetitle>
+		<issuenum>13</issuenum>
+		<pubdate>2000</pubdate><pagenums>pp. 127-145</pagenums>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				TULLIS</surname><firstname> T.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				WOOD</surname><firstname> L.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			How Many Users Are Enough for a Card-Sorting Study?
+		</title>
+		<publisher>
+			<publishername>
+				Proceedings UPA’2004
+			</publishername>
+			<address>
+				<city>Minneapolis</city>
+			</address>
+			<pubdate>2004</pubdate>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				VAN DUYNE</surname><firstname> D. K.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				LANDAY</surname><firstname> J. A.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				HONG</surname><firstname> J. I.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			The Design of Sites
+		</title>
+		<subtitle>
+			Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience
+		</subtitle>
+		<publisher>
+			<address>
+				<city>Boston</city> <state>MA</state> <country>USA</country>
+			</address>
+			<publishername>
+				Addison-Wesley Professional
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en <link xl:href="http://books.google.es"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			VARELA-TABUYO</surname><firstname> R.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2005)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Patrones de diseño de interacción
+		</title>
+		<publisher>
+			<publishername>
+				Galinus.com
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.galinus.com/es/articulos/patrones-diseno-interaccion.html"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			VEEN</surname><firstname> J.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2002)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Doing a Content Inventory (Or, A Mind-Numbingly Detailed Odyssey Through Your Web Site)
+		</title>
+		<publisher><publishername>Adaptive Path</publishername></publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.adaptivepath.com/ideas/essays/archives/000040.php"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			VILLA</surname><firstname> L.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc> 
+		<title>Usabilidad sin usuarios</title><subtitle> heurística</subtitle>
+		<publisher><publishername>Alzado.org</publishername></publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.alzado.org/articulo.php?id_art=221"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><orgname>
+			WAA
+		</orgname></author> 
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Web Analytics Definitions
+		</title>
+		<publisher>
+			<publishername>
+				Webanalyticsassociation.org
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.webanalyticsassociation.org/attachments/committees/5/WAA-Standards-Analytics-Definitions-Volume-I-20070816.pdf"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><orgname>
+			WAA
+		</orgname></author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			About Web Analytics Association
+		</title>
+		<publisher>
+			<publishername>
+				Webanalyticsassociation.org
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.webanalyticsassociation.org/aboutus/"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			WARE</surname><firstname> C.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2003)
+			</phrase>
+		</bibliomisc>
+		<title>Design as Applied Perception</title>
+		<citetitle pubwork="book">En: Carroll, J.M. (Ed.). HCI Models, Theories and Frameworks: Toward a Multidisciplinary Science</citetitle>
+		<publisher>
+			<publishername>Morgan Kaufman Publishers</publishername>
+			<address>
+				<city>San Francisco</city>
+				<country>(USA)</country>
+			</address>
+		</publisher>
+		<biblioid class="isbn">
+			ISBN 1-55860-808-7
+		</biblioid>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			WARE</surname><firstname> C.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2008)
+			</phrase>
+		</bibliomisc> 
+		<title>Visual Thinking for Design</title>
+		<publisher>
+			<publishername>Morgan Kaufmann</publishername>
+			<pubdate>2008</pubdate>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			WARFEL</surname><firstname> T. Z.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2007)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Data Driven Design Research Personas
+		</title>
+		<publisher><publishername>MessageFirst</publishername></publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.slideshare.net/toddwarfel/data-driven-design-research-personas"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				WATZLAWICK</surname><firstname> P.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				BAVELAS</surname><firstname> J. B.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				JACKSON</surname><firstname> D. D.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(1997)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Teoría de la comunicación humana
+		</title>
+		<publisher>
+			<address><city>Barcelona</city></address>
+			<publishername>Herder</publishername>
+		</publisher>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				WELIE</surname><firstname> M.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				VEER</surname><firstname> G. C.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				ELIËNS</surname><firstname> A.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2000)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Patterns as Tools for User Interface Design
+		</title>
+		<citetitle pubwork="workshop">International Workshop on Tools for Working with Guidelines</citetitle> 
+		<pagenums>pp. 313-324</pagenums>
+		<bibliomisc>
+			<phrase>7-8 October 2000</phrase>
+		</bibliomisc>
+		<bibliomisc>
+			<phrase>Biarritz, France</phrase>
+		</bibliomisc>
+	</biblioentry>
+	<biblioentry>
+		<author><personname><surname>
+			WIGGINS</surname><firstname> A.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2009)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			Building a Data-Backed Persona
+		</title>
+		<publisher>
+			<publishername>
+				Boxes and Arrows
+			</publishername>
+		</publisher>
+		<bibliosource class="uri">
+			Disponible en: 
+			<link xl:href="http://www.boxesandarrows.com/view/building-a-data"/>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry>
+		<authorgroup>
+			<author><personname><surname>
+				WOLFE</surname><firstname> J. M.
+			</firstname></personname></author> 
+			<author><personname><surname>
+				HOROWITZ</surname><firstname> T. S.
+			</firstname></personname></author> 
+		</authorgroup>
+		<bibliomisc>
+			<phrase>
+				(2004)
+			</phrase>
+		</bibliomisc> 
+		<title>
+			What attributes guide the deployment of visual attention and how do they do it?
+		</title>
+		<citetitle pubwork="journal">
+			En: Nature Reviews
+		</citetitle> 
+		<publisher>
+			<publishername>Neuroscience</publishername>
+		</publisher>
+		<volumenum>Vol. 5</volumenum>
+		<issuenum>n. 6</issuenum>
+		<pagenums>pp. 495-501</pagenums>
+	</biblioentry> 
+	<biblioentry>
+		<author><personname><surname>
+			WOLFE</surname><firstname> J. M.
+		</firstname></personname></author> 
+		<bibliomisc>
+			<phrase>
+				(2006)
+			</phrase>
+		</bibliomisc> 
+		<title>Guided Search 4.0</title>
+		<subtitle>Current Progress with a Model of Visual Search</subtitle> 
+		<citetitle pubwork="symposium">En: MIT Scene Understanding Symposium,</citetitle>
+		<bibliomisc><phrase>Spring 2006</phrase></bibliomisc>
+	</biblioentry>
+</bibliography>
